@@ -1,1 +1,2 @@
-# minimalist_nomad
+# Minimalist Nomad
+A simple travel blog mockup.
