@@ -41,7 +41,7 @@ body {
 .container {
     background-color: $color-grey-light-1;
     display: grid;
-    grid-template-rows: 5rem repeat(5, 105vh) 50vh;
+    grid-template-rows: 5rem repeat(5, 100vh) 45vh;
 }
 
 ::selection {
