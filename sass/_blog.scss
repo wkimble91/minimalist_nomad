@@ -1,0 +1,35 @@
+.blog {
+    grid-row: 6 / span 1;
+    padding-top: 11rem;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 8rem repeat(3, 1fr);
+
+    &__header {
+        @include header;
+    }
+
+    &__line {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr 1fr;
+    }
+
+    &-sustainable {
+        grid-row: 2 / span 1;
+    }
+
+    &-budget {
+        grid-row: 3 / span 1;
+    }
+
+    &-trips {
+        grid-row: 4 / span 1;
+    }
+
+    &__heading {
+        font-size: 4rem;
+        grid-column: 1 / -1;
+    }
+}

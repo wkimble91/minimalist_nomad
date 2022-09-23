@@ -1,0 +1,64 @@
+.hero {
+    //Parent Grid
+    grid-row: 2 / span 1;
+
+    //Hero Image
+    background-image: linear-gradient(
+            to bottom,
+            rgba($color-grey-dark-1, 0.7),
+            rgba($color-grey-dark-2, 0.7)
+        ),
+        url(../img/hero.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+
+    //Flexbox
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__title {
+        font-size: 8rem;
+        color: $color-grey-light-1;
+        line-height: 1;
+        margin-bottom: 4rem;
+        font-weight: 400;
+        transition: all 0.2s;
+
+        &:hover {
+            transform: scale(1.04);
+        }
+    }
+    &__subtitle {
+        font-size: 2.6rem;
+        color: $color-grey-light-1;
+        line-height: 1;
+        font-weight: 300;
+        transition: all 0.2s;
+        margin-bottom: 20vh;
+
+        &:hover {
+            transform: scale(1.04);
+        }
+    }
+    &__button {
+        text-decoration: none;
+        background-color: $color-primary;
+        color: #fff;
+        border: none;
+        border-radius: 1rem;
+        box-shadow: 0 1rem 4rem rgba(#000, 0.2);
+        font-size: 1.4rem;
+        text-transform: uppercase;
+        padding: 1.7rem 3.5rem;
+        cursor: pointer;
+        transition: all 0.3s;
+
+        &:hover {
+            transform: scale(1.06);
+            box-shadow: 0 1rem 4rem rgba(#000, 0.4);
+        }
+    }
+}

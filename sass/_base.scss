@@ -1,0 +1,50 @@
+//Colors
+$color-primary-light: #a2b36b;
+$color-primary: #606c38;
+$color-primary-dark: #283618;
+
+$color-secondary: #dda15e;
+$color-secondary-dark: #bc6c25;
+
+$color-light: #fefae0;
+
+$color-grey-light-1: #cad0c8;
+$color-grey-light-2: #7f8d7c;
+
+$color-grey-dark-1: #272c26;
+$color-grey-dark-2: #30362f;
+
+//Breakpoints
+$bp-largest: 75em; //1200px
+$bp-large: 62.5em; //1000px
+$bp-medium: 50em; //800px
+$bp-small: 37.5em; //600px
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; //1rem = 10px
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    background-color: $color-grey-light-1;
+    display: grid;
+    grid-template-rows: 5rem repeat(5, 100vh) 50vh;
+}
+
+::selection {
+    background-color: $color-primary;
+    color: #fff;
+}

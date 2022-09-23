@@ -1,0 +1,250 @@
+%img-cover {
+    background-size: cover;
+    background-position: top;
+    position: relative;
+}
+
+.trips {
+    background-color: #fff;
+    grid-row: 4 / span 1;
+
+    &__header {
+        color: $color-grey-dark-1;
+        @include header;
+    }
+
+    &__grid {
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, minmax(35rem, 1fr));
+        grid-template-rows: 8rem auto;
+        grid-gap: 4rem;
+        padding: 11rem 15rem 4rem;
+
+        &-box {
+            overflow: hidden;
+        }
+
+        .trip {
+            position: relative;
+            line-height: 1.6rem;
+            cursor: default;
+            width: 100%;
+            height: 100%;
+
+            &__img {
+                grid-row: 1 / 2;
+                grid-column: 1 / -1;
+                z-index: 1;
+                width: 100%;
+                height: 100%;
+            }
+            &__name {
+                width: 100%;
+                font-size: 1.8rem;
+                text-align: center;
+                color: #fff;
+                font-weight: 500;
+                top: 130%;
+                transition: all 0.3s;
+            }
+            &__location {
+                color: $color-secondary;
+                font-size: 1.6rem;
+                font-weight: 400;
+                top: 136%;
+                transition: all 0.3s;
+            }
+            &__price {
+                color: $color-light;
+                font-size: 1.3rem;
+                top: 118%;
+                font-weight: 600;
+                transition: all 0.3s;
+            }
+            &__length {
+                color: $color-light;
+                font-size: 1.3rem;
+                top: 122%;
+                font-weight: 600;
+                transition: all 0.3s;
+            }
+            &__name,
+            &__location,
+            &__price,
+            &__length {
+                position: absolute;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                height: 100%;
+                z-index: 2;
+                background-position: center center;
+            }
+
+            &-1 {
+                @extend %img-cover;
+                background-image: linear-gradient(
+                        to bottom,
+                        rgba($color-grey-dark-2, 0) 0%,
+                        rgba($color-grey-dark-2, 0.7) 100%
+                    ),
+                    url(../img/scotland.jpg);
+                background-position: center;
+                background-size: cover;
+                transition: transform ease-in-out 0.3s;
+
+                &:hover {
+                    background-image: linear-gradient(
+                            to bottom,
+                            rgba($color-grey-dark-2, 0) 0%,
+                            rgba($color-grey-dark-2, 0.5) 100%
+                        ),
+                        url(../img/scotland.jpg);
+                    transform: scale(1.05);
+                }
+                &:hover p,
+                &:hover h6 {
+                    display: none;
+                }
+                &:hover h5 {
+                    font-size: 4rem;
+                }
+            }
+            &-2 {
+                @extend %img-cover;
+                background-image: linear-gradient(
+                        to bottom,
+                        rgba($color-grey-dark-2, 0) 0%,
+                        rgba($color-grey-dark-2, 0.7) 100%
+                    ),
+                    url(../img/italy.jpg);
+                transition: all 0.3s;
+
+                &:hover {
+                    background-image: linear-gradient(
+                            to bottom,
+                            rgba($color-grey-dark-2, 0) 0%,
+                            rgba($color-grey-dark-2, 0.5) 100%
+                        ),
+                        url(../img/italy.jpg);
+                    transform: scale(1.05);
+                }
+                &:hover p,
+                &:hover h6 {
+                    display: none;
+                }
+                &:hover h5 {
+                    font-size: 4rem;
+                }
+            }
+            &-3 {
+                @extend %img-cover;
+                background-image: linear-gradient(
+                        to bottom,
+                        rgba($color-grey-dark-2, 0) 0%,
+                        rgba($color-grey-dark-2, 0.7) 100%
+                    ),
+                    url(../img/osaka.jpg);
+                transition: all 0.3s;
+
+                &:hover {
+                    background-image: linear-gradient(
+                            to bottom,
+                            rgba($color-grey-dark-2, 0) 0%,
+                            rgba($color-grey-dark-2, 0.5) 100%
+                        ),
+                        url(../img/osaka.jpg);
+                    transform: scale(1.05);
+                }
+                &:hover p,
+                &:hover h6 {
+                    display: none;
+                }
+                &:hover h5 {
+                    font-size: 4rem;
+                }
+            }
+            &-4 {
+                @extend %img-cover;
+                background-image: linear-gradient(
+                        to bottom,
+                        rgba($color-grey-dark-2, 0) 0%,
+                        rgba($color-grey-dark-2, 0.7) 100%
+                    ),
+                    url(../img/queenstown.jpg);
+                transition: all 0.3s;
+
+                &:hover {
+                    background-image: linear-gradient(
+                            to bottom,
+                            rgba($color-grey-dark-2, 0) 0%,
+                            rgba($color-grey-dark-2, 0.5) 100%
+                        ),
+                        url(../img/queenstown.jpg);
+                    transform: scale(1.05);
+                }
+                &:hover p,
+                &:hover h6 {
+                    display: none;
+                }
+                &:hover h5 {
+                    font-size: 4rem;
+                }
+            }
+            &-5 {
+                @extend %img-cover;
+                background-image: linear-gradient(
+                        to bottom,
+                        rgba($color-grey-dark-2, 0) 0%,
+                        rgba($color-grey-dark-2, 0.7) 100%
+                    ),
+                    url(../img/jeju.jpg);
+                transition: all 0.3s;
+
+                &:hover {
+                    background-image: linear-gradient(
+                            to bottom,
+                            rgba($color-grey-dark-2, 0) 0%,
+                            rgba($color-grey-dark-2, 0.5) 100%
+                        ),
+                        url(../img/jeju.jpg);
+                    transform: scale(1.05);
+                }
+                &:hover p,
+                &:hover h6 {
+                    display: none;
+                }
+                &:hover h5 {
+                    font-size: 4rem;
+                }
+            }
+            &-6 {
+                @extend %img-cover;
+                background-image: linear-gradient(
+                        to bottom,
+                        rgba($color-grey-dark-2, 0) 0%,
+                        rgba($color-grey-dark-2, 0.7) 100%
+                    ),
+                    url(../img/copenhagen.jpg);
+                transition: all 0.3s;
+
+                &:hover {
+                    background-image: linear-gradient(
+                            to bottom,
+                            rgba($color-grey-dark-2, 0) 0%,
+                            rgba($color-grey-dark-2, 0.5) 100%
+                        ),
+                        url(../img/copenhagen.jpg);
+                    transform: scale(1.05);
+                }
+                &:hover p,
+                &:hover h6 {
+                    display: none;
+                }
+                &:hover h5 {
+                    font-size: 4rem;
+                }
+            }
+        }
+    }
+}
