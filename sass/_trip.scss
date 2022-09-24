@@ -16,10 +16,11 @@
     &__grid {
         height: 100%;
         display: grid;
-        grid-template-columns: repeat(3, minmax(35rem, 1fr));
+        grid-template-columns: repeat(3, minmax(30rem, 45rem));
         grid-template-rows: 8rem auto;
-        grid-gap: 4rem;
-        padding: 11rem 15rem 4rem;
+        grid-gap: 5rem;
+        padding: 11rem 15rem 5rem;
+        justify-content: center;
 
         &-box {
             overflow: hidden;
