@@ -35,8 +35,8 @@
         margin-bottom: 20vh;
         animation: moveInLeft 0.8s ease-out 0.8s;
         animation-fill-mode: backwards;
-
         & span {
+            font-size: 1.4rem;
             display: none;
         }
         &:hover > span {
