@@ -35,6 +35,13 @@
         margin-bottom: 20vh;
         animation: moveInLeft 0.8s ease-out 0.8s;
         animation-fill-mode: backwards;
+
+        & span {
+            display: none;
+        }
+        &:hover > span {
+            display: contents;
+        }
     }
     &__button {
         text-decoration: none;
