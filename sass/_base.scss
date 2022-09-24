@@ -9,7 +9,7 @@ $color-secondary-dark: #bc6c25;
 $color-light: #fefae0;
 
 $color-grey-light-1: #cad0c8;
-$color-grey-light-2: #7f8d7c;
+$color-grey-light-2: #94a092;
 
 $color-grey-dark-1: #272c26;
 $color-grey-dark-2: #30362f;
@@ -41,7 +41,7 @@ body {
 .container {
     background-color: $color-grey-light-1;
     display: grid;
-    grid-template-rows: 5rem repeat(5, 100vh) 45vh;
+    grid-template-rows: 5rem repeat(4, 100vh) 140vh 45vh;
 }
 
 ::selection {

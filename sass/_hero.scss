@@ -28,6 +28,7 @@
         animation: moveInLeft 0.8s ease-out;
     }
     &__subtitle {
+        position: relative;
         font-size: 2.6rem;
         color: $color-grey-light-1;
         line-height: 1;
@@ -35,12 +36,20 @@
         margin-bottom: 20vh;
         animation: moveInLeft 0.8s ease-out 0.8s;
         animation-fill-mode: backwards;
+
         & span {
             font-size: 1.4rem;
+            margin-top: 1rem;
+            margin-left: auto;
+            margin-right: auto;
+            left: 0;
+            right: 0;
+            text-align: center;
             display: none;
         }
         &:hover > span {
-            display: contents;
+            position: absolute;
+            display: block;
         }
     }
     &__button {
