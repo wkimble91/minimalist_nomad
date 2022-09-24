@@ -25,15 +25,16 @@
         line-height: 1;
         margin-bottom: 4rem;
         font-weight: 400;
-        transition: all 0.2s;
+        animation: moveInLeft 0.8s ease-out;
     }
     &__subtitle {
         font-size: 2.6rem;
         color: $color-grey-light-1;
         line-height: 1;
         font-weight: 300;
-        transition: all 0.2s;
         margin-bottom: 20vh;
+        animation: moveInLeft 0.8s ease-out 0.8s;
+        animation-fill-mode: backwards;
     }
     &__button {
         text-decoration: none;
