@@ -22,6 +22,14 @@
         padding: 11rem 15rem 5rem;
         justify-content: center;
 
+        @media only screen and (max-width: $bp-large) {
+            width: 100%;
+            height: auto;
+            padding: 11rem 5rem 5rem;
+            grid-template-columns: repeat(2, minmax(30rem, 45rem));
+            grid-template-rows: 8rem repeat(3, minmax(2rem, 45rem));
+        }
+
         &-box {
             overflow: hidden;
         }
@@ -39,6 +47,10 @@
                 z-index: 1;
                 width: 100%;
                 height: 100%;
+
+                @media only screen and (max-width: $bp-large) {
+                    height: auto;
+                }
             }
             &__name {
                 width: 100%;

@@ -1,10 +1,16 @@
 .blog {
     grid-row: 6 / span 1;
-
     padding: 11rem 16rem 0;
+    @media only screen and (max-width: $bp-large) {
+        padding: 11rem 0;
+    }
 
+    //Grid
     display: grid;
     grid-template-rows: 8rem repeat(4, max-content);
+    @media only screen and (max-width: $bp-large) {
+        grid-row-gap: 8rem;
+    }
 
     &__header {
         @include header;
@@ -91,6 +97,10 @@
         margin: 1rem 4vw;
         border-radius: 1.5rem;
         overflow: hidden;
+
+        @media only screen and (max-width: $bp-large) {
+            margin: 2rem;
+        }
 
         &-img {
             grid-row: 1 / 2;

@@ -15,8 +15,8 @@ $color-grey-dark-1: #272c26;
 $color-grey-dark-2: #30362f;
 
 //Breakpoints
-$bp-largest: 75em; //1200px
-$bp-large: 62.5em; //1000px
+$bp-largest: 87.5em; //1400px
+$bp-large: 75em; //1200px
 $bp-medium: 50em; //800px
 $bp-small: 37.5em; //600px
 
@@ -31,6 +31,10 @@ $bp-small: 37.5em; //600px
 html {
     box-sizing: border-box;
     font-size: 62.5%; //1rem = 10px
+
+    @media only screen and (max-width: $bp-largest) {
+        font-size: 50%; //1rem = 8px
+    }
 }
 
 body {
@@ -42,6 +46,9 @@ body {
     background-color: $color-grey-light-1;
     display: grid;
     grid-template-rows: 5rem repeat(4, 100vh) 140vh 45vh;
+    @media only screen and (max-width: $bp-large) {
+        grid-template-rows: 5rem 100vh repeat(4, min-content) 40vh 40vh;
+    }
 }
 
 ::selection {
