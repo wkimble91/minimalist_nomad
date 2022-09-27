@@ -23,15 +23,25 @@
         justify-content: center;
 
         @media only screen and (max-width: $bp-large) {
+            grid-gap: 3rem;
             width: 100%;
             height: auto;
             padding: 11rem 5rem 5rem;
             grid-template-columns: repeat(2, minmax(30rem, 45rem));
             grid-template-rows: 8rem repeat(3, minmax(2rem, 45rem));
         }
+        @media only screen and (max-width: $bp-small) {
+            grid-gap: 0;
+            padding: 6rem 6rem 0;
+            grid-template-columns: 1fr;
+            grid-template-rows: 8rem repeat(6, 50rem);
+        }
 
         &-box {
             overflow: hidden;
+        }
+
+        @media only screen and (max-width: $bp-small) {
         }
 
         .trip {
@@ -40,6 +50,10 @@
             cursor: default;
             width: 100%;
             height: 100%;
+
+            @media only screen and (max-width: $bp-small) {
+                height: 80%;
+            }
 
             &__img {
                 grid-row: 1 / 2;
@@ -60,6 +74,9 @@
                 font-weight: 500;
                 top: 130%;
                 transition: all 0.3s;
+                @media only screen and (max-width: $bp-small) {
+                    font-size: 3rem;
+                }
             }
             &__location {
                 color: $color-secondary;
@@ -67,6 +84,9 @@
                 font-weight: 400;
                 top: 136%;
                 transition: all 0.3s;
+                @media only screen and (max-width: $bp-small) {
+                    top: 139%;
+                }
             }
             &__price {
                 color: $color-light;
@@ -74,6 +94,9 @@
                 top: 118%;
                 font-weight: 600;
                 transition: all 0.3s;
+                @media only screen and (max-width: $bp-small) {
+                    top: 115%;
+                }
             }
             &__length {
                 color: $color-light;
@@ -81,6 +104,9 @@
                 top: 122%;
                 font-weight: 600;
                 transition: all 0.3s;
+                @media only screen and (max-width: $bp-small) {
+                    top: 120%;
+                }
             }
             &__name,
             &__location,
@@ -92,6 +118,9 @@
                 height: 100%;
                 z-index: 2;
                 background-position: center center;
+
+                @media only screen and (max-width: $bp-small) {
+                }
             }
 
             &-1 {
@@ -121,6 +150,9 @@
                 }
                 &:hover h5 {
                     font-size: 4rem;
+                    @media only screen and (max-width: $bp-medium) {
+                        font-size: 3rem;
+                    }
                 }
             }
             &-2 {
@@ -148,6 +180,9 @@
                 }
                 &:hover h5 {
                     font-size: 4rem;
+                    @media only screen and (max-width: $bp-medium) {
+                        font-size: 3rem;
+                    }
                 }
             }
             &-3 {
@@ -175,6 +210,9 @@
                 }
                 &:hover h5 {
                     font-size: 4rem;
+                    @media only screen and (max-width: $bp-medium) {
+                        font-size: 3rem;
+                    }
                 }
             }
             &-4 {
@@ -202,6 +240,9 @@
                 }
                 &:hover h5 {
                     font-size: 4rem;
+                    @media only screen and (max-width: $bp-medium) {
+                        font-size: 3rem;
+                    }
                 }
             }
             &-5 {
@@ -229,6 +270,9 @@
                 }
                 &:hover h5 {
                     font-size: 4rem;
+                    @media only screen and (max-width: $bp-medium) {
+                        font-size: 3rem;
+                    }
                 }
             }
             &-6 {
@@ -256,6 +300,9 @@
                 }
                 &:hover h5 {
                     font-size: 4rem;
+                    @media only screen and (max-width: $bp-medium) {
+                        font-size: 3rem;
+                    }
                 }
             }
         }

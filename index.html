@@ -18,13 +18,17 @@
 <body>
     <div class="container">
         <header class="header">
-            <img class="header__logo" src="img/logo-light.png" alt="TBD logo">
+            <picture class="header__logo">
+                <source class="header__logo" media="(min-width: 56.25em)" srcset="img/logo-light.png" />
+                <img class="header__logo" src="img/logo-sm-light.png" />
+            </picture>
+            <!-- <img class="header__logo" src="img/logo-light.png" alt="TBD logo"> -->
             <nav class="header__nav">
                 <a href="#">Home</a>
                 <a href="#about">About</a>
-                <a href="#trips">Past Trips</a>
+                <a href="#trips"><span class="header__nav-hide">Past</span> Trips</a>
                 <a href="#gallery">Gallery</a>
-                <a href="#blog">Blog Posts</a>
+                <a href="#blog">Blog <span class="header__nav-hide">Posts</span></a>
             </nav>
             <div class="header__links">
                 <div class="header__links--icon-box">
@@ -368,7 +372,7 @@
                 </picture>
             </div>
             <ul class="footer-nav">
-                <li class="footer-nav__item"><a href="#" class="footer-nav__link">???</a></li>
+                <li class="footer-nav__item"><a href="#" class="footer-nav__link">Social Media links</a></li>
                 <li class="footer-nav__item"><a href="#" class="footer-nav__link">Affiliate links</a></li>
                 <li class="footer-nav__item"><a href="#" class="footer-nav__link">Download budget planner</a></li>
                 <li class="footer-nav__item"><a href="#" class="footer-nav__link">Contact me</a></li>

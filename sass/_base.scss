@@ -17,7 +17,7 @@ $color-grey-dark-2: #30362f;
 //Breakpoints
 $bp-largest: 87.5em; //1400px
 $bp-large: 75em; //1200px
-$bp-medium: 50em; //800px
+$bp-medium: 56.25em; //900px
 $bp-small: 37.5em; //600px
 
 *,
@@ -46,8 +46,12 @@ body {
     background-color: $color-grey-light-1;
     display: grid;
     grid-template-rows: 5rem repeat(4, 100vh) 140vh 45vh;
+    grid-template-columns: 100vw;
     @media only screen and (max-width: $bp-large) {
         grid-template-rows: 5rem 100vh repeat(4, min-content) 40vh 40vh;
+    }
+    @media only screen and (max-width: $bp-medium) {
+        grid-template-rows: 5rem 100vh repeat(6, min-content);
     }
 }
 

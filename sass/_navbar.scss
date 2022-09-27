@@ -18,6 +18,11 @@
             fill: $color-primary-light;
             transform: scale(1.08);
         }
+
+        @media only screen and (max-width: $bp-medium) {
+            padding-left: 0;
+            margin-right: 2.6rem;
+        }
     }
 
     &__nav {
@@ -33,12 +38,30 @@
 
             &:not(:last-child) {
                 margin-right: 4rem;
+                @media only screen and (max-width: $bp-medium) {
+                    margin-right: 3rem;
+                }
+                @media only screen and (max-width: $bp-small) {
+                    margin-right: 2rem;
+                }
             }
 
             &:hover {
                 color: $color-primary-light;
                 transform: scale(1.1);
             }
+        }
+
+        &-hide {
+            @media only screen and (max-width: $bp-medium) {
+                display: none;
+            }
+        }
+        @media only screen and (max-width: $bp-medium) {
+            font-size: 1.6rem;
+        }
+        @media only screen and (max-width: $bp-small) {
+            font-size: 1.4rem;
         }
     }
 
@@ -70,6 +93,14 @@
                 fill: $color-primary-light;
                 transform: scale(1.2);
             }
+
+            @media only screen and (max-width: $bp-small) {
+                display: none;
+            }
+        }
+
+        @media only screen and (max-width: $bp-medium) {
+            margin-left: 0rem;
         }
     }
 }

@@ -16,9 +16,12 @@
     &-nav {
         list-style: none;
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+        grid-template-columns: repeat(4, minmax(6rem, 1fr));
         grid-gap: 2rem;
         align-items: center;
+        @media only screen and (max-width: $bp-medium) {
+            grid-gap: 1rem;
+        }
 
         &__link:link,
         &__link:visited {
@@ -37,6 +40,11 @@
                 background-color: rgba(#fff, 0.03);
                 color: $color-primary-light;
                 transform: scale(1.05);
+            }
+
+            @media only screen and (max-width: $bp-medium) {
+                font-size: 1.2rem;
+                padding: 1rem;
             }
         }
     }

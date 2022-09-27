@@ -28,6 +28,13 @@
         margin-bottom: 4rem;
         font-weight: 400;
         animation: moveInLeft 0.8s ease-out;
+
+        @media only screen and (max-width: $bp-medium) {
+            font-size: 6rem;
+        }
+        @media only screen and (max-width: $bp-small) {
+            font-size: 4rem;
+        }
     }
     &__subtitle {
         position: relative;
@@ -53,6 +60,12 @@
             position: absolute;
             display: block;
         }
+        @media only screen and (max-width: $bp-medium) {
+            font-size: 2rem;
+        }
+        @media only screen and (max-width: $bp-small) {
+            font-size: 1.4rem;
+        }
     }
     &__button {
         text-decoration: none;
@@ -70,6 +83,14 @@
         &:hover {
             transform: scale(1.06);
             box-shadow: 0 1rem 4rem rgba(#000, 0.4);
+        }
+
+        @media only screen and (max-width: $bp-medium) {
+            padding: 1.5rem 3.3rem;
+            font-size: 1.2rem;
+        }
+        @media only screen and (max-width: $bp-small) {
+            padding: 1.2rem 2.6rem;
         }
     }
 }
