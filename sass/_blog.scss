@@ -4,6 +4,9 @@
     @media only screen and (max-width: $bp-large) {
         padding: 11rem 0;
     }
+    @media only screen and (max-width: $bp-small) {
+        padding: 11rem 0 0;
+    }
 
     //Grid
     display: grid;
@@ -16,7 +19,7 @@
         grid-row-gap: 6rem;
     }
     @media only screen and (max-width: $bp-small) {
-        grid-row-gap: 2rem;
+        grid-row-gap: 0;
     }
 
     &__header {
@@ -43,7 +46,7 @@
         font-style: italic;
         color: $color-grey-dark-1;
         // color: $color-grey-light-1;
-        // background-color: $color-primary;
+        // backg4ound-color: $color-primary;
         // clip-path: polygon(4% 0, 93% 0, 96% 100%, 4% 100%);
 
         width: 100%;
