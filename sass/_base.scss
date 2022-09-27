@@ -19,6 +19,7 @@ $bp-largest: 87.5em; //1400px
 $bp-large: 75em; //1200px
 $bp-medium: 56.25em; //900px
 $bp-small: 37.5em; //600px
+$bp-smallest: 31.25em; //600px
 
 *,
 *::before,
@@ -40,6 +41,7 @@ html {
 body {
     font-family: 'Montserrat', sans-serif;
     line-height: 1.6;
+    width: 100%;
 }
 
 .container {

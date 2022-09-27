@@ -18,6 +18,9 @@
         grid-template-rows: 8rem repeat(9, min-content);
         grid-template-columns: 1fr;
     }
+    @media only screen and (max-width: $bp-small) {
+        padding: 7rem 4rem 0;
+    }
 
     &__header {
         grid-row: 1 / -1;
