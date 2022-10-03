@@ -9,7 +9,7 @@
     justify-items: center;
     align-items: center;
 
-    padding: 7rem 4rem;
+    padding: 10rem 5rem;
 
     @media only screen and (max-width: $bp-largest) {
         padding: 7rem 8rem 0;
@@ -27,6 +27,7 @@
         grid-column: 1 / span 1;
         color: $color-grey-dark-1;
         @include header;
+        padding: 5rem 0;
     }
 
     &__images {
