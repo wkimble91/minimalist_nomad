@@ -55,19 +55,19 @@ body {
         grid-template-rows: 7rem 110vh;
     }
     &__about {
-        grid-template-rows: 7rem min-content 40vh;
+        grid-template-rows: 7rem min-content 50rem 40vh;
     }
     &__destinations {
-        grid-template-rows: 7rem min-content 40vh;
+        grid-template-rows: 7rem min-content 50rem 40vh;
     }
     &__gallery {
-        grid-template-rows: 7rem min-content 40vh;
+        grid-template-rows: 7rem min-content 50rem 40vh;
     }
     &__blog {
-        grid-template-rows: 7rem min-content 40vh;
+        grid-template-rows: 7rem min-content 50rem 40vh;
     }
     &__resources {
-        grid-template-rows: 7rem min-content 40vh;
+        grid-template-rows: 7rem min-content 50rem 40vh;
     }
 }
 
