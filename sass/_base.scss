@@ -44,18 +44,30 @@ body {
     width: 100vw;
 
     // This prevents horizontal scrolling
-    overflow-x: hidden; // == Added by Jacob Carter (Choice-Studio) == 
+    overflow-x: hidden; // == Added by Jacob Carter (Choice-Studio) ==
 }
 .container {
     background-color: $color-grey-light-1;
     display: grid;
-    grid-template-rows: 5rem repeat(4, 100vh) 140vh 45vh;
     grid-template-columns: 100%;
-    @media only screen and (max-width: $bp-large) {
-        grid-template-rows: 5rem 100vh repeat(4, min-content) 40vh 40vh;
+
+    &__home {
+        grid-template-rows: 7rem 100vh;
     }
-    @media only screen and (max-width: $bp-medium) {
-        grid-template-rows: 5rem 100vh repeat(6, min-content);
+    &__about {
+        grid-template-rows: 7rem min-content 40vh;
+    }
+    &__destinations {
+        grid-template-rows: 7rem 200vh 40vh;
+    }
+    &__gallery {
+        grid-template-rows: 7rem min-content 40vh;
+    }
+    &__blog {
+        grid-template-rows: 7rem min-content 40vh;
+    }
+    &__resources {
+        grid-template-rows: 7rem min-content 40vh;
     }
 }
 
@@ -63,3 +75,14 @@ body {
     background-color: $color-primary;
     color: #fff;
 }
+
+// .container {
+//     grid-template-rows: 7rem calc(100vh - 7rem) min-content 100vh min-content min-content 45vh;
+//     grid-template-columns: 100%;
+//     @media only screen and (max-width: $bp-large) {
+//         grid-template-rows: 5rem 100vh repeat(4, min-content) 40vh 40vh;
+//     }
+//     @media only screen and (max-width: $bp-medium) {
+//         grid-template-rows: 5rem 100vh repeat(6, min-content);
+//     }
+// }

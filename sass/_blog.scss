@@ -1,5 +1,5 @@
 .blog {
-    grid-row: 6 / span 1;
+    grid-row: 2 / span 1;
     padding: 11rem 16rem 0;
     @media only screen and (max-width: $bp-large) {
         padding: 11rem 0;
@@ -176,17 +176,26 @@
         }
 
         &-date {
-            grid-row: 3 / span 1;
-            grid-column: 1 / -1;
-            font-size: 1.5rem;
-            margin-left: 2rem;
+            grid-row: 1 / 2;
+            grid-column: 1 / 2;
+            z-index: 2;
+            justify-self: start;
+            background-color: $color-grey-light-2;
+            border-radius: 2rem;
+            border: 1px solid $color-primary-dark;
+            font-size: 1rem;
+            font-weight: 600;
+            height: 3rem;
+            width: fit-content;
+            margin: 1rem;
+            padding: 0 0.6rem;
             display: flex;
             align-items: center;
             svg {
-                fill: $color-primary;
-                height: 2rem;
-                width: 2rem;
-                margin-right: 1rem;
+                fill: black;
+                height: 1.4rem;
+                width: 1.4rem;
+                margin-right: 0.6rem;
             }
         }
 

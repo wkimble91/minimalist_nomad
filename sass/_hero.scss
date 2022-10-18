@@ -6,7 +6,8 @@
     background-image: linear-gradient(
             to bottom,
             rgba($color-grey-dark-1, 0.7),
-            rgba($color-grey-dark-2, 0.7)
+            rgba($color-grey-dark-2, 0.7),
+            rgba($color-grey-dark-1, 1)
         ),
         url(../img/hero.jpg);
     background-size: cover;
@@ -75,7 +76,8 @@
         border: none;
         border-radius: 1rem;
         box-shadow: 0 1rem 4rem rgba(#000, 0.2);
-        font-size: 1.4rem;
+        font-size: 1.8rem;
+        font-weight: 600;
         text-transform: uppercase;
         padding: 1.7rem 3.5rem;
         cursor: pointer;

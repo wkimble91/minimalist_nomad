@@ -9,9 +9,12 @@
     color: $color-light;
     background-color: $color-grey-dark-1;
     padding: 1rem 4rem;
-    margin-top: -3.5rem;
+    margin-top: -2rem;
     letter-spacing: 0.4rem;
     z-index: 2;
+    @media only screen and (max-width: $bp-largest) {
+        margin-top: -3rem;
+    }
 }
 
 .btn {

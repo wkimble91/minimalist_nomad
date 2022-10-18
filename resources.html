@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <div class="container container__home">
+    <div class="container container__resources">
         <header class="header">
             <a href="./index.html" rel="home" class="header__logo">
                 <picture>
@@ -59,11 +59,25 @@
                 </div>
             </div>
         </header>
-        <div class="hero">
-            <h1 class="hero__title">Minimalist Nomad</h1>
-            <h2 class="hero__subtitle">Love where you are, not what you have<span>And take some water with you</span>
-            </h2>
-            <a href="./blog.html" class="hero__button">Jump to blog</a>
+        <section class="resources">
+            <h3 class="resources__header">Travel Resources</h3>
+            <h4 class="resources__heading resources__heading-1">Airfare</h4>
+            <h4 class="resources__heading resources__heading-2">Accommodations</h4>
+            <h4 class="resources__heading resources__heading-3">Insurance</h4>
+            <h4 class="resources__heading resources__heading-4">Transportation</h4>
+            <h4 class="resources__heading resources__heading-5">Gear</h4>
+        </section>
+        <div class="cta">
+            <div class="cta__arrow">
+                <h4 class="cta__arrow-header">Subscribe to my newsletter</h4>
+            </div>
+            <form class="cta__form" id="form" action="#">
+                <input class="cta__form-input" name="email" id="email" type="email"
+                    placeholder="Enter your email address" required />
+                <button for="email" type="submit" class="cta__form-button">
+                    <span class="cta__form-button-text">Submit</span>
+                </button>
+            </form>
         </div>
         <footer class="footer">
             <div class="footer__logo-box">
