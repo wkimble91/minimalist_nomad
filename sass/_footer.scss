@@ -16,9 +16,14 @@
             color: white;
             font-size: 3rem;
             font-weight: 200;
-            border-radius: 1rem;
             padding: 0 1rem;
             margin-bottom: 2rem;
+            @media only screen and (max-width: $bp-medium) {
+                font-size: 2rem;
+            }
+            @media only screen and (max-width: $bp-smallest) {
+                font-size: 1.4rem;
+            }
         }
     }
     &__logo-box {
