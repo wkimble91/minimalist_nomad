@@ -58,7 +58,7 @@ body {
         grid-template-rows: 7rem min-content 40vh;
     }
     &__destinations {
-        grid-template-rows: 7rem 200vh 40vh;
+        grid-template-rows: 7rem min-content 40vh;
     }
     &__gallery {
         grid-template-rows: 7rem min-content 40vh;
