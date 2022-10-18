@@ -39,23 +39,23 @@
     }
 
     &__heading {
-        padding: 0 10rem;
-        font-size: 2.6rem;
-        font-weight: 300;
         grid-column: 1 / -1;
-        font-style: italic;
-        color: $color-grey-dark-1;
-        // color: $color-grey-light-1;
-        // backg4ound-color: $color-primary;
-        // clip-path: polygon(4% 0, 93% 0, 96% 100%, 4% 100%);
 
-        width: 100%;
-        height: 6rem;
         display: grid;
         grid-template-columns: 1fr max-content 1fr;
         grid-column-gap: 4rem;
         align-items: center;
         justify-content: center;
+
+        width: 100%;
+        height: 6rem;
+        padding: 0 10rem;
+
+        font-size: 2.6rem;
+        font-weight: 300;
+
+        font-style: italic;
+        color: $color-grey-dark-1;
         overflow: hidden;
 
         &::after,
@@ -130,10 +130,11 @@
             margin: 0.5rem;
         }
         @media only screen and (max-width: $bp-small) {
-            margin: 2rem 10rem;
+            border-radius: 1rem;
+            margin: 2rem 8rem;
         }
         @media only screen and (max-width: $bp-smallest) {
-            margin: 2rem 8rem;
+            margin: 1.5rem 4rem;
         }
 
         &-img {
