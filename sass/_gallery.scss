@@ -14,9 +14,12 @@ body {
     .start {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        height: 100vh;
+        height: 65vh;
         margin: 0 auto;
 
+        @media only screen and (min-width: $bp-bigscreen) {
+            grid-template-columns: repeat(4, 1fr);
+        }
         @media only screen and (max-width: $bp-medium) {
             grid-template-columns: repeat(2, 1fr);
         }
@@ -41,7 +44,7 @@ body {
     }
 
     .img {
-        height: 40rem;
+        height: 50rem;
         width: 100%;
         position: relative;
         background-size: cover;
@@ -49,7 +52,7 @@ body {
 
         p {
             text-align: right;
-            line-height: 70rem;
+            line-height: 85rem;
             color: white;
             font-size: 3rem;
             background-color: rgba(#000000, 0.6);
@@ -139,8 +142,8 @@ body {
 }
 
 .cta__gallery {
-    margin-top: -80rem;
+    margin-top: -55rem;
 }
 .footer__gallery {
-    margin-top: -30rem;
+    margin-top: -5rem;
 }

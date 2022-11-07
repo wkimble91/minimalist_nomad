@@ -28,6 +28,6 @@ const tl = gsap
     })
     .to('.img', {
         stagger: 0.1,
-        y: -800,
+        y: -600,
         scrub: true,
     });

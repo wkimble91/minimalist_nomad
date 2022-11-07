@@ -135,9 +135,10 @@
             font-size: 1.4rem;
             text-indent: 2rem;
             width: 100%;
-            padding: 8rem 4rem 2rem;
+            padding: 6rem 4rem 2rem;
             border: 1px solid $color-primary-dark;
             align-self: center;
+            margin-top: -4.5rem;
             @media only screen and (max-width: $bp-largest) {
                 padding: 6rem 4rem 2rem;
                 font-size: 1.2rem;
