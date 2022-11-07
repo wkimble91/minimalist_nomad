@@ -1,130 +1,79 @@
 .resources {
     grid-row: 2 / span 1;
+    padding: 10rem 2rem;
 
     //Grid
     display: grid;
-    grid-template-rows: 8rem repeat(3, min-content);
-    grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 5rem;
-    justify-items: center;
-    align-items: center;
+    grid-template-rows: 8rem repeat(5, max-content);
+    grid-template-columns: 1fr;
 
-    padding: 10rem 5rem;
-
-    @media only screen and (max-width: $bp-largest) {
-        padding: 7rem 8rem 0;
-    }
     @media only screen and (max-width: $bp-large) {
-        grid-template-rows: 8rem repeat(9, min-content);
-        grid-template-columns: 1fr;
+        grid-row-gap: 8rem;
+        padding: 10rem 0;
+    }
+    @media only screen and (max-width: $bp-medium) {
+        grid-row-gap: 6rem;
     }
     @media only screen and (max-width: $bp-small) {
-        padding: 7rem 4rem 0;
+        grid-row-gap: 0;
+        padding: 10rem 0 0;
     }
 
-    &__images {
-        &-1 {
-            grid-row: 2 / span 1;
-            grid-column: 1 / span 1;
-            & img {
-                width: 100%;
-                border: 1px solid $color-primary-dark;
-            }
-            @media only screen and (max-width: $bp-large) {
-                grid-row: 2 / span 1;
-                grid-column: 1 / span 1;
-            }
-        }
-        &-2 {
-            grid-row: 2 / span 1;
-            grid-column: 2 / span 1;
-            & img {
-                width: 100%;
-                border: 1px solid $color-primary-dark;
-            }
-            @media only screen and (max-width: $bp-large) {
-                grid-row: 5 / span 1;
-                grid-column: 1 / span 1;
-            }
-        }
-        &-3 {
-            grid-row: 2 / span 1;
-            grid-column: 3 / span 1;
-            & img {
-                width: 100%;
-                border: 1px solid $color-primary-dark;
-            }
-            @media only screen and (max-width: $bp-large) {
-                grid-row: 8 / span 1;
-                grid-column: 1 / span 1;
-            }
-        }
-    }
+    &__section {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 1.4rem;
 
-    &__head {
-        border: 1px solid $color-primary-dark;
-        &-1 {
-            grid-column: 1 / span 1;
-            grid-row: 3 / span 1;
-            @media only screen and (max-width: $bp-large) {
-                grid-row: 3 / span 1;
-                grid-column: 1 / span 1;
-            }
-        }
-        &-2 {
-            grid-column: 2 / span 1;
-            grid-row: 3 / span 1;
-            @media only screen and (max-width: $bp-large) {
-                grid-row: 6 / span 1;
-                grid-column: 1 / span 1;
-            }
-        }
-        &-3 {
-            grid-column: 3 / span 1;
-            grid-row: 3 / span 1;
-            @media only screen and (max-width: $bp-large) {
-                grid-row: 9 / span 1;
-                grid-column: 1 / span 1;
-            }
-        }
-    }
-    &__description {
-        &-1,
-        &-2,
-        &-3 {
-            background-color: $color-grey-light-2;
-            color: $color-grey-dark-1;
-            font-size: 1.4rem;
-            width: 100%;
+        &-item {
+            display: flex;
+            flex-direction: column;
             padding: 4rem;
-            margin: 4rem;
-            margin-top: -2rem;
-            border: 1px solid $color-primary-dark;
-            align-self: start;
+            a {
+                margin: auto;
+                img {
+                    width: 100%;
+                    height: auto;
+                    margin-bottom: 3rem;
+                }
+            }
+            h5 {
+                margin: 0 auto;
+                //Spacing
+                font-size: 2.5rem;
+                padding: 1rem 1.5rem;
+                font-weight: 300;
+                letter-spacing: 0.2rem;
+                margin-bottom: -3rem;
+                box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.7);
+
+                a {
+                    text-decoration: none;
+                    color: $color-light;
+                    &:hover {
+                        color: $color-primary-light;
+                    }
+                }
+            }
+            p {
+                flex-grow: 2;
+                background-color: $color-grey-light-2;
+                color: $color-grey-dark-1;
+                z-index: 1;
+                border: 1px solid $color-primary-dark;
+                font-size: 2rem;
+                line-height: 3.5rem;
+                padding: 4rem 2rem 2rem;
+            }
         }
+
         &-1 {
             grid-column: 1 / span 1;
-            grid-row: 4 / span 1;
-            @media only screen and (max-width: $bp-large) {
-                grid-row: 4 / span 1;
-                grid-column: 1 / span 1;
-            }
         }
         &-2 {
             grid-column: 2 / span 1;
-            grid-row: 4 / span 1;
-            @media only screen and (max-width: $bp-large) {
-                grid-row: 7 / span 1;
-                grid-column: 1 / span 1;
-            }
         }
         &-3 {
             grid-column: 3 / span 1;
-            grid-row: 4 / span 1;
-            @media only screen and (max-width: $bp-large) {
-                grid-row: 10 / span 1;
-                grid-column: 1 / span 1;
-            }
         }
     }
 }

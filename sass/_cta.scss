@@ -16,6 +16,7 @@
     height: 50rem;
     justify-content: center;
     align-items: center;
+    z-index: 5;
 
     @media only screen and (max-width: $bp-medium) {
         flex-direction: column;
