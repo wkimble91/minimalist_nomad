@@ -8,7 +8,7 @@ const lenis = new Lenis({
     smooth: true,
     mouseMultiplier: 1,
     smoothTouch: true,
-    touchMultiplier: 1,
+    touchMultiplier: 2,
     infinite: false,
 });
 
