@@ -35,7 +35,7 @@ body {
         @media only screen and (max-width: $bp-medium) {
             grid-template-columns: repeat(2, 1fr);
         }
-        @media only screen and (max-width: $bp-smallest) {
+        @media only screen and (max-width: $bp-small) {
             grid-template-columns: repeat(1, 1fr);
         }
     }
