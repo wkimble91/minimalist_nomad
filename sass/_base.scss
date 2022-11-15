@@ -40,7 +40,7 @@ html {
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', 'Open Sans', sans-serif;
     line-height: 1.6;
     width: 100vw;
 
@@ -62,7 +62,7 @@ body {
         grid-template-rows: 7rem min-content 50rem min-content;
     }
     &__gallery {
-        grid-template-rows: 7rem max-content min-content;
+        grid-template-rows: 0 max-content min-content;
     }
     &__blog {
         grid-template-rows: 7rem min-content 50rem min-content;

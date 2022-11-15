@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;1,400;0,600;0,800;1,400;1,600&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,600;0,800;1,300;1,400;1,600;1,800&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Minimalist Nomad</title>
@@ -17,7 +17,7 @@
 
 <body>
     <div class="container container__gallery">
-        <header class="header">
+        <header id="header" class="main-gallery__header header">
             <a href="./index.html" rel="home" class="header__logo">
                 <picture>
                     <source class="header__logo" media="(min-width: 56.26em)" srcset="img/logo-light.png" />
@@ -60,7 +60,7 @@
             </div>
         </header>
         <div id="gallery" class="main-gallery">
-            <h1 class="main-heading">Gallery</h1>
+            <h1 class="main-gallery__heading">Gallery</h1>
             <div class="main-gallery__grid-box">
                 <div onclick="" class="main-gallery__image main-gallery__image--1">
                     <img class="main-gallery__img" src="./img/main-gallery/italy-cabin.jpg" alt="Cabin on lake">
@@ -215,11 +215,21 @@
     </div>
 
     </div>
+    ↓
+    <!-- jQuery for the Header Scroll Function -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
 
-    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@latest/bundled/lenis.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
-    <script src="js/scroll.js"></script>
+    <!-- Header Scroll Function -->
+    <script>
+        $(function () {
+            $(document).scroll(function () {
+                var $nav=$("#header");
+                $nav.toggleClass("main-gallery__header-scrolled", $(this).scrollTop()>$nav.height());
+            });
+        });
+    </script>
 
 </body>
 

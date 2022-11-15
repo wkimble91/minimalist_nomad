@@ -78,7 +78,7 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-row-gap: 3.5rem;
-        margin: 1rem 4vw;
+        margin: 1rem 3vw;
         border-radius: 1.5rem;
         overflow: hidden;
 
@@ -101,6 +101,7 @@
             grid-column: 1 / -1;
             z-index: 1;
             width: 100%;
+            cursor: pointer;
         }
 
         &-like {
@@ -113,6 +114,9 @@
             height: 2.5rem;
             width: 2.5rem;
             margin: 1rem;
+            &:hover {
+                fill: $color-secondary;
+            }
         }
         &-name {
             grid-row: 1 / 2;
@@ -160,9 +164,9 @@
         }
 
         &-excerpt {
-            padding: 1rem;
+            padding: 2rem 1rem;
             margin: 0 1.5rem;
-            font-size: 1.4rem;
+            font-size: 1.6rem;
             grid-row: 2 / span 1;
             grid-column: 1 / -1;
 

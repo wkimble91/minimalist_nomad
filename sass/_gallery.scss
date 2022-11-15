@@ -1,11 +1,10 @@
 .main-gallery {
     grid-row: 2 / span 1;
-    padding-top: 10rem;
 
     //Grid
     display: grid;
-    grid-template-rows: 8rem;
     grid-template-columns: 1fr;
+    position: relative;
 
     &__grid-box {
         display: grid;
@@ -18,6 +17,60 @@
         @media only screen and (max-width: $bp-small) {
             grid-template-rows: repeat(24, 30vh);
             grid-template-columns: repeat(1, 100vw);
+        }
+    }
+
+    &__header {
+        background-color: transparent;
+        height: 9rem;
+        transition: all 0.2s;
+
+        &-scrolled {
+            //Border Styling
+            background-color: $color-grey-dark-1;
+            height: 7rem;
+        }
+    }
+
+    &__heading {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr max-content 1fr;
+        grid-column-gap: 4rem;
+        align-items: center;
+        justify-content: center;
+        background-image: linear-gradient(
+                to bottom,
+                rgba(0, 0, 0, 1) 0%,
+                rgba(0, 0, 0, 0.7) 10%,
+                rgba(0, 0, 0, 0.4) 40%,
+                rgba(0, 0, 0, 0.4) 60%,
+                rgba(0, 0, 0, 0.7) 90%,
+                rgba(0, 0, 0, 1) 100%
+            ),
+            url(../img/main-gallery/main-gallery-banner.jpg);
+        background-size: cover;
+        background-position: center center;
+        position: relative;
+        color: white;
+        font-size: 18rem;
+        font-weight: 100;
+        z-index: 2;
+        padding: 8rem 0;
+        &::before,
+        &::after {
+            content: '';
+            height: 2px;
+            display: block;
+            background-color: white;
+        }
+
+        @media only screen and (max-width: $bp-large) {
+            padding: 6rem 0;
+        }
+        @media only screen and (max-width: $bp-small) {
+            font-size: 8rem;
+            padding: 8rem 0;
         }
     }
 
