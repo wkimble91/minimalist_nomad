@@ -65,6 +65,7 @@
                 rgba($color-grey-dark-2, 0.6) 90%,
                 rgba($color-grey-dark-2, 1) 100%
             );
+            transition-delay: 1s;
         }
 
         &:hover::after {
@@ -86,7 +87,6 @@
 
         &-title {
             position: absolute;
-            text-align: left;
             color: white;
             font-size: 2rem;
             padding: 0 0.5rem;
@@ -94,6 +94,7 @@
             z-index: 2;
             left: 0;
             bottom: 3.5rem;
+            transition: all 0.2s;
         }
 
         &-location {
@@ -105,6 +106,14 @@
             z-index: 2;
             left: 0;
             bottom: 1.5rem;
+            transition: all 0.2s;
+        }
+
+        &:hover &-title {
+            font-size: 4rem;
+        }
+        &:hover &-location {
+            font-size: 2rem;
         }
 
         &--1 {
