@@ -1,6 +1,6 @@
 %img-cover {
     background-size: cover;
-    background-position: top;
+    background-position: center center;
     position: relative;
     transition: all 0.3s;
 }
@@ -31,7 +31,7 @@
                 rgba(0, 0, 0, 0.8) 80%,
                 rgba(0, 0, 0, 1) 100%
             ),
-            url(../img/destinations/destinations-banner.jpg);
+            url(../img/destinations/destinations-banner2x.jpg);
         @media only screen and (max-width: $bp-largest) {
             font-size: 15rem !important;
         }
@@ -39,12 +39,22 @@
             font-size: 12rem !important;
         }
         @media only screen and (max-width: $bp-medium) {
+            background-image: linear-gradient(
+                    to bottom,
+                    rgba(0, 0, 0, 1) 0%,
+                    rgba(0, 0, 0, 0.8) 20%,
+                    rgba(0, 0, 0, 0.6) 40%,
+                    rgba(0, 0, 0, 0.6) 60%,
+                    rgba(0, 0, 0, 0.8) 80%,
+                    rgba(0, 0, 0, 1) 100%
+                ),
+                url(../img/destinations/destinations-banner1x.jpg);
             font-size: 9rem !important;
         }
         @media only screen and (max-width: $bp-small) {
             font-size: 6rem !important;
         }
-        @media only screen and (max-width: $bp-small) {
+        @media only screen and (max-width: $bp-smallest) {
             font-size: 4rem !important;
         }
     }

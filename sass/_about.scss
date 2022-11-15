@@ -24,7 +24,19 @@
                 rgba(0, 0, 0, 0.7) 90%,
                 rgba(0, 0, 0, 1) 100%
             ),
-            url(../img/about/about-banner.jpg);
+            url(../img/about/about-banner2x.jpg);
+        @media only screen and (max-width: $bp-medium) {
+            background-image: linear-gradient(
+                    to bottom,
+                    rgba(0, 0, 0, 1) 0%,
+                    rgba(0, 0, 0, 0.7) 10%,
+                    rgba(0, 0, 0, 0.4) 40%,
+                    rgba(0, 0, 0, 0.4) 60%,
+                    rgba(0, 0, 0, 0.7) 90%,
+                    rgba(0, 0, 0, 1) 100%
+                ),
+                url(../img/about/about-banner1x.jpg);
+        }
     }
 
     &__box {
