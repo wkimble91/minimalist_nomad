@@ -24,10 +24,10 @@
                 </picture>
             </a>
             <nav class="header__nav">
-                <a href="./about.html">About</a>
-                <a href="./destinations.html">Destinations</a>
-                <a href="./gallery.html">Gallery</a>
-                <a href="./blog.html">Blog</a>
+                <a class="header__nav-item" href="./about.html">About</a>
+                <a class="header__nav-item" href="./destinations.html">Destinations</a>
+                <a class="header__nav-item" href="./gallery.html">Gallery</a>
+                <a class="header__nav-item" href="./blog.html">Blog</a>
             </nav>
             <div class="header__links">
                 <div class="header__links--icon-box">
@@ -55,6 +55,11 @@
                         <use href="img/sprite.svg#icon-instagram"></use>
                     </svg>
                 </div>
+            </div>
+            <div class="header__hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
             </div>
         </header>
         <div class="hero">
@@ -132,6 +137,9 @@
             <p class="copyright">Copyright &copy; Design and code by Will Kimble.</p>
         </footer>
     </div>
+
+    <!-- Script for Hamburger Menu -->
+    <script src="js/navbar.js"></script>
 
     <!-- jQuery for the Header Scroll Function -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

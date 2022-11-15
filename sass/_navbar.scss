@@ -11,10 +11,6 @@
     justify-content: space-between;
     text-decoration: none;
 
-    @media only screen and (max-width: $bp-small) {
-        justify-content: start;
-    }
-
     &__logo {
         padding-left: 1rem;
         height: 7rem;
@@ -50,7 +46,7 @@
                     margin-right: 3rem;
                 }
                 @media only screen and (max-width: $bp-small) {
-                    margin-right: 2rem;
+                    margin-right: 0rem;
                 }
             }
             &:hover {
@@ -66,15 +62,68 @@
             font-size: 1.6rem;
         }
         @media only screen and (max-width: $bp-small) {
-            justify-content: space-around;
-            flex-grow: 1;
-            margin-left: 1rem;
-            margin-right: 1rem;
-            font-size: 1.6rem;
-            font-weight: 800;
+            margin-left: 0rem;
         }
-        @media only screen and (max-width: $bp-smallest) {
-            font-size: 1.4rem;
+
+        @media only screen and (max-width: $bp-small) {
+            //Display
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+
+            //Spacing
+            position: fixed;
+            width: 120%;
+            top: -50%;
+            left: -10%;
+            height: 26rem;
+            z-index: -1;
+
+            //Font Styling
+            text-align: center;
+            font-weight: 300;
+            font-size: 2rem;
+
+            //Color Styling
+            background-color: $color-grey-dark-1;
+            color: $color-grey-light-1;
+            box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+
+            //Animations
+            transition: 0.6s ease-out;
+
+            &.active {
+                //Spacing
+                top: 6.9rem;
+            }
+        }
+
+        & * {
+            & a {
+                //Spacing
+                margin-right: 6rem;
+
+                //Font Styling
+                font-size: 1.4rem;
+
+                //Animations
+                transition: all 0.1s;
+
+                //Color Styling
+                color: $color-primary;
+
+                @media only screen and (max-width: $bp-small) {
+                    //Spacing
+                    width: 100%;
+                    margin: auto;
+
+                    //Color Styling
+                    color: $color-primary-dark;
+
+                    //Font Styling
+                    font-size: 2.5rem;
+                }
+            }
         }
     }
 
@@ -138,6 +187,55 @@
             margin-left: 0;
             & > * {
                 padding: 0 0.5rem;
+            }
+        }
+    }
+
+    &__hamburger {
+        //Display
+        display: none;
+
+        @media only screen and (max-width: $bp-small) {
+            cursor: pointer;
+
+            //Display
+            display: block;
+
+            //Spacing
+            margin: auto 3rem;
+            z-index: 20;
+        }
+
+        & .bar {
+            //Display
+            display: block;
+
+            //Spacing
+            width: 4rem;
+            height: 1px;
+            margin: 8px auto;
+
+            //Color Styling
+            background-color: white;
+
+            //Animations
+            transition: all 0.3s ease-in-out;
+        }
+
+        &.active {
+            & .bar:nth-child(2) {
+                //Image Styling
+                opacity: 0;
+            }
+
+            & .bar:nth-child(1) {
+                //Animations
+                transform: translateY(9px) rotate(45deg);
+            }
+
+            & .bar:nth-child(3) {
+                //Animations
+                transform: translateY(-9px) rotate(-45deg);
             }
         }
     }
