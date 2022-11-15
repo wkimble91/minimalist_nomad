@@ -16,7 +16,7 @@
             grid-template-columns: repeat(2, 50vw);
         }
         @media only screen and (max-width: $bp-small) {
-            grid-template-rows: repeat(24, 20vh);
+            grid-template-rows: repeat(24, 40vh);
             grid-template-columns: repeat(1, 100vw);
         }
     }
