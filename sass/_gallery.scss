@@ -1,149 +1,374 @@
-html,
-body {
-    width: 100%;
-    overscroll-behavior: none;
-    min-height: 100%;
-}
-
 .main-gallery {
     grid-row: 2 / span 1;
+    padding-top: 10rem;
 
-    h1 {
-        margin-top: 8rem;
-    }
-    .start {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        height: 65vh;
-        margin: 0 auto;
+    //Grid
+    display: grid;
+    grid-template-rows: 8rem;
+    grid-template-columns: 1fr;
 
-        @media only screen and (min-width: $bp-bigscreen) {
-            grid-template-columns: repeat(4, 1fr);
-        }
-        @media only screen and (max-width: $bp-medium) {
-            grid-template-columns: repeat(2, 1fr);
-        }
-        @media only screen and (max-width: $bp-smallest) {
-            grid-template-columns: repeat(1, 1fr);
-        }
-    }
-    .end {
+    &__grid-box {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        height: auto;
-        margin: 0 auto;
-        @media only screen and (max-width: $bp-medium) {
-            grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(12, 30vh);
+        grid-template-columns: repeat(4, 25vw);
+        @media only screen and (max-width: $bp-large) {
+            grid-template-rows: repeat(24, 30vh);
+            grid-template-columns: repeat(2, 50vw);
         }
         @media only screen and (max-width: $bp-small) {
-            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(24, 20vh);
+            grid-template-columns: repeat(1, 100vw);
         }
     }
-    .gallery {
-        height: 200vh;
-    }
 
-    .img {
-        height: 50rem;
-        width: 100%;
+    &__image {
         position: relative;
-        background-size: cover;
-        z-index: 1;
+        overflow: hidden;
+        transition: all 0.2s;
+        vertical-align: middle;
 
-        p {
-            text-align: right;
-            line-height: 85rem;
+        &::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-image: linear-gradient(
+                rgba($color-grey-dark-2, 0) 0%,
+                rgba($color-grey-dark-2, 0.6) 100%
+            );
+        }
+
+        &:hover::after {
+            display: none;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+            transition: all 1s;
+            overflow: hidden;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+
+        &-title {
+            position: absolute;
+            text-align: left;
             color: white;
-            font-size: 3rem;
-            background-color: rgba(#000000, 0.6);
-            width: auto;
-            padding: 0 1rem 0 3rem;
-            display: inline;
+            font-size: 2rem;
+            background-color: rgba(#000000, 0.4);
+            padding: 0 0.5rem;
+            margin-left: 1rem;
+            z-index: 2;
+            left: 0;
+            bottom: 3.5rem;
         }
 
-        .location {
-            font-size: 1.5rem;
-            padding: 0.2rem 0.5rem;
+        &-location {
+            position: absolute;
+            font-size: 1.2rem;
+            color: #bbb;
+            background-color: rgba(#000000, 0.4);
+            padding: 0 1rem;
+            margin-left: 1rem;
+            z-index: 2;
+            left: 0;
+            bottom: 1rem;
         }
 
-        &:nth-of-type(1) {
-            background-image: url('../img/main-gallery/italy-cabin.jpg');
+        &--1 {
+            grid-row: 1 / span 2;
+            grid-column: 1 / span 2;
+            @media only screen and (max-width: $bp-large) {
+                grid-row: 1 / span 2;
+                grid-column: 1 / span 2;
+            }
+            @media only screen and (max-width: $bp-small) {
+                grid-row: 1 / span 1;
+                grid-column: 1 / span 1;
+            }
         }
-        &:nth-of-type(2) {
-            background-image: url('../img/main-gallery/washington-cherryblossoms.jpg');
+        &--2 {
+            grid-row: 1 / span 1;
+            grid-column: 3 / span 1;
+            @media only screen and (max-width: $bp-large) {
+                grid-row: 3 / span 1;
+                grid-column: 1 / span 1;
+            }
+            @media only screen and (max-width: $bp-small) {
+                grid-row: 2 / span 1;
+                grid-column: 1 / span 1;
+            }
         }
-        &:nth-of-type(3) {
-            background-image: url('../img/main-gallery/osaka-octopus.jpg');
+        &--3 {
+            grid-row: 1 / span 1;
+            grid-column: 4 / span 1;
+            @media only screen and (max-width: $bp-large) {
+                grid-row: 3 / span 1;
+                grid-column: 2 / span 1;
+            }
+            @media only screen and (max-width: $bp-small) {
+                grid-row: 3 / span 1;
+                grid-column: 1 / span 1;
+            }
         }
-        &:nth-of-type(4) {
-            background-image: url('../img/main-gallery/denmark-lighthouse.jpg');
+        &--4 {
+            grid-row: 2 / span 2;
+            grid-column: 3 / span 2;
+            @media only screen and (max-width: $bp-large) {
+                grid-row: 4 / span 2;
+                grid-column: 1 / span 2;
+            }
+            @media only screen and (max-width: $bp-small) {
+                grid-row: 4 / span 1;
+                grid-column: 1 / span 1;
+            }
         }
-        &:nth-of-type(5) {
-            background-image: url('../img/main-gallery/osaka-gate.jpg');
+        &--5 {
+            grid-row: 3 / span 1;
+            grid-column: 1 / span 1;
+            @media only screen and (max-width: $bp-large) {
+                grid-row: 6 / span 1;
+                grid-column: 1 / span 1;
+            }
+            @media only screen and (max-width: $bp-small) {
+                grid-row: 5 / span 1;
+                grid-column: 1 / span 1;
+            }
         }
-        &:nth-of-type(6) {
-            background-image: url('../img/main-gallery/washington-smithsonian.jpg');
+        &--6 {
+            grid-row: 3 / span 1;
+            grid-column: 2 / span 1;
+            @media only screen and (max-width: $bp-large) {
+                grid-row: 6 / span 1;
+                grid-column: 2 / span 1;
+            }
+            @media only screen and (max-width: $bp-small) {
+                grid-row: 6 / span 1;
+                grid-column: 1 / span 1;
+            }
         }
-        &:nth-of-type(7) {
-            background-image: url('../img/main-gallery/scotland-edinburghcastle.jpg');
+        &--7 {
+            grid-row: 4 / span 2;
+            grid-column: 1 / span 2;
+            @media only screen and (max-width: $bp-large) {
+                grid-row: 7 / span 2;
+                grid-column: 1 / span 2;
+            }
+            @media only screen and (max-width: $bp-small) {
+                grid-row: 7 / span 1;
+                grid-column: 1 / span 1;
+            }
         }
-        &:nth-of-type(8) {
-            background-image: url('../img/main-gallery/italy-wine.jpg');
+        &--8 {
+            grid-row: 4 / span 1;
+            grid-column: 3 / span 1;
+            @media only screen and (max-width: $bp-large) {
+                grid-row: 9 / span 1;
+                grid-column: 1 / span 1;
+            }
+            @media only screen and (max-width: $bp-small) {
+                grid-row: 8 / span 1;
+                grid-column: 1 / span 1;
+            }
         }
-        &:nth-of-type(9) {
-            background-image: url('../img/main-gallery/korea-nightsteet.jpg');
+        &--9 {
+            grid-row: 4 / span 1;
+            grid-column: 4 / span 1;
+            @media only screen and (max-width: $bp-large) {
+                grid-row: 9 / span 1;
+                grid-column: 2 / span 1;
+            }
+            @media only screen and (max-width: $bp-small) {
+                grid-row: 9 / span 1;
+                grid-column: 1 / span 1;
+            }
         }
-        &:nth-of-type(10) {
-            background-image: url('../img/main-gallery/vietnam-lanterns.jpg');
+        &--10 {
+            grid-row: 5 / span 2;
+            grid-column: 3 / span 2;
+            @media only screen and (max-width: $bp-large) {
+                grid-row: 10 / span 2;
+                grid-column: 1 / span 2;
+            }
+            @media only screen and (max-width: $bp-small) {
+                grid-row: 10 / span 1;
+                grid-column: 1 / span 1;
+            }
         }
-        &:nth-of-type(11) {
-            background-image: url('../img/main-gallery/ecuador-llama.jpg');
+        &--11 {
+            grid-row: 6 / span 1;
+            grid-column: 1 / span 1;
+            @media only screen and (max-width: $bp-large) {
+                grid-row: 12 / span 1;
+                grid-column: 1 / span 1;
+            }
+            @media only screen and (max-width: $bp-small) {
+                grid-row: 11 / span 1;
+                grid-column: 1 / span 1;
+            }
         }
-        &:nth-of-type(12) {
-            background-image: url('../img/main-gallery/italy-colorfulhouse.jpg');
+        &--12 {
+            grid-row: 6 / span 1;
+            grid-column: 2 / span 1;
+            @media only screen and (max-width: $bp-large) {
+                grid-row: 12 / span 1;
+                grid-column: 2 / span 1;
+            }
+            @media only screen and (max-width: $bp-small) {
+                grid-row: 12 / span 1;
+                grid-column: 1 / span 1;
+            }
         }
-        &:nth-of-type(13) {
-            background-image: url('../img/main-gallery/osaka-coffee.jpg');
+        &--13 {
+            grid-row: 7 / span 2;
+            grid-column: 1 / span 2;
+            @media only screen and (max-width: $bp-large) {
+                grid-row: 13 / span 2;
+                grid-column: 1 / span 2;
+            }
+            @media only screen and (max-width: $bp-small) {
+                grid-row: 13 / span 1;
+                grid-column: 1 / span 1;
+            }
         }
-        &:nth-of-type(14) {
-            background-image: url('../img/main-gallery/scotland-neistpointlighthouse.jpg');
+        &--14 {
+            grid-row: 7 / span 1;
+            grid-column: 3 / span 1;
+            @media only screen and (max-width: $bp-large) {
+                grid-row: 15 / span 1;
+                grid-column: 1 / span 1;
+            }
+            @media only screen and (max-width: $bp-small) {
+                grid-row: 14 / span 1;
+                grid-column: 1 / span 1;
+            }
         }
-        &:nth-of-type(15) {
-            background-image: url('../img/main-gallery/korea-taiyaki.jpg');
+        &--15 {
+            grid-row: 7 / span 1;
+            grid-column: 4 / span 1;
+            @media only screen and (max-width: $bp-large) {
+                grid-row: 15 / span 1;
+                grid-column: 2 / span 1;
+            }
+            @media only screen and (max-width: $bp-small) {
+                grid-row: 15 / span 1;
+                grid-column: 1 / span 1;
+            }
         }
-        &:nth-of-type(16) {
-            background-image: url('../img/main-gallery/korea-daystreet.jpg');
+        &--16 {
+            grid-row: 8 / span 2;
+            grid-column: 3 / span 2;
+            @media only screen and (max-width: $bp-large) {
+                grid-row: 16 / span 2;
+                grid-column: 1 / span 2;
+            }
+            @media only screen and (max-width: $bp-small) {
+                grid-row: 16 / span 1;
+                grid-column: 1 / span 1;
+            }
         }
-        &:nth-of-type(17) {
-            background-image: url('../img/main-gallery/vietnam-hand.jpg');
+        &--17 {
+            grid-row: 9 / span 1;
+            grid-column: 1 / span 1;
+            @media only screen and (max-width: $bp-large) {
+                grid-row: 18 / span 1;
+                grid-column: 1 / span 1;
+            }
+            @media only screen and (max-width: $bp-small) {
+                grid-row: 17 / span 1;
+                grid-column: 1 / span 1;
+            }
         }
-        &:nth-of-type(18) {
-            background-image: url('../img/main-gallery/italy-venicegondolas.jpg');
+        &--18 {
+            grid-row: 9 / span 1;
+            grid-column: 2 / span 1;
+            @media only screen and (max-width: $bp-large) {
+                grid-row: 18 / span 1;
+                grid-column: 2 / span 1;
+            }
+            @media only screen and (max-width: $bp-small) {
+                grid-row: 18 / span 1;
+                grid-column: 1 / span 1;
+            }
         }
-        &:nth-of-type(19) {
-            background-image: url('../img/main-gallery/osaka-fish.jpg');
+        &--19 {
+            grid-row: 10 / span 2;
+            grid-column: 1 / span 2;
+            @media only screen and (max-width: $bp-large) {
+                grid-row: 19 / span 2;
+                grid-column: 1 / span 2;
+            }
+            @media only screen and (max-width: $bp-small) {
+                grid-row: 19 / span 1;
+                grid-column: 1 / span 1;
+            }
         }
-        &:nth-of-type(20) {
-            background-image: url('../img/main-gallery/scotland-deanvillage.jpg');
+        &--20 {
+            grid-row: 10 / span 1;
+            grid-column: 3 / span 1;
+            @media only screen and (max-width: $bp-large) {
+                grid-row: 21 / span 1;
+                grid-column: 1 / span 1;
+            }
+            @media only screen and (max-width: $bp-small) {
+                grid-row: 20 / span 1;
+                grid-column: 1 / span 1;
+            }
         }
-        &:nth-of-type(21) {
-            background-image: url('../img/main-gallery/scotland-whitehouseglencoe.jpg');
+        &--21 {
+            grid-row: 10 / span 1;
+            grid-column: 4 / span 1;
+            @media only screen and (max-width: $bp-large) {
+                grid-row: 21 / span 1;
+                grid-column: 2 / span 1;
+            }
+            @media only screen and (max-width: $bp-small) {
+                grid-row: 21 / span 1;
+                grid-column: 1 / span 1;
+            }
         }
-        &:nth-of-type(22) {
-            background-image: url('../img/main-gallery/italy-canals.jpg');
+        &--22 {
+            grid-row: 11 / span 2;
+            grid-column: 3 / span 2;
+            @media only screen and (max-width: $bp-large) {
+                grid-row: 22 / span 2;
+                grid-column: 1 / span 2;
+            }
+            @media only screen and (max-width: $bp-small) {
+                grid-row: 22 / span 1;
+                grid-column: 1 / span 1;
+            }
         }
-        &:nth-of-type(23) {
-            background-image: url('../img/main-gallery/ecuador-parrot.jpg');
+        &--23 {
+            grid-row: 12 / span 1;
+            grid-column: 1 / span 1;
+            @media only screen and (max-width: $bp-large) {
+                grid-row: 24 / span 1;
+                grid-column: 1 / span 1;
+            }
+            @media only screen and (max-width: $bp-small) {
+                grid-row: 23 / span 1;
+                grid-column: 1 / span 1;
+            }
         }
-        &:nth-of-type(24) {
-            background-image: url('../img/main-gallery/scotland-lochcoruisk.jpg');
+        &--24 {
+            grid-row: 12 / span 1;
+            grid-column: 2 / span 1;
+            @media only screen and (max-width: $bp-large) {
+                grid-row: 24 / span 1;
+                grid-column: 2 / span 1;
+            }
+            @media only screen and (max-width: $bp-small) {
+                grid-row: 24 / span 1;
+                grid-column: 1 / span 1;
+            }
         }
     }
-}
-
-.cta__gallery {
-    margin-top: -55rem;
-}
-.footer__gallery {
-    margin-top: -5rem;
 }

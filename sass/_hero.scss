@@ -5,9 +5,8 @@
     //Hero Image
     background-image: linear-gradient(
             to bottom,
-            rgba($color-grey-dark-1, 0.4),
-            rgba($color-grey-dark-2, 0.6),
-            rgba($color-grey-dark-1, 1)
+            rgba($color-grey-dark-2, 0.1),
+            rgba($color-grey-dark-1, 0.95)
         ),
         url(../img/hero.jpg);
     background-size: cover;
@@ -80,6 +79,7 @@
         font-weight: 300;
         text-transform: uppercase;
         padding: 1.7rem 3.5rem;
+        margin-bottom: -10vh;
         cursor: pointer;
         transition: all 0.3s;
 
@@ -94,6 +94,18 @@
         }
         @media only screen and (max-width: $bp-small) {
             padding: 1.2rem 2.6rem;
+        }
+    }
+    &__header {
+        /* This is applied when you scroll the height of the navbar */
+        background-color: transparent;
+        height: 9rem;
+        transition: all 0.2s;
+
+        &-scrolled {
+            //Border Styling
+            background-color: $color-grey-dark-1;
+            height: 7rem;
         }
     }
 }

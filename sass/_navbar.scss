@@ -7,6 +7,7 @@
     background-color: $color-grey-dark-1;
     color: $color-grey-light-1;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     text-decoration: none;
 
@@ -104,8 +105,24 @@
             cursor: pointer;
             transition: all 0.1s;
 
-            &:hover {
-                fill: $color-primary-light;
+            &-reddit:hover {
+                fill: #ff4500;
+                transform: scale(1.2);
+            }
+            &-snapchat:hover {
+                fill: #fffc00;
+                transform: scale(1.2);
+            }
+            &-twitter:hover {
+                fill: #1da1f2;
+                transform: scale(1.2);
+            }
+            &-facebook:hover {
+                fill: #1877f2;
+                transform: scale(1.2);
+            }
+            &-instagram:hover {
+                fill: #e4405f;
                 transform: scale(1.2);
             }
 
