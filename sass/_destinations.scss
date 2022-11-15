@@ -2,32 +2,80 @@
     background-size: cover;
     background-position: top;
     position: relative;
+    transition: all 0.3s;
 }
 
 .destinations {
     grid-row: 2 / span 1;
 
+    &__header {
+        background-color: transparent;
+        height: 9rem;
+        transition: all 0.2s;
+
+        &-scrolled {
+            //Border Styling
+            background-color: $color-grey-dark-1;
+            height: 7rem;
+        }
+    }
+
+    &__heading {
+        @include headings;
+        background-image: linear-gradient(
+                to bottom,
+                rgba(0, 0, 0, 1) 0%,
+                rgba(0, 0, 0, 0.8) 20%,
+                rgba(0, 0, 0, 0.6) 40%,
+                rgba(0, 0, 0, 0.6) 60%,
+                rgba(0, 0, 0, 0.8) 80%,
+                rgba(0, 0, 0, 1) 100%
+            ),
+            url(../img/destinations/destinations-banner.jpg);
+        @media only screen and (max-width: $bp-largest) {
+            font-size: 15rem !important;
+        }
+        @media only screen and (max-width: $bp-large) {
+            font-size: 12rem !important;
+        }
+        @media only screen and (max-width: $bp-medium) {
+            font-size: 9rem !important;
+        }
+        @media only screen and (max-width: $bp-small) {
+            font-size: 6rem !important;
+        }
+        @media only screen and (max-width: $bp-small) {
+            font-size: 4rem !important;
+        }
+    }
+
     &__grid {
         display: grid;
-        grid-template-rows: 8rem repeat(4, minmax(2rem, 35rem));
-        grid-template-columns: repeat(3, minmax(30rem, 55rem));
+        grid-template-rows: repeat(3, minmax(2rem, 45rem));
+        grid-template-columns: repeat(4, minmax(30rem, 55rem));
         grid-row-gap: 4rem;
-        grid-column-gap: 2rem;
-        padding: 10rem 2rem;
+        grid-column-gap: 1rem;
+        padding: 10rem 4rem 0;
         justify-content: center;
 
-        @media only screen and (max-width: $bp-large) {
+        @media only screen and (max-width: $bp-largest) {
             grid-gap: 3rem;
             width: 100%;
             height: auto;
             padding: 11rem 5rem 5rem;
-            grid-template-rows: 8rem repeat(6, minmax(2rem, 45rem));
+            grid-template-rows: repeat(4, minmax(2rem, 45rem));
+            grid-template-columns: repeat(3, minmax(30rem, 45rem));
+        }
+        @media only screen and (max-width: $bp-medium) {
+            grid-gap: 3rem;
+            padding: 11rem 5rem 5rem;
+            grid-template-rows: repeat(6, minmax(2rem, 45rem));
             grid-template-columns: repeat(2, minmax(30rem, 45rem));
         }
         @media only screen and (max-width: $bp-small) {
             grid-gap: 0;
-            padding: 6rem 6rem 0;
-            grid-template-rows: 8rem repeat(12, 30rem);
+            padding: 2rem 0 0;
+            grid-template-rows: repeat(12, 30rem);
             grid-template-columns: 1fr;
         }
 
@@ -125,8 +173,7 @@
                         rgba($color-grey-dark-2, 0.7) 100%
                     ),
                     url(../img/destinations/scotland.jpg);
-                background-position: center;
-                background-size: cover;
+
                 transition: transform ease-in-out 0.3s;
 
                 &:hover {
@@ -154,7 +201,6 @@
                         rgba($color-grey-dark-2, 0.7) 100%
                     ),
                     url(../img/destinations/italy.jpg);
-                transition: all 0.3s;
 
                 &:hover {
                     background-image: linear-gradient(
@@ -181,7 +227,6 @@
                         rgba($color-grey-dark-2, 0.7) 100%
                     ),
                     url(../img/destinations/osaka.jpg);
-                transition: all 0.3s;
 
                 &:hover {
                     background-image: linear-gradient(
@@ -208,7 +253,6 @@
                         rgba($color-grey-dark-2, 0.7) 100%
                     ),
                     url(../img/destinations/queenstown.jpg);
-                transition: all 0.3s;
 
                 &:hover {
                     background-image: linear-gradient(
@@ -235,7 +279,6 @@
                         rgba($color-grey-dark-2, 0.7) 100%
                     ),
                     url(../img/destinations/jeju.jpg);
-                transition: all 0.3s;
 
                 &:hover {
                     background-image: linear-gradient(
@@ -262,7 +305,6 @@
                         rgba($color-grey-dark-2, 0.7) 100%
                     ),
                     url(../img/destinations/copenhagen.jpg);
-                transition: all 0.3s;
 
                 &:hover {
                     background-image: linear-gradient(
@@ -289,7 +331,6 @@
                         rgba($color-grey-dark-2, 0.7) 100%
                     ),
                     url(../img/destinations/costarica.jpg);
-                transition: all 0.3s;
 
                 &:hover {
                     background-image: linear-gradient(
@@ -316,7 +357,6 @@
                         rgba($color-grey-dark-2, 0.7) 100%
                     ),
                     url(../img/destinations/valencia.jpg);
-                transition: all 0.3s;
 
                 &:hover {
                     background-image: linear-gradient(
@@ -343,7 +383,6 @@
                         rgba($color-grey-dark-2, 0.7) 100%
                     ),
                     url(../img/destinations/skopje.jpg);
-                transition: all 0.3s;
 
                 &:hover {
                     background-image: linear-gradient(
@@ -370,7 +409,6 @@
                         rgba($color-grey-dark-2, 0.7) 100%
                     ),
                     url(../img/destinations/hoian.jpg);
-                transition: all 0.3s;
 
                 &:hover {
                     background-image: linear-gradient(
@@ -397,7 +435,6 @@
                         rgba($color-grey-dark-2, 0.7) 100%
                     ),
                     url(../img/destinations/quito.jpg);
-                transition: all 0.3s;
 
                 &:hover {
                     background-image: linear-gradient(
@@ -424,7 +461,6 @@
                         rgba($color-grey-dark-2, 0.7) 100%
                     ),
                     url(../img/destinations/washington.jpg);
-                transition: all 0.3s;
 
                 &:hover {
                     background-image: linear-gradient(

@@ -16,7 +16,7 @@
 
 <body>
     <div class="container container__destinations">
-        <header class="header">
+        <header id="header" class="header destinations__header">
             <a href="./index.html" rel="home" class="header__logo">
                 <picture>
                     <source class="header__logo" media="(min-width: 56.26em)" srcset="img/logo-light.png" />
@@ -59,8 +59,8 @@
             </div>
         </header>
         <section id="destinations" class="destinations">
+            <h1 class="destinations__heading">Past destinations</h1>
             <div class="destinations__grid">
-                <h1 class="main-heading">Past destinations</h1>
                 <div onclick="" class="destinations__grid-box">
                     <div class="destination destination-1">
                         <h5 class="destination__name">Eilean Donan Castle</h5>
@@ -184,6 +184,21 @@
             <p class="copyright">Copyright &copy; Design and code by Will Kimble.</p>
         </footer>
     </div>
+
+    <!-- jQuery for the Header Scroll Function -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+
+    <!-- Header Scroll Function -->
+    <script>
+        $(function () {
+            $(document).scroll(function () {
+                var $nav=$("#header");
+                $nav.toggleClass("destinations__header-scrolled", $(this).scrollTop()>$nav.height());
+            });
+        });
+    </script>
 </body>
 
 
