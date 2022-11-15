@@ -40,7 +40,7 @@ html {
 }
 
 body {
-    font-family: 'Inter', 'Open Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
     line-height: 1.6;
     width: 100vw;
 
@@ -56,7 +56,7 @@ body {
         grid-template-rows: 0 105vh max-content min-content;
     }
     &__about {
-        grid-template-rows: 7rem min-content 50rem min-content;
+        grid-template-rows: 0 max-content 50rem min-content;
     }
     &__destinations {
         grid-template-rows: 7rem min-content 50rem min-content;

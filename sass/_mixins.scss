@@ -1,1 +1,30 @@
-
+@mixin headings {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-column-gap: 4rem;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    color: white;
+    font-size: 18rem;
+    font-weight: 100;
+    z-index: 2;
+    padding: 8rem 0;
+    &::before,
+    &::after {
+        content: '';
+        height: 2px;
+        display: block;
+        background-color: white;
+    }
+    @media only screen and (max-width: $bp-large) {
+        padding: 6rem 0;
+    }
+    @media only screen and (max-width: $bp-small) {
+        font-size: 8rem;
+        padding: 8rem 0;
+    }
+}
