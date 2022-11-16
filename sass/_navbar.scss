@@ -1,64 +1,98 @@
 .header {
+    //Parent
     grid-column: 1 / -1;
-    width: 100%;
 
-    position: fixed;
-    z-index: 20;
-    background-color: $color-grey-dark-1;
-    color: $color-grey-light-1;
+    //Display
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    //Spacing
+    position: fixed;
+    width: 100%;
+    z-index: 20;
+
+    //Font Styling
     text-decoration: none;
 
+    //Color Styling
+    background-color: $color-grey-dark-1;
+    color: $color-grey-light-1;
+
     &__logo {
-        padding-left: 1rem;
-        height: 7rem;
-        transition: all 0.1s;
         cursor: pointer;
 
+        //Spacing
+        padding-left: 1rem;
+        height: 7rem;
+
+        //Animations
+        transition: all 0.1s;
+
         &:hover {
+            //Color Styling
             fill: $color-primary-light;
+
+            //Animations
             transform: scale(1.03);
         }
 
         @media only screen and (max-width: $bp-large) {
+            //Spacing
             padding: 0;
         }
         @media only screen and (max-width: $bp-small) {
+            //Spacing
             margin-right: 0;
         }
     }
 
     &__nav {
+        //Display
         display: flex;
         justify-content: center;
         align-items: center;
+
+        //Font Styling
         font-size: 1.8rem;
         font-weight: 300;
+
         & a {
-            color: $color-grey-light-1;
+            //Font Styling
             text-decoration: none;
+
+            //Color Styling
+            color: $color-grey-light-1;
+
+            //Animations
             transition: all 0.1s;
+
             &:not(:last-child) {
+                //Spacing
                 margin-right: 4rem;
+
                 @media only screen and (max-width: $bp-medium) {
+                    //Spacing
                     margin-right: 3rem;
                 }
                 @media only screen and (max-width: $bp-small) {
+                    //Spacing
                     margin-right: 0rem;
                 }
             }
             &:hover {
+                //Color Styling
                 color: $color-primary-light;
+
+                //Animations
                 transform: scale(1.1);
             }
         }
-
-        @media only screen and (max-width: $bp-large) {
-        }
         @media only screen and (max-width: $bp-medium) {
+            //Spacing
             margin-left: 5rem;
+
+            //Font Styling
             font-size: 1.6rem;
         }
         @media only screen and (max-width: $bp-small) {
@@ -82,10 +116,12 @@
             font-weight: 300;
             font-size: 2rem;
 
-            // //Color Styling
+            //Color Styling
             background-color: $color-grey-dark-1;
-            // color: $color-grey-light-1;
-            // box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+            color: $color-grey-light-1;
+
+            //Border Styling
+            box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
 
             //Animations
             transition: 0.6s ease-out;
@@ -126,64 +162,98 @@
     }
 
     &__links {
+        //Display
         display: flex;
         align-items: center;
-        fill: $color-grey-light-1;
+
+        //Spacing
         padding-right: 2rem;
         margin-left: 16rem;
 
+        //Color Styling
+        fill: $color-grey-light-1;
+
         & > * {
-            padding: 0 0.8rem;
-            height: 100%;
+            //Display
             display: flex;
             align-items: center;
+
+            //Spacing
+            padding: 0 0.8rem;
+            height: 100%;
         }
 
         &--icon-box {
+            //Spacing
             position: relative;
+
             @media only screen and (max-width: $bp-small) {
+                //Spacing
                 position: absolute;
             }
         }
 
         &--icon {
+            cursor: pointer;
+
+            //Spacing
             height: 1.5rem;
             width: 1.5rem;
-            cursor: pointer;
+
+            //Animations
             transition: all 0.1s;
 
             &-reddit:hover {
+                //Color Styling
                 fill: #ff4500;
+
+                //Animations
                 transform: scale(1.2);
             }
             &-snapchat:hover {
+                //Color Styling
                 fill: #fffc00;
+
+                //Animations
                 transform: scale(1.2);
             }
             &-twitter:hover {
+                //Color Styling
                 fill: #1da1f2;
+
+                //Animations
                 transform: scale(1.2);
             }
             &-facebook:hover {
+                //Color Styling
                 fill: #1877f2;
+
+                //Animations
                 transform: scale(1.2);
             }
             &-instagram:hover {
+                //Color Styling
                 fill: #e4405f;
+
+                //Animations
                 transform: scale(1.2);
             }
 
             @media only screen and (max-width: $bp-small) {
+                //Display
                 display: none;
+
+                //Spacing
                 width: 0;
             }
         }
 
-        @media only screen and (max-width: $bp-large) {
-        }
         @media only screen and (max-width: $bp-medium) {
+            //Spacing
             margin-left: 0;
+
             & > * {
+                //Spacing
                 padding: 0 0.5rem;
             }
         }

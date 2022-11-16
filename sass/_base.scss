@@ -1,4 +1,7 @@
-//Colors
+/*-- -------------------------- -->
+<---       Color Schemes        -->
+<--- -------------------------- -*/
+
 $color-primary-light: #a2b36b;
 $color-primary: #606c38;
 $color-primary-dark: #283618;
@@ -14,13 +17,20 @@ $color-grey-light-2: #94a092;
 $color-grey-dark-1: #272c26;
 $color-grey-dark-2: #30362f;
 
-//Breakpoints
+/*-- -------------------------- -->
+<---        Breakpoints         -->
+<--- -------------------------- -*/
+
 $bp-bigscreen: 125em; //2000px
 $bp-largest: 87.5em; //1400px
 $bp-large: 75em; //1200px
 $bp-medium: 56.25em; //900px
 $bp-small: 37.5em; //600px
 $bp-smallest: 31.25em; //600px
+
+/*-- -------------------------- -->
+<---     General Formatting     -->
+<--- -------------------------- -*/
 
 *,
 *::before,
@@ -47,6 +57,11 @@ body {
     // This prevents horizontal scrolling
     overflow-x: hidden; // == Added by Jacob Carter (Choice-Studio) ==
 }
+
+/*-- -------------------------- -->
+<---    General Grid Spacing    -->
+<--- -------------------------- -*/
+
 .container {
     background-color: $color-grey-light-1;
     display: grid;
@@ -72,18 +87,24 @@ body {
     }
 }
 
+/*-- -------------------------- -->
+<---        Highlighting        -->
+<--- -------------------------- -*/
+
 ::selection {
     background-color: $color-primary;
     color: #fff;
 }
 
-// .container {
-//     grid-template-rows: 7rem calc(100vh - 7rem) min-content 100vh min-content min-content 45vh;
-//     grid-template-columns: 100%;
-//     @media only screen and (max-width: $bp-large) {
-//         grid-template-rows: 5rem 100vh repeat(4, min-content) 40vh 40vh;
-//     }
-//     @media only screen and (max-width: $bp-medium) {
-//         grid-template-rows: 5rem 100vh repeat(6, min-content);
-//     }
-// }
+/*-- -------------------------- -->
+<---       Comment order        -->
+<--- -------------------------- -*/
+//Mixin
+//Parent
+//Display
+//Spacing
+//Font Styling
+//Color Styling
+//Image Styling
+//Border Styling
+//Animations

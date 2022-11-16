@@ -1,88 +1,137 @@
 .footer {
+    //Parent
     grid-row: 4 / span 1;
 
-    background-color: $color-grey-dark-1;
-    padding: 4rem;
+    //Display
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+
+    //Spacing
     z-index: 5;
+    padding: 4rem;
+
+    //Color Styling
+    background-color: $color-grey-dark-1;
 
     &__cta {
+        //Display
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        text-align: center;
+
+        //Spacing
         padding-bottom: 15rem;
 
+        //Font Styling
+        text-align: center;
+
         &-header {
-            color: white;
-            font-size: 3rem;
-            font-weight: 200;
+            //Spacing
             padding: 0 1rem;
             margin-bottom: 2rem;
+
+            //Font Styling
+            font-size: 3rem;
+            font-weight: 200;
+
+            //Color Styling
+            color: white;
+
             @media only screen and (max-width: $bp-medium) {
+                //Font Styling
                 font-size: 2rem;
             }
             @media only screen and (max-width: $bp-smallest) {
+                //Font Styling
                 font-size: 1.4rem;
             }
         }
     }
     &__logo-box {
-        text-align: center;
+        //Spacing
         margin: 20rem 6rem 10rem;
+
+        //Font Styling
+        text-align: center;
     }
     &__logo {
+        //Spacing
         width: 55rem;
         height: auto;
 
         @media only screen and (max-width: $bp-medium) {
+            //Spacing
             width: 35rem;
         }
     }
 
     &-nav {
-        list-style: none;
+        //Display
         display: grid;
         grid-template-columns: repeat(4, minmax(6rem, 1fr));
         grid-gap: 2rem;
         align-items: center;
+
+        //Font Styling
+        list-style: none;
+
         @media only screen and (max-width: $bp-medium) {
+            //Display
             grid-gap: 1rem;
         }
 
         &__link:link,
         &__link:visited {
+            //Display
+            display: block;
+
+            //Spacing
+            padding: 2rem;
+
+            //Font Styling
             font-size: 1.8rem;
             font-weight: 300;
-            color: $color-grey-light-1;
             text-decoration: none;
             text-transform: uppercase;
             text-align: center;
-            padding: 2rem;
-            display: block;
+
+            //Color Styling
+            color: $color-grey-light-1;
+
+            //Animations
             transition: all 0.2s;
 
             &:hover,
             &:active {
+                //Color Styling
                 background-color: rgba(#fff, 0.03);
                 color: $color-primary-light;
+
+                //Animations
                 transform: scale(1.05);
             }
 
             @media only screen and (max-width: $bp-medium) {
-                font-size: 1.2rem;
+                //Spacing
                 padding: 1rem;
+
+                //Font Styling
+                font-size: 1.2rem;
             }
         }
     }
 }
 
 .copyright {
-    font-size: 1.3rem;
-    color: $color-grey-light-2;
+    //Spacing
     margin-top: 5rem;
+
+    //Font Styling
+    font-size: 1.3rem;
     text-align: center;
+
+    //Color Styling
+    color: $color-grey-light-2;
 }

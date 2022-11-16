@@ -1,20 +1,32 @@
 .about {
+    //Parent
     grid-row: 2 / span 1;
 
     &__header {
-        background-color: transparent;
+        //Spacing
         height: 9rem;
+
+        //Color Styling
+        background-color: transparent;
+
+        //Animations
         transition: all 0.2s;
 
         &-scrolled {
-            //Border Styling
-            background-color: $color-grey-dark-1;
+            /* This is applied when you scroll the height of the navbar */
+            //Spacing
             height: 7rem;
+
+            //Color Styling
+            background-color: $color-grey-dark-1;
         }
     }
 
     &__heading {
+        //Mixin
         @include headings-main;
+
+        //Image Styling
         background-image: linear-gradient(
                 to bottom,
                 rgba(0, 0, 0, 1) 0%,
@@ -26,6 +38,7 @@
             ),
             url(../img/about/about-banner2x.jpg);
         @media only screen and (max-width: $bp-medium) {
+            //Image Styling
             background-image: linear-gradient(
                     to bottom,
                     rgba(0, 0, 0, 1) 0%,
@@ -40,52 +53,76 @@
     }
 
     &__box {
+        //Spacing
         width: 40%;
         margin: 10rem auto 0;
+
         @media only screen and (max-width: $bp-largest) {
+            //Spacing
             width: 50%;
         }
         @media only screen and (max-width: $bp-large) {
+            //Spacing
             width: 70%;
         }
         @media only screen and (max-width: $bp-medium) {
+            //Spacing
             width: 90%;
         }
     }
 
     &__image {
+        //Spacing
         width: 100%;
+
+        //Image Styling
         object-fit: contain;
         object-position: center center;
+
+        //Border Styling
         border: 2px solid $color-primary-dark;
     }
 
     &__head {
-        //Styling
-        text-transform: uppercase;
-        z-index: 2;
-
         //Spacing
-        font-size: 3rem;
+        z-index: 2;
         padding: 2rem 0 1.4rem;
+
+        //Font Styling
+        font-size: 3rem;
         font-weight: 600;
         letter-spacing: 0.4rem;
+        text-transform: uppercase;
     }
     &__divider {
+        //Spacing
         width: 10rem;
-        border-top-width: 2px;
         margin: 0 auto 0 0;
+
+        //Color Styling
         color: $color-secondary;
+
+        //Border Styling
+        border-top-width: 2px;
     }
     &__description {
-        color: $color-grey-dark-1;
+        //Spacing
+        padding: 8rem 0 10rem;
+
+        //Font Styling
         font-size: 1.6rem;
         line-height: 3.2rem;
         text-indent: 3rem;
-        padding: 8rem 0 10rem;
+
+        //Color Styling
+        color: $color-grey-dark-1;
+
         @media only screen and (max-width: $bp-medium) {
-            line-height: 2.8rem;
+            //Spacing
             padding: 5rem 0 7rem;
+
+            //Font Styling
+            line-height: 2.8rem;
         }
     }
 }

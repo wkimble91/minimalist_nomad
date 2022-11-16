@@ -1,71 +1,107 @@
 .blog-post {
+    //Parent
     grid-row: 2 / span 1;
 
     &__header {
-        background-color: transparent;
+        //Spacing
         height: 9rem;
+
+        //Color Styling
+        background-color: transparent;
+
+        //Animations
         transition: all 0.2s;
 
         &-scrolled {
-            //Border Styling
-            background-color: $color-grey-dark-1;
+            /* This is applied when you scroll the height of the navbar */
+            //Spacing
             height: 7rem;
+
+            //Color Styling
+            background-color: $color-grey-dark-1;
         }
     }
 
     &__box {
+        //Spacing
         width: 40%;
         margin: 4rem auto 0;
+
         @media only screen and (max-width: $bp-largest) {
+            //Spacing
             width: 50%;
         }
         @media only screen and (max-width: $bp-large) {
+            //Spacing
             width: 70%;
         }
         @media only screen and (max-width: $bp-medium) {
+            //Spacing
             width: 90%;
         }
     }
 
     &__image {
+        //Display
         width: 100%;
+
+        //Image Styling
         object-fit: contain;
         object-position: center center;
+
+        //Border Styling
         border: 2px solid $color-primary-dark;
     }
 
     &__sub-heading {
-        //Styling
-        text-transform: uppercase;
-        z-index: 2;
-
         //Spacing
-        font-size: 3rem;
+        z-index: 2;
         padding: 2rem 0 1.4rem;
+
+        //Font Styling
+        font-size: 3rem;
         font-weight: 600;
         letter-spacing: 0.3rem;
+        text-transform: uppercase;
     }
     &__divider {
+        //Spacing
         width: 10rem;
-        border-top-width: 2px;
         margin: 0 auto 0 0;
+
+        //Color Styling
         color: $color-secondary;
+
+        //Border Styling
+        border-top-width: 2px;
     }
     &__description {
-        color: $color-grey-dark-1;
+        //Spacing
+        padding: 8rem 0 10rem;
+
+        //Font Styling
         font-size: 1.6rem;
         line-height: 3.2rem;
         text-indent: 3rem;
-        padding: 8rem 0 10rem;
+
+        //Color Styling
+        color: $color-grey-dark-1;
+
         @media only screen and (max-width: $bp-medium) {
-            line-height: 2.8rem;
+            //Spacing
             padding: 5rem 0 7rem;
+
+            //Font Styling
+            line-height: 2.8rem;
         }
     }
 
     &__heading {
         &--sustainable-1 {
+            //Mixin
             @include headings-blog;
+
+            //Image Styling
             background-image: linear-gradient(
                     to bottom,
                     rgba(0, 0, 0, 1) 0%,
@@ -78,6 +114,7 @@
                 url(../img/blog/sustainable/sustainable-1-2x.jpg);
 
             @media only screen and (max-width: $bp-medium) {
+                //Image Styling
                 background-image: linear-gradient(
                         to bottom,
                         rgba(0, 0, 0, 1) 0%,
@@ -91,7 +128,10 @@
             }
         }
         &--sustainable-2 {
+            //Mixin
             @include headings-blog;
+
+            //Image Styling
             background-image: linear-gradient(
                     to bottom,
                     rgba(0, 0, 0, 1) 0%,
@@ -104,6 +144,7 @@
                 url(../img/blog/sustainable/sustainable-2-2x.jpg);
 
             @media only screen and (max-width: $bp-medium) {
+                //Image Styling
                 background-image: linear-gradient(
                         to bottom,
                         rgba(0, 0, 0, 1) 0%,
@@ -117,7 +158,10 @@
             }
         }
         &--sustainable-3 {
+            //Mixin
             @include headings-blog;
+
+            //Image Styling
             background-image: linear-gradient(
                     to bottom,
                     rgba(0, 0, 0, 1) 0%,
@@ -130,6 +174,7 @@
                 url(../img/blog/sustainable/sustainable-3-2x.jpg);
 
             @media only screen and (max-width: $bp-medium) {
+                //Image Styling
                 background-image: linear-gradient(
                         to bottom,
                         rgba(0, 0, 0, 1) 0%,
@@ -143,7 +188,10 @@
             }
         }
         &--budget-1 {
+            //Mixin
             @include headings-blog;
+
+            //Image Styling
             background-image: linear-gradient(
                     to bottom,
                     rgba(0, 0, 0, 1) 0%,
@@ -156,11 +204,13 @@
                 url(../img/blog/budget/budget-1-2x.jpg);
 
             @media only screen and (max-width: $bp-medium) {
+                //Image Styling
                 background-image: linear-gradient(
                         to bottom,
                         rgba(0, 0, 0, 1) 0%,
                         rgba(0, 0, 0, 0.7) 10%,
-                        rgba(0, 0, 0, 0.4) 40%,
+                        r //Mixin
+                        gba(0, 0, 0, 0.4) 40%,
                         rgba(0, 0, 0, 0.4) 60%,
                         rgba(0, 0, 0, 0.7) 90%,
                         rgba(0, 0, 0, 1) 100%
@@ -169,7 +219,10 @@
             }
         }
         &--budget-2 {
+            //Mixin
             @include headings-blog;
+
+            //Image Styling
             background-image: linear-gradient(
                     to bottom,
                     rgba(0, 0, 0, 1) 0%,
@@ -182,6 +235,7 @@
                 url(../img/blog/budget/budget-2-2x.jpg);
 
             @media only screen and (max-width: $bp-medium) {
+                //Image Styling
                 background-image: linear-gradient(
                         to bottom,
                         rgba(0, 0, 0, 1) 0%,
@@ -195,7 +249,10 @@
             }
         }
         &--budget-3 {
+            //Mixin
             @include headings-blog;
+
+            //Image Styling
             background-image: linear-gradient(
                     to bottom,
                     rgba(0, 0, 0, 1) 0%,
@@ -208,6 +265,7 @@
                 url(../img/blog/budget/budget-3-2x.jpg);
 
             @media only screen and (max-width: $bp-medium) {
+                //Image Styling
                 background-image: linear-gradient(
                         to bottom,
                         rgba(0, 0, 0, 1) 0%,
@@ -221,7 +279,10 @@
             }
         }
         &--food-1 {
+            //Mixin
             @include headings-blog;
+
+            //Image Styling
             background-image: linear-gradient(
                     to bottom,
                     rgba(0, 0, 0, 1) 0%,
@@ -234,6 +295,7 @@
                 url(../img/blog/food/food-1-2x.jpg);
 
             @media only screen and (max-width: $bp-medium) {
+                //Image Styling
                 background-image: linear-gradient(
                         to bottom,
                         rgba(0, 0, 0, 1) 0%,
@@ -247,7 +309,10 @@
             }
         }
         &--food-2 {
+            //Mixin
             @include headings-blog;
+
+            //Image Styling
             background-image: linear-gradient(
                     to bottom,
                     rgba(0, 0, 0, 1) 0%,
@@ -260,6 +325,7 @@
                 url(../img/blog/food/food-2-2x.jpg);
 
             @media only screen and (max-width: $bp-medium) {
+                //Image Styling
                 background-image: linear-gradient(
                         to bottom,
                         rgba(0, 0, 0, 1) 0%,
@@ -273,7 +339,10 @@
             }
         }
         &--food-3 {
+            //Mixin
             @include headings-blog;
+
+            //Image Styling
             background-image: linear-gradient(
                     to bottom,
                     rgba(0, 0, 0, 1) 0%,
@@ -286,6 +355,7 @@
                 url(../img/blog/food/food-3-2x.jpg);
 
             @media only screen and (max-width: $bp-medium) {
+                //Image Styling
                 background-image: linear-gradient(
                         to bottom,
                         rgba(0, 0, 0, 1) 0%,
@@ -299,7 +369,10 @@
             }
         }
         &--vista-1 {
+            //Mixin
             @include headings-blog;
+
+            //Image Styling
             background-image: linear-gradient(
                     to bottom,
                     rgba(0, 0, 0, 1) 0%,
@@ -312,6 +385,7 @@
                 url(../img/blog/vista/vista-1-2x.jpg);
 
             @media only screen and (max-width: $bp-medium) {
+                //Image Styling
                 background-image: linear-gradient(
                         to bottom,
                         rgba(0, 0, 0, 1) 0%,
@@ -325,7 +399,10 @@
             }
         }
         &--vista-2 {
+            //Mixin
             @include headings-blog;
+
+            //Image Styling
             background-image: linear-gradient(
                     to bottom,
                     rgba(0, 0, 0, 1) 0%,
@@ -338,6 +415,7 @@
                 url(../img/blog/vista/vista-2-2x.jpg);
 
             @media only screen and (max-width: $bp-medium) {
+                //Image Styling
                 background-image: linear-gradient(
                         to bottom,
                         rgba(0, 0, 0, 1) 0%,
@@ -351,7 +429,10 @@
             }
         }
         &--vista-3 {
+            //Mixin
             @include headings-blog;
+
+            //Image Styling
             background-image: linear-gradient(
                     to bottom,
                     rgba(0, 0, 0, 1) 0%,
@@ -364,6 +445,7 @@
                 url(../img/blog/vista/vista-3-2x.jpg);
 
             @media only screen and (max-width: $bp-medium) {
+                //Image Styling
                 background-image: linear-gradient(
                         to bottom,
                         rgba(0, 0, 0, 1) 0%,
