@@ -1,4 +1,4 @@
-@mixin headings {
+@mixin headings-main {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr max-content 1fr;
@@ -25,6 +25,53 @@
     }
     @media only screen and (max-width: $bp-small) {
         font-size: 8rem;
+        margin-top: 5rem;
+        padding: 8rem 0 4rem;
+    }
+}
+
+@mixin headings-secondary {
+}
+
+@mixin headings-blog {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-column-gap: 4rem;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    font-size: 8rem;
+    font-weight: 100;
+    z-index: 2;
+    overflow-wrap: anywhere;
+    padding: 12rem 0;
+    &::before,
+    &::after {
+        content: '';
+        height: 2px;
+        display: block;
+        background-color: white;
+    }
+    @media only screen and (max-width: $bp-large) {
+        padding: 14rem 0;
+        grid-column-gap: 3rem;
+        font-size: 6rem;
+    }
+    @media only screen and (max-width: $bp-medium) {
+        padding: 16rem 0;
+        font-size: 5rem;
+    }
+    @media only screen and (max-width: $bp-small) {
+        grid-column-gap: 2rem;
+        font-size: 4rem;
+        margin-top: 5rem;
+        padding: 8rem 0 4rem;
+    }
+    @media only screen and (max-width: $bp-smallest) {
+        font-size: 3rem;
         margin-top: 5rem;
         padding: 8rem 0 4rem;
     }

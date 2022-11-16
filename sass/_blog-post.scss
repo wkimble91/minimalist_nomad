@@ -1,0 +1,385 @@
+.blog-post {
+    grid-row: 2 / span 1;
+
+    &__box {
+        width: 40%;
+        margin: 4rem auto 0;
+        @media only screen and (max-width: $bp-largest) {
+            width: 50%;
+        }
+        @media only screen and (max-width: $bp-large) {
+            width: 70%;
+        }
+        @media only screen and (max-width: $bp-medium) {
+            width: 90%;
+        }
+    }
+
+    &__header {
+        background-color: transparent;
+        height: 9rem;
+        transition: all 0.2s;
+
+        @media only screen and (max-width: $bp-small) {
+            //Border Styling
+            background-color: $color-grey-dark-1;
+            height: 7rem;
+        }
+
+        &-scrolled {
+            //Border Styling
+            background-color: $color-grey-dark-1;
+            height: 7rem;
+        }
+    }
+    &__image {
+        width: 100%;
+        object-fit: contain;
+        object-position: center center;
+        border: 2px solid $color-primary-dark;
+    }
+
+    &__sub-heading {
+        //Styling
+        text-transform: uppercase;
+        z-index: 2;
+
+        //Spacing
+        font-size: 3rem;
+        padding: 2rem 0 1.4rem;
+        font-weight: 600;
+        letter-spacing: 0.3rem;
+    }
+    &__divider {
+        width: 10rem;
+        border-top-width: 2px;
+        margin: 0 auto 0 0;
+        color: $color-secondary;
+    }
+    &__description {
+        color: $color-grey-dark-1;
+        font-size: 1.6rem;
+        line-height: 3.2rem;
+        text-indent: 3rem;
+        padding: 8rem 0 10rem;
+        @media only screen and (max-width: $bp-medium) {
+            line-height: 2.8rem;
+            padding: 5rem 0 7rem;
+        }
+    }
+
+    &__heading {
+        &--sustainable-1 {
+            @include headings-blog;
+            background-image: linear-gradient(
+                    to bottom,
+                    rgba(0, 0, 0, 1) 0%,
+                    rgba(0, 0, 0, 0.7) 10%,
+                    rgba(0, 0, 0, 0.4) 40%,
+                    rgba(0, 0, 0, 0.4) 60%,
+                    rgba(0, 0, 0, 0.7) 90%,
+                    rgba(0, 0, 0, 1) 100%
+                ),
+                url(../img/blog/sustainable/sustainable-1-2x.jpg);
+
+            @media only screen and (max-width: $bp-medium) {
+                background-image: linear-gradient(
+                        to bottom,
+                        rgba(0, 0, 0, 1) 0%,
+                        rgba(0, 0, 0, 0.7) 10%,
+                        rgba(0, 0, 0, 0.4) 40%,
+                        rgba(0, 0, 0, 0.4) 60%,
+                        rgba(0, 0, 0, 0.7) 90%,
+                        rgba(0, 0, 0, 1) 100%
+                    ),
+                    url(../img/blog/sustainable/sustainable-1-1x.jpg);
+            }
+        }
+        &--sustainable-2 {
+            @include headings-blog;
+            background-image: linear-gradient(
+                    to bottom,
+                    rgba(0, 0, 0, 1) 0%,
+                    rgba(0, 0, 0, 0.7) 10%,
+                    rgba(0, 0, 0, 0.4) 40%,
+                    rgba(0, 0, 0, 0.4) 60%,
+                    rgba(0, 0, 0, 0.7) 90%,
+                    rgba(0, 0, 0, 1) 100%
+                ),
+                url(../img/blog/sustainable/sustainable-2-2x.jpg);
+
+            @media only screen and (max-width: $bp-medium) {
+                background-image: linear-gradient(
+                        to bottom,
+                        rgba(0, 0, 0, 1) 0%,
+                        rgba(0, 0, 0, 0.7) 10%,
+                        rgba(0, 0, 0, 0.4) 40%,
+                        rgba(0, 0, 0, 0.4) 60%,
+                        rgba(0, 0, 0, 0.7) 90%,
+                        rgba(0, 0, 0, 1) 100%
+                    ),
+                    url(../img/blog/sustainable/sustainable-2-1x.jpg);
+            }
+        }
+        &--sustainable-3 {
+            @include headings-blog;
+            background-image: linear-gradient(
+                    to bottom,
+                    rgba(0, 0, 0, 1) 0%,
+                    rgba(0, 0, 0, 0.7) 10%,
+                    rgba(0, 0, 0, 0.4) 40%,
+                    rgba(0, 0, 0, 0.4) 60%,
+                    rgba(0, 0, 0, 0.7) 90%,
+                    rgba(0, 0, 0, 1) 100%
+                ),
+                url(../img/blog/sustainable/sustainable-3-2x.jpg);
+
+            @media only screen and (max-width: $bp-medium) {
+                background-image: linear-gradient(
+                        to bottom,
+                        rgba(0, 0, 0, 1) 0%,
+                        rgba(0, 0, 0, 0.7) 10%,
+                        rgba(0, 0, 0, 0.4) 40%,
+                        rgba(0, 0, 0, 0.4) 60%,
+                        rgba(0, 0, 0, 0.7) 90%,
+                        rgba(0, 0, 0, 1) 100%
+                    ),
+                    url(../img/blog/sustainable/sustainable-3-1x.jpg);
+            }
+        }
+        &--budget-1 {
+            @include headings-blog;
+            background-image: linear-gradient(
+                    to bottom,
+                    rgba(0, 0, 0, 1) 0%,
+                    rgba(0, 0, 0, 0.7) 10%,
+                    rgba(0, 0, 0, 0.4) 40%,
+                    rgba(0, 0, 0, 0.4) 60%,
+                    rgba(0, 0, 0, 0.7) 90%,
+                    rgba(0, 0, 0, 1) 100%
+                ),
+                url(../img/blog/budget/budget-1-2x.jpg);
+
+            @media only screen and (max-width: $bp-medium) {
+                background-image: linear-gradient(
+                        to bottom,
+                        rgba(0, 0, 0, 1) 0%,
+                        rgba(0, 0, 0, 0.7) 10%,
+                        rgba(0, 0, 0, 0.4) 40%,
+                        rgba(0, 0, 0, 0.4) 60%,
+                        rgba(0, 0, 0, 0.7) 90%,
+                        rgba(0, 0, 0, 1) 100%
+                    ),
+                    url(../img/blog/budget/budget-1-1x.jpg);
+            }
+        }
+        &--budget-2 {
+            @include headings-blog;
+            background-image: linear-gradient(
+                    to bottom,
+                    rgba(0, 0, 0, 1) 0%,
+                    rgba(0, 0, 0, 0.7) 10%,
+                    rgba(0, 0, 0, 0.4) 40%,
+                    rgba(0, 0, 0, 0.4) 60%,
+                    rgba(0, 0, 0, 0.7) 90%,
+                    rgba(0, 0, 0, 1) 100%
+                ),
+                url(../img/blog/budget/budget-2-2x.jpg);
+
+            @media only screen and (max-width: $bp-medium) {
+                background-image: linear-gradient(
+                        to bottom,
+                        rgba(0, 0, 0, 1) 0%,
+                        rgba(0, 0, 0, 0.7) 10%,
+                        rgba(0, 0, 0, 0.4) 40%,
+                        rgba(0, 0, 0, 0.4) 60%,
+                        rgba(0, 0, 0, 0.7) 90%,
+                        rgba(0, 0, 0, 1) 100%
+                    ),
+                    url(../img/blog/budget/budget-2-1x.jpg);
+            }
+        }
+        &--budget-3 {
+            @include headings-blog;
+            background-image: linear-gradient(
+                    to bottom,
+                    rgba(0, 0, 0, 1) 0%,
+                    rgba(0, 0, 0, 0.7) 10%,
+                    rgba(0, 0, 0, 0.4) 40%,
+                    rgba(0, 0, 0, 0.4) 60%,
+                    rgba(0, 0, 0, 0.7) 90%,
+                    rgba(0, 0, 0, 1) 100%
+                ),
+                url(../img/blog/budget/budget-3-2x.jpg);
+
+            @media only screen and (max-width: $bp-medium) {
+                background-image: linear-gradient(
+                        to bottom,
+                        rgba(0, 0, 0, 1) 0%,
+                        rgba(0, 0, 0, 0.7) 10%,
+                        rgba(0, 0, 0, 0.4) 40%,
+                        rgba(0, 0, 0, 0.4) 60%,
+                        rgba(0, 0, 0, 0.7) 90%,
+                        rgba(0, 0, 0, 1) 100%
+                    ),
+                    url(../img/blog/budget/budget-3-1x.jpg);
+            }
+        }
+        &--food-1 {
+            @include headings-blog;
+            background-image: linear-gradient(
+                    to bottom,
+                    rgba(0, 0, 0, 1) 0%,
+                    rgba(0, 0, 0, 0.7) 10%,
+                    rgba(0, 0, 0, 0.4) 40%,
+                    rgba(0, 0, 0, 0.4) 60%,
+                    rgba(0, 0, 0, 0.7) 90%,
+                    rgba(0, 0, 0, 1) 100%
+                ),
+                url(../img/blog/food/food-1-2x.jpg);
+
+            @media only screen and (max-width: $bp-medium) {
+                background-image: linear-gradient(
+                        to bottom,
+                        rgba(0, 0, 0, 1) 0%,
+                        rgba(0, 0, 0, 0.7) 10%,
+                        rgba(0, 0, 0, 0.4) 40%,
+                        rgba(0, 0, 0, 0.4) 60%,
+                        rgba(0, 0, 0, 0.7) 90%,
+                        rgba(0, 0, 0, 1) 100%
+                    ),
+                    url(../img/blog/food/food-1-1x.jpg);
+            }
+        }
+        &--food-2 {
+            @include headings-blog;
+            background-image: linear-gradient(
+                    to bottom,
+                    rgba(0, 0, 0, 1) 0%,
+                    rgba(0, 0, 0, 0.7) 10%,
+                    rgba(0, 0, 0, 0.4) 40%,
+                    rgba(0, 0, 0, 0.4) 60%,
+                    rgba(0, 0, 0, 0.7) 90%,
+                    rgba(0, 0, 0, 1) 100%
+                ),
+                url(../img/blog/food/food-2-2x.jpg);
+
+            @media only screen and (max-width: $bp-medium) {
+                background-image: linear-gradient(
+                        to bottom,
+                        rgba(0, 0, 0, 1) 0%,
+                        rgba(0, 0, 0, 0.7) 10%,
+                        rgba(0, 0, 0, 0.4) 40%,
+                        rgba(0, 0, 0, 0.4) 60%,
+                        rgba(0, 0, 0, 0.7) 90%,
+                        rgba(0, 0, 0, 1) 100%
+                    ),
+                    url(../img/blog/food/food-2-1x.jpg);
+            }
+        }
+        &--food-3 {
+            @include headings-blog;
+            background-image: linear-gradient(
+                    to bottom,
+                    rgba(0, 0, 0, 1) 0%,
+                    rgba(0, 0, 0, 0.7) 10%,
+                    rgba(0, 0, 0, 0.4) 40%,
+                    rgba(0, 0, 0, 0.4) 60%,
+                    rgba(0, 0, 0, 0.7) 90%,
+                    rgba(0, 0, 0, 1) 100%
+                ),
+                url(../img/blog/food/food-3-2x.jpg);
+
+            @media only screen and (max-width: $bp-medium) {
+                background-image: linear-gradient(
+                        to bottom,
+                        rgba(0, 0, 0, 1) 0%,
+                        rgba(0, 0, 0, 0.7) 10%,
+                        rgba(0, 0, 0, 0.4) 40%,
+                        rgba(0, 0, 0, 0.4) 60%,
+                        rgba(0, 0, 0, 0.7) 90%,
+                        rgba(0, 0, 0, 1) 100%
+                    ),
+                    url(../img/blog/food/food-3-1x.jpg);
+            }
+        }
+        &--vista-1 {
+            @include headings-blog;
+            background-image: linear-gradient(
+                    to bottom,
+                    rgba(0, 0, 0, 1) 0%,
+                    rgba(0, 0, 0, 0.7) 10%,
+                    rgba(0, 0, 0, 0.4) 40%,
+                    rgba(0, 0, 0, 0.4) 60%,
+                    rgba(0, 0, 0, 0.7) 90%,
+                    rgba(0, 0, 0, 1) 100%
+                ),
+                url(../img/blog/vista/vista-1-2x.jpg);
+
+            @media only screen and (max-width: $bp-medium) {
+                background-image: linear-gradient(
+                        to bottom,
+                        rgba(0, 0, 0, 1) 0%,
+                        rgba(0, 0, 0, 0.7) 10%,
+                        rgba(0, 0, 0, 0.4) 40%,
+                        rgba(0, 0, 0, 0.4) 60%,
+                        rgba(0, 0, 0, 0.7) 90%,
+                        rgba(0, 0, 0, 1) 100%
+                    ),
+                    url(../img/blog/vista/vista-1-1x.jpg);
+            }
+        }
+        &--vista-2 {
+            @include headings-blog;
+            background-image: linear-gradient(
+                    to bottom,
+                    rgba(0, 0, 0, 1) 0%,
+                    rgba(0, 0, 0, 0.7) 10%,
+                    rgba(0, 0, 0, 0.4) 40%,
+                    rgba(0, 0, 0, 0.4) 60%,
+                    rgba(0, 0, 0, 0.7) 90%,
+                    rgba(0, 0, 0, 1) 100%
+                ),
+                url(../img/blog/vista/vista-2-2x.jpg);
+
+            @media only screen and (max-width: $bp-medium) {
+                background-image: linear-gradient(
+                        to bottom,
+                        rgba(0, 0, 0, 1) 0%,
+                        rgba(0, 0, 0, 0.7) 10%,
+                        rgba(0, 0, 0, 0.4) 40%,
+                        rgba(0, 0, 0, 0.4) 60%,
+                        rgba(0, 0, 0, 0.7) 90%,
+                        rgba(0, 0, 0, 1) 100%
+                    ),
+                    url(../img/blog/vista/vista-2-1x.jpg);
+            }
+        }
+        &--vista-3 {
+            @include headings-blog;
+            background-image: linear-gradient(
+                    to bottom,
+                    rgba(0, 0, 0, 1) 0%,
+                    rgba(0, 0, 0, 0.7) 10%,
+                    rgba(0, 0, 0, 0.4) 40%,
+                    rgba(0, 0, 0, 0.4) 60%,
+                    rgba(0, 0, 0, 0.7) 90%,
+                    rgba(0, 0, 0, 1) 100%
+                ),
+                url(../img/blog/vista/vista-3-2x.jpg);
+
+            @media only screen and (max-width: $bp-medium) {
+                background-image: linear-gradient(
+                        to bottom,
+                        rgba(0, 0, 0, 1) 0%,
+                        rgba(0, 0, 0, 0.7) 10%,
+                        rgba(0, 0, 0, 0.4) 40%,
+                        rgba(0, 0, 0, 0.4) 60%,
+                        rgba(0, 0, 0, 0.7) 90%,
+                        rgba(0, 0, 0, 1) 100%
+                    ),
+                    url(../img/blog/vista/vista-3-1x.jpg);
+            }
+        }
+    }
+}
