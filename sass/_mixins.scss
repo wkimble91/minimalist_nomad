@@ -22,6 +22,10 @@
     }
     @media only screen and (max-width: $bp-large) {
         padding: 6rem 0;
+        font-size: 12rem;
+    }
+    @media only screen and (max-width: $bp-small) {
+        font-size: 10rem;
     }
     @media only screen and (max-width: $bp-small) {
         font-size: 8rem;
