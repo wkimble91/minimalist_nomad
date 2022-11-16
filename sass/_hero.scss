@@ -39,8 +39,8 @@
         font-size: 8rem;
         color: $color-grey-light-1;
         line-height: 1;
-        margin-bottom: 4rem;
-        font-weight: 400;
+        margin-bottom: 3rem;
+        font-weight: 200;
         animation: moveInLeft 0.8s ease-out;
 
         @media only screen and (max-width: $bp-medium) {
@@ -56,7 +56,7 @@
         font-size: 2.6rem;
         color: $color-grey-light-1;
         line-height: 1;
-        font-weight: 300;
+        font-weight: 200;
         margin-bottom: 20vh;
         animation: moveInLeft 0.8s ease-out 0.8s;
         animation-fill-mode: backwards;
@@ -92,7 +92,7 @@
         font-size: 1.8rem;
         font-weight: 300;
         text-transform: uppercase;
-        padding: 1.5rem 3rem;
+        padding: 1.2rem 2rem;
         margin-bottom: -10vh;
         cursor: pointer;
         transition: all 0.3s;
@@ -103,7 +103,7 @@
         }
 
         @media only screen and (max-width: $bp-medium) {
-            padding: 1.5rem 3.3rem;
+            padding: 1.8rem 3.8rem;
             font-size: 1.2rem;
         }
         @media only screen and (max-width: $bp-small) {
