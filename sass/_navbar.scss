@@ -62,10 +62,6 @@
             font-size: 1.6rem;
         }
         @media only screen and (max-width: $bp-small) {
-            margin-left: 0rem;
-        }
-
-        @media only screen and (max-width: $bp-small) {
             //Display
             flex-direction: column;
             justify-content: space-around;
@@ -78,23 +74,25 @@
             left: -10%;
             height: 26rem;
             z-index: -1;
+            margin-left: 0rem;
+            padding-top: 7rem;
 
             //Font Styling
             text-align: center;
             font-weight: 300;
             font-size: 2rem;
 
-            //Color Styling
+            // //Color Styling
             background-color: $color-grey-dark-1;
-            color: $color-grey-light-1;
-            box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+            // color: $color-grey-light-1;
+            // box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
 
             //Animations
             transition: 0.6s ease-out;
 
             &.active {
                 //Spacing
-                top: 6.9rem;
+                top: 0rem;
             }
         }
 

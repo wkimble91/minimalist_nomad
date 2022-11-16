@@ -1,6 +1,18 @@
 .blog-post {
     grid-row: 2 / span 1;
 
+    &__header {
+        background-color: transparent;
+        height: 9rem;
+        transition: all 0.2s;
+
+        &-scrolled {
+            //Border Styling
+            background-color: $color-grey-dark-1;
+            height: 7rem;
+        }
+    }
+
     &__box {
         width: 40%;
         margin: 4rem auto 0;
@@ -15,23 +27,6 @@
         }
     }
 
-    &__header {
-        background-color: transparent;
-        height: 9rem;
-        transition: all 0.2s;
-
-        @media only screen and (max-width: $bp-small) {
-            //Border Styling
-            background-color: $color-grey-dark-1;
-            height: 7rem;
-        }
-
-        &-scrolled {
-            //Border Styling
-            background-color: $color-grey-dark-1;
-            height: 7rem;
-        }
-    }
     &__image {
         width: 100%;
         object-fit: contain;

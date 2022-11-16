@@ -25,7 +25,6 @@
     }
     @media only screen and (max-width: $bp-small) {
         font-size: 8rem;
-        margin-top: 5rem;
         padding: 8rem 0 4rem;
     }
 }
@@ -61,18 +60,15 @@
         font-size: 6rem;
     }
     @media only screen and (max-width: $bp-medium) {
-        padding: 16rem 0;
+        padding: 18rem 0;
         font-size: 5rem;
     }
     @media only screen and (max-width: $bp-small) {
         grid-column-gap: 2rem;
         font-size: 4rem;
-        margin-top: 5rem;
-        padding: 8rem 0 4rem;
+        padding: 12rem 0 4rem;
     }
     @media only screen and (max-width: $bp-smallest) {
-        font-size: 3rem;
-        margin-top: 5rem;
-        padding: 8rem 0 4rem;
+        font-size: 3.4rem;
     }
 }

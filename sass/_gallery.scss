@@ -25,12 +25,6 @@
         height: 9rem;
         transition: all 0.2s;
 
-        @media only screen and (max-width: $bp-small) {
-            //Border Styling
-            background-color: $color-grey-dark-1;
-            height: 7rem;
-        }
-
         &-scrolled {
             //Border Styling
             background-color: $color-grey-dark-1;
