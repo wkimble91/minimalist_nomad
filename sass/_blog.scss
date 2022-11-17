@@ -23,9 +23,6 @@
     }
 
     &__heading {
-        //Mixin
-        @include headings-main;
-
         //Image Styling
         background-image: linear-gradient(
                 to bottom,
