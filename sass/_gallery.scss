@@ -58,7 +58,7 @@
     &__image {
         //Spacing
         position: relative;
-        overflow: hidden;
+        // overflow: hidden;
         vertical-align: middle;
 
         //Animations
@@ -73,13 +73,13 @@
             top: 0;
             width: 100%;
             height: 100%;
+            opacity: 1;
 
             //Image Styling
             background-image: linear-gradient(
-                rgba($color-grey-dark-2, 0) 0%,
-                rgba($color-grey-dark-2, 0) 80%,
-                rgba($color-grey-dark-2, 0.6) 90%,
-                rgba($color-grey-dark-2, 1) 100%
+                rgba($color-grey-dark-1, 0) 0%,
+                rgba($color-grey-dark-1, 0.2) 60%,
+                rgba($color-grey-dark-1, 1) 100%
             );
 
             //Animations
@@ -89,6 +89,10 @@
         &:hover::after {
             //Display
             display: none;
+        }
+        &:hover {
+            //Display
+            z-index: 100;
         }
 
         img {
@@ -104,11 +108,11 @@
             object-fit: cover;
 
             //Animations
-            transition: all 1s;
+            transition: all 0.1s;
 
             &:hover {
                 //Animations
-                transform: scale(1.1);
+                transform: scale(1.05);
             }
         }
 
@@ -152,11 +156,11 @@
 
         &:hover &-title {
             //Font Styling
-            font-size: 4rem;
+            display: none;
         }
         &:hover &-location {
             //Font Styling
-            font-size: 2rem;
+            display: none;
         }
 
         &--1 {
