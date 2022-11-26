@@ -16,7 +16,7 @@
 
 <body>
     <div class="container container__blog">
-        <header id="header" class="header blog__header">
+        <header id="header" class="header">
             <a href="./index.html" rel="home" class="header__logo">
                 <picture>
                     <source class="header__logo" media="(min-width: 56.26em)" srcset="img/logo-light.png" />
@@ -157,8 +157,8 @@
                         </svg>
                     </div>
                 </div>
-                <h4 class="secondary-heading">Saving Money While Traveling</h4>
-                <div class="blog__row blog-budget">
+                <h4 class="secondary-heading revealFade">Saving Money While Traveling</h4>
+                <div class="blog__row blog-budget revealFade">
                     <div class="blog__arrow">
                         <svg class="blog__arrow-left">
                             <use href="img/sprite.svg#icon-chevron-thin-left"></use>
@@ -247,8 +247,8 @@
                         </svg>
                     </div>
                 </div>
-                <h4 class="secondary-heading">Local Foods</h4>
-                <div class="blog__row blog-foods">
+                <h4 class="secondary-heading revealFade">Local Foods</h4>
+                <div class="blog__row blog-foods revealFade">
                     <div class="blog__arrow">
                         <svg class="blog__arrow-left">
                             <use href="img/sprite.svg#icon-chevron-thin-left"></use>
@@ -334,8 +334,8 @@
                         </svg>
                     </div>
                 </div>
-                <h4 class="secondary-heading">Amazing Vistas</h4>
-                <div class="blog__row blog-vistas">
+                <h4 class="secondary-heading revealFade">Amazing Vistas</h4>
+                <div class="blog__row blog-vistas revealFade">
                     <div class="blog__arrow">
                         <svg class="blog__arrow-left">
                             <use href="img/sprite.svg#icon-chevron-thin-left"></use>
@@ -428,8 +428,8 @@
             </div>
         </section>
         <div class="cta">
-            <h4 class="cta__header">Don't miss a thing and subscribe to my newsletter</h4>
-            <form class="cta__form" id="form" action="#">
+            <h4 class="cta__header revealLeft">Don't miss a thing and subscribe to my newsletter</h4>
+            <form class="cta__form revealRight" id="form" action="#">
                 <input class="cta__form-input" name="email" id="email" type="email"
                     placeholder="Enter your email address" required />
                 <button for="email" type="submit" class="cta__form-button">
@@ -440,7 +440,7 @@
         <footer class="footer">
             <div class="footer__logo-box">
                 <picture class="footer__logo">
-                    <img src="img/logo-light.png" alt="Minimalist Nomad logo" class="footer__logo">
+                    <img src="img/logo-light.png" alt="Minimalist Nomad logo" class="footer__logo revealLeft">
                 </picture>
             </div>
             <ul class="footer-nav">
@@ -453,23 +453,17 @@
         </footer>
     </div>
 
-    <!-- Script for Hamburger Menu -->
-    <script src="js/navbar.js"></script>
-
     <!-- jQuery for the Header Scroll Function -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
 
-    <!-- Header Scroll Function -->
-    <script>
-        $(function () {
-            $(document).scroll(function () {
-                var $nav=$("#header");
-                $nav.toggleClass("blog__header-scrolled", $(this).scrollTop()>$nav.height());
-            });
-        });
-    </script>
+    <!-- Script for Hamburger Menu and Scrolled class -->
+    <script src="js/navbar.js"></script>
+
+    <!-- Script for Reveal on Scroll -->
+    <script src="js/reveal.js"></script>
+
 </body>
 
 

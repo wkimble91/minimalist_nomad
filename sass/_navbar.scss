@@ -8,6 +8,7 @@
     justify-content: space-between;
 
     //Spacing
+    height: 9rem;
     position: fixed;
     width: 100%;
     z-index: 20;
@@ -16,8 +17,24 @@
     text-decoration: none;
 
     //Color Styling
-    background-color: $color-grey-dark-1;
+    background-color: transparent;
     color: $color-grey-light-1;
+
+    //Animations
+    transition: all 0.2s;
+
+    &-scrolled {
+        /* This is applied when you scroll the height of the navbar */
+
+        //Spacing
+        height: 7rem;
+
+        //Font Styling
+        font-size: 1.8rem;
+
+        //Color Styling
+        background-color: $color-grey-dark-1;
+    }
 
     &__logo {
         cursor: pointer;

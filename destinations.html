@@ -16,7 +16,7 @@
 
 <body>
     <div class="container container__destinations">
-        <header id="header" class="header destinations__header">
+        <header id="header" class="header">
             <a href="./index.html" rel="home" class="header__logo">
                 <picture>
                     <source class="header__logo" media="(min-width: 56.26em)" srcset="img/logo-light.png" />
@@ -65,7 +65,7 @@
         <section id="destinations" class="destinations">
             <h1 class="main-heading destinations__heading">Past destinations</h1>
             <div class="destinations__grid">
-                <div onclick="" class="destinations__grid-box">
+                <div onclick="" class="destinations__grid-box revealFade">
                     <div class="destination destination-1">
                         <h5 class="destination__name">Eilean Donan Castle</h5>
                         <h6 class="destination__location">Scotland</h6>
@@ -73,7 +73,7 @@
                         <p class="destination__length">2 weeks</p>
                     </div>
                 </div>
-                <div onclick="" class="destinations__grid-box">
+                <div onclick="" class="destinations__grid-box revealFade">
                     <div class="destination destination-2">
                         <h5 class="destination__name">Camogli</h5>
                         <h6 class="destination__location">Italy</h6>
@@ -81,7 +81,7 @@
                         <p class="destination__length">3.5 weeks</p>
                     </div>
                 </div>
-                <div onclick="" class="destinations__grid-box">
+                <div onclick="" class="destinations__grid-box revealFade">
                     <div class="destination destination-3">
                         <h5 class="destination__name">Osaka</h5>
                         <h6 class="destination__location">Japan</h6>
@@ -89,7 +89,7 @@
                         <p class="destination__length">4 weeks</p>
                     </div>
                 </div>
-                <div onclick="" class="destinations__grid-box">
+                <div onclick="" class="destinations__grid-box revealFade">
                     <div class="destination destination-4">
                         <h5 class="destination__name">Queenstown</h5>
                         <h6 class="destination__location">New Zealand</h6>
@@ -97,7 +97,7 @@
                         <p class="destination__length">1.5 weeks</p>
                     </div>
                 </div>
-                <div onclick="" class="destinations__grid-box">
+                <div onclick="" class="destinations__grid-box revealFade">
                     <div class="destination destination-5">
                         <h5 class="destination__name">Jeju</h5>
                         <h6 class="destination__location">Korea</h6>
@@ -105,7 +105,7 @@
                         <p class="destination__length">2.5 weeks</p>
                     </div>
                 </div>
-                <div onclick="" class="destinations__grid-box">
+                <div onclick="" class="destinations__grid-box revealFade">
                     <div class="destination destination-6">
                         <h5 class="destination__name">København</h5>
                         <h6 class="destination__location">Denmark</h6>
@@ -113,7 +113,7 @@
                         <p class="destination__length">3 weeks</p>
                     </div>
                 </div>
-                <div onclick="" class="destinations__grid-box">
+                <div onclick="" class="destinations__grid-box revealFade">
                     <div class="destination destination-7">
                         <h5 class="destination__name">Puerto Viejo</h5>
                         <h6 class="destination__location">Costa Rica</h6>
@@ -121,7 +121,7 @@
                         <p class="destination__length">2 weeks</p>
                     </div>
                 </div>
-                <div onclick="" class="destinations__grid-box">
+                <div onclick="" class="destinations__grid-box revealFade">
                     <div class="destination destination-8">
                         <h5 class="destination__name">Valencia</h5>
                         <h6 class="destination__location">Spain</h6>
@@ -129,7 +129,7 @@
                         <p class="destination__length">4 weeks</p>
                     </div>
                 </div>
-                <div onclick="" class="destinations__grid-box">
+                <div onclick="" class="destinations__grid-box revealFade">
                     <div class="destination destination-9">
                         <h5 class="destination__name">Skopje</h5>
                         <h6 class="destination__location">North Macedonia</h6>
@@ -137,7 +137,7 @@
                         <p class="destination__length">3 weeks</p>
                     </div>
                 </div>
-                <div onclick="" class="destinations__grid-box">
+                <div onclick="" class="destinations__grid-box revealFade">
                     <div class="destination destination-10">
                         <h5 class="destination__name">Hoi An</h5>
                         <h6 class="destination__location">Vietnam</h6>
@@ -145,7 +145,7 @@
                         <p class="destination__length">2.5 weeks</p>
                     </div>
                 </div>
-                <div onclick="" class="destinations__grid-box">
+                <div onclick="" class="destinations__grid-box revealFade">
                     <div class="destination destination-11">
                         <h5 class="destination__name">Quito</h5>
                         <h6 class="destination__location">Ecuador</h6>
@@ -153,7 +153,7 @@
                         <p class="destination__length">3.5 weeks</p>
                     </div>
                 </div>
-                <div onclick="" class="destinations__grid-box">
+                <div onclick="" class="destinations__grid-box revealFade">
                     <div class="destination destination-12">
                         <h5 class="destination__name">Washington, DC</h5>
                         <h6 class="destination__location">USA</h6>
@@ -164,8 +164,8 @@
             </div>
         </section>
         <div class="cta">
-            <h4 class="cta__header">Don't miss a thing and subscribe to my newsletter</h4>
-            <form class="cta__form" id="form" action="#">
+            <h4 class="cta__header revealLeft">Don't miss a thing and subscribe to my newsletter</h4>
+            <form class="cta__form revealRight" id="form" action="#">
                 <input class="cta__form-input" name="email" id="email" type="email"
                     placeholder="Enter your email address" required />
                 <button for="email" type="submit" class="cta__form-button">
@@ -176,7 +176,7 @@
         <footer class="footer">
             <div class="footer__logo-box">
                 <picture class="footer__logo">
-                    <img src="img/logo-light.png" alt="Minimalist Nomad logo" class="footer__logo">
+                    <img src="img/logo-light.png" alt="Minimalist Nomad logo" class="footer__logo revealLeft">
                 </picture>
             </div>
             <ul class="footer-nav">
@@ -189,23 +189,17 @@
         </footer>
     </div>
 
-    <!-- Script for Hamburger Menu -->
-    <script src="js/navbar.js"></script>
-
     <!-- jQuery for the Header Scroll Function -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
 
-    <!-- Header Scroll Function -->
-    <script>
-        $(function () {
-            $(document).scroll(function () {
-                var $nav=$("#header");
-                $nav.toggleClass("destinations__header-scrolled", $(this).scrollTop()>$nav.height());
-            });
-        });
-    </script>
+    <!-- Script for Hamburger Menu and Scrolled class -->
+    <script src="js/navbar.js"></script>
+
+    <!-- Script for Reveal on Scroll -->
+    <script src="js/reveal.js"></script>
+
 </body>
 
 

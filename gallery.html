@@ -16,7 +16,7 @@
 
 <body>
     <div class="container container__gallery">
-        <header id="header" class="main-gallery__header header">
+        <header id="header" class="header">
             <a href="./index.html" rel="home" class="header__logo">
                 <picture>
                     <source class="header__logo" media="(min-width: 56.26em)" srcset="img/logo-light.png" />
@@ -194,12 +194,12 @@
         <footer id="footer" class="footer">
             <div class="footer__logo-box">
                 <picture class="footer__logo">
-                    <img src="img/logo-light.png" alt="Minimalist Nomad logo" class="footer__logo">
+                    <img src="img/logo-light.png" alt="Minimalist Nomad logo" class="footer__logo revealLeft">
                 </picture>
             </div>
             <div class="footer__cta">
-                <h4 class="footer__cta-header">Don't miss a thing and subscribe to my newsletter:</h4>
-                <form class="cta__form" id="form" action="#">
+                <h4 class="footer__cta-header revealRight">Don't miss a thing and subscribe to my newsletter:</h4>
+                <form class="cta__form revealLeft" id="form" action="#">
                     <input class="cta__form-input" name="email" id="email" type="email"
                         placeholder="Enter your email address" required />
                     <button for="email" type="submit" class="cta__form-button">
@@ -217,23 +217,17 @@
         </footer>
     </div>
 
-    <!-- Script for Hamburger Menu -->
-    <script src="js/navbar.js"></script>
-
     <!-- jQuery for the Header Scroll Function -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
 
-    <!-- Header Scroll Function -->
-    <script>
-        $(function () {
-            $(document).scroll(function () {
-                var $nav=$("#header");
-                $nav.toggleClass("main-gallery__header-scrolled", $(this).scrollTop()>$nav.height());
-            });
-        });
-    </script>
+    <!-- Script for Hamburger Menu and Scrolled class -->
+    <script src="js/navbar.js"></script>
+
+    <!-- Script for Reveal on Scroll -->
+    <script src="js/reveal.js"></script>
+
 </body>
 
 

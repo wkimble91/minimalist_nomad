@@ -97,6 +97,31 @@ body {
 }
 
 /*-- -------------------------- -->
+<---    JS Animation Classes    -->
+<--- -------------------------- -*/
+.revealRight {
+    transform: translateX(15rem);
+    opacity: 0;
+    transition: 1s all ease;
+}
+.revealLeft {
+    transform: translateX(-15rem);
+    opacity: 0;
+    transition: 1s all ease;
+}
+.revealFade {
+    opacity: 0;
+    transition: 1s all ease;
+}
+
+.revealRight.active,
+.revealLeft.active,
+.revealFade.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/*-- -------------------------- -->
 <---       Comment order        -->
 <--- -------------------------- -*/
 //Mixin

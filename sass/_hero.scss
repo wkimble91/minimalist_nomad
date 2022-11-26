@@ -21,29 +21,6 @@
     background-size: cover;
     background-position: top;
 
-    &__header {
-        //Spacing
-        height: 9rem;
-
-        //Color Styling
-        background-color: transparent;
-
-        //Animations
-        transition: all 0.2s;
-
-        &-scrolled {
-            /* This is applied when you scroll the height of the navbar */
-            //Spacing
-            height: 7rem;
-
-            //Font Styling
-            font-size: 1.8rem;
-
-            //Color Styling
-            background-color: $color-grey-dark-1;
-        }
-    }
-
     &__title {
         //Spacing
         margin-bottom: 2.8rem;
