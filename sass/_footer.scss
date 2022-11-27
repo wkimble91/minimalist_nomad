@@ -23,6 +23,7 @@
 
         //Spacing
         padding-bottom: 15rem;
+        width: 100%;
 
         //Font Styling
         text-align: center;
@@ -51,7 +52,7 @@
     }
     &__logo-box {
         //Spacing
-        margin: 20rem 6rem 10rem;
+        margin: 20rem auto 10rem;
 
         //Font Styling
         text-align: center;
@@ -65,6 +66,10 @@
             //Spacing
             width: 35rem;
         }
+    }
+
+    &__container {
+        width: 100%;
     }
 
     &-nav {
