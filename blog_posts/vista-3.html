@@ -65,10 +65,10 @@
         <section id="blog-post" class="blog">
             <h1 class="blog-heading blog-post__heading--vista-3">How is New Zealand real?</h1>
             <div class="blog-post__box">
-                <img class="blog-post__image" src="../img/blog/vista-3.jpg" alt="Pasta">
-                <h3 class="blog-post__sub-heading">Getting lost in the best way</h3>
-                <hr class="blog-post__divider">
-                <div class="blog-post__description">
+                <img class="blog-post__image revealFade" src="../img/blog/vista-3.jpg" alt="Pasta">
+                <h3 class="blog-post__sub-heading revealFade">Getting lost in the best way</h3>
+                <hr class="blog-post__divider revealFade">
+                <div class="blog-post__description revealFade">
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui voluptates
                         placeat aut voluptate soluta fugiat earum molestiae cumque nesciunt error animi fuga unde
                         cupiditate,
@@ -113,10 +113,10 @@
                         nulla eum vitae?
                     </p>
                 </div>
-                <img class="blog-post__image" src="../img/blog/vista-3.jpg" alt="Pasta">
-                <h3 class="blog-post__sub-heading">GROND GROND GROND</h3>
-                <hr class="blog-post__divider">
-                <div class="blog-post__description">
+                <img class="blog-post__image revealFade" src="../img/blog/vista-3.jpg" alt="Pasta">
+                <h3 class="blog-post__sub-heading revealFade">GROND GROND GROND</h3>
+                <hr class="blog-post__divider revealFade">
+                <div class="blog-post__description revealFade">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est molestias quo
                         officia tempore ad. Ratione aut amet cumque dolor! Vel sint hic inventore unde eligendi
                         voluptatum
@@ -165,8 +165,8 @@
             </div>
         </section>
         <div class="cta">
-            <h4 class="cta__header">Don't miss a thing and subscribe to my newsletter</h4>
-            <form class="cta__form" id="form" action="#">
+            <h4 class="cta__header revealLeft">Don't miss a thing and subscribe to my newsletter</h4>
+            <form class="cta__form revealRight" id="form" action="#">
                 <input class="cta__form-input" name="email" id="email" type="email"
                     placeholder="Enter your email address" required />
                 <button for="email" type="submit" class="cta__form-button">
@@ -177,7 +177,7 @@
         <footer class="footer">
             <div class="footer__logo-box">
                 <picture class="footer__logo">
-                    <img src="../img/logo-light.png" alt="Minimalist Nomad logo" class="footer__logo">
+                    <img src="../img/logo-light.png" alt="Minimalist Nomad logo" class="footer__logo revealLeft">
                 </picture>
             </div>
             <ul class="footer-nav">
@@ -190,23 +190,17 @@
         </footer>
     </div>
 
-    <!-- Script for Hamburger Menu -->
-    <script src="../js/navbar.js"></script>
-
     <!-- jQuery for the Header Scroll Function -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
 
-    <!-- Header Scroll Function -->
-    <script>
-        $(function () {
-            $(document).scroll(function () {
-                var $nav=$("#header");
-                $nav.toggleClass("blog-post__header-scrolled", $(this).scrollTop()>$nav.height());
-            });
-        });
-    </script>
+    <!-- Script for Hamburger Menu and Scrolled class -->
+    <script src="../js/navbar.js"></script>
+
+    <!-- Script for Reveal on Scroll -->
+    <script src="../js/reveal.js"></script>
+
 </body>
 
 
