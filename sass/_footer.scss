@@ -76,15 +76,29 @@
         //Display
         display: grid;
         grid-template-columns: repeat(4, minmax(6rem, 1fr));
-        grid-gap: 2rem;
+        grid-gap: 4rem;
         align-items: center;
+
+        //Spacing
+        margin: 0 20rem;
 
         //Font Styling
         list-style: none;
 
+        @media only screen and (max-width: $bp-largest) {
+            //Spacing
+            margin: 0 12rem;
+        }
         @media only screen and (max-width: $bp-medium) {
             //Display
             grid-gap: 1rem;
+
+            //Spacing
+            margin: 0 8rem;
+        }
+        @media only screen and (max-width: $bp-small) {
+            //Spacing
+            margin: 0;
         }
 
         &__link:link,
