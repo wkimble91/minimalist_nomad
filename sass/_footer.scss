@@ -139,4 +139,12 @@
 
     //Color Styling
     color: $color-grey-light-2;
+
+    &__link {
+        //Font Styling
+        text-decoration: none;
+
+        //Color Styling
+        color: $color-grey-light-2;
+    }
 }
