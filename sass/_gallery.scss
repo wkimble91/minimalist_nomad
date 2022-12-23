@@ -92,6 +92,19 @@
                 rgba(0, 0, 0, 0.7) 0%,
                 rgba(0, 0, 0, 0.7) 100%
             );
+
+            @media only screen and (max-width: $bp-largest) {
+                height: 28%;
+            }
+            @media only screen and (max-width: $bp-large) {
+                height: 25%;
+            }
+            @media only screen and (max-width: $bp-medium) {
+                height: 30%;
+            }
+            @media only screen and (max-width: $bp-smallest) {
+                height: 100%;
+            }
         }
 
         &:hover::after {
