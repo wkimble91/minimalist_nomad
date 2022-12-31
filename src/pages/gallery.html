@@ -1,0 +1,186 @@
+---
+layout: 'base.html'
+description: "Gallery for Minimalist Nomad Blog"
+metaTitle: "Minimalist Nomad"
+tagTitle: "Minimalist Nomad"
+permalink: 'gallery/'
+---
+
+<!-- 
+This is to pre load any image above the fold (hero section background).
+-->
+
+{% block preload %}
+<!-- <link rel="preload" as="image" href="/assets/images/landing.jpg"> -->
+{% endblock %}
+
+{% block pageCSS %}
+<link rel="stylesheet" href="/css/gallery.css">
+<link rel="stylesheet" href="/css/local.css">
+
+<!--Defer loading the whole page css-->
+<link rel="stylesheet" href="/css/local.css" media="print" onload="this.media='all'; this.onload=null;">
+{% endblock %}
+
+<!-- End of templating -->
+
+<!-- ============================================ -->
+<!--               Gallery Section                -->
+<!-- ============================================ -->
+
+<div class="container container__gallery">
+    <div id="gallery" class="main-gallery">
+        <h1 class="main-heading main-gallery__heading">Gallery</h1>
+        <div class="main-gallery__grid-box">
+            <div onclick="" class="main-gallery__image revealFade">
+                <img class="main-gallery__img" src="../assets/images/main-gallery/italy-cabin.jpg" alt="Cabin on lake">
+                <p class="main-gallery__image-title">Cabin on Lago di braies</p>
+                <p class="main-gallery__image-location">Lago di braies, Italy</p>
+            </div>
+            <div onclick="" class="main-gallery__image revealFade">
+                <img class="main-gallery__img" src="../assets/images/main-gallery/washington-cherryblossoms.jpg"
+                    alt="Cherry blossom trees">
+                <p class="main-gallery__image-title">Cherry Blossom Festival</p>
+                <p class="main-gallery__image-location">Washington D.C., USA</p>
+            </div>
+            <div onclick="" class="main-gallery__image revealFade">
+                <img class="main-gallery__img" src="../assets/images/main-gallery/osaka-octopus.jpg" alt="Octopus sign">
+                <p class="main-gallery__image-title">Takoyaki Store</p>
+                <p class="main-gallery__image-location">Osaka, Japan</p>
+            </div>
+            <div onclick="" class="main-gallery__image revealFade">
+                <img class="main-gallery__img" src="../assets/images/main-gallery/denmark-lighthouse.jpg"
+                    alt="Lighthouse">
+                <p class="main-gallery__image-title">The Lyngvig Lighthouse</p>
+                <p class="main-gallery__image-location">København, Denmark</p>
+            </div>
+            <div onclick="" class="main-gallery__image revealFade">
+                <img class="main-gallery__img" src="../assets/images/main-gallery/osaka-gate.jpg" alt="Torii gates">
+                <p class="main-gallery__image-title">Torii Gate</p>
+                <p class="main-gallery__image-location">Osaka, Japan</p>
+            </div>
+            <div onclick="" class="main-gallery__image revealFade">
+                <img class="main-gallery__img" src="../assets/images/main-gallery/washington-smithsonian.jpg"
+                    alt="Smithsonian Statue">
+                <p class="main-gallery__image-title">Smithsonian Institution</p>
+                <p class="main-gallery__image-location">Washington D.C., USA</p>
+            </div>
+            <div onclick="" class="main-gallery__image revealFade">
+                <img class="main-gallery__img" src="../assets/images/main-gallery/scotland-edinburghcastle.jpg"
+                    alt="Castle">
+                <p class="main-gallery__image-title">Edinburgh Castle</p>
+                <p class="main-gallery__image-location">Edinburgh, Scotland</p>
+            </div>
+            <div onclick="" class="main-gallery__image revealFade">
+                <img class="main-gallery__img" src="../assets/images/main-gallery/italy-wine.jpg"
+                    alt="Two wine glasses">
+                <p class="main-gallery__image-title">Couple Glasses of Wine</p>
+                <p class="main-gallery__image-location">Camogli, Italy</p>
+            </div>
+            <div onclick="" class="main-gallery__image revealFade">
+                <img class="main-gallery__img" src="../assets/images/main-gallery/korea-nightsteet.jpg"
+                    alt="Street at night">
+                <p class="main-gallery__image-title">Nighttime Walkway</p>
+                <p class="main-gallery__image-location">Jeju, Korea</p>
+            </div>
+            <div onclick="" class="main-gallery__image revealFade">
+                <img class="main-gallery__img" src="../assets/images/main-gallery/vietnam-lanterns.jpg"
+                    alt="Paper lanterns">
+                <p class="main-gallery__image-title">Paper Lanterns</p>
+                <p class="main-gallery__image-location">Hoi An, Vietnam</p>
+            </div>
+            <div onclick="" class="main-gallery__image revealFade">
+                <img class="main-gallery__img" src="../assets/images/main-gallery/ecuador-llama.jpg" alt="Two llamas">
+                <p class="main-gallery__image-title">Llamas relaxing in a valley</p>
+                <p class="main-gallery__image-location">Near Quito, Ecuador</p>
+            </div>
+            <div onclick="" class="main-gallery__image revealFade">
+                <img class="main-gallery__img" src="../assets/images/main-gallery/italy-colorfulhouse.jpg"
+                    alt="Entranceway">
+                <p class="main-gallery__image-title">Colorful Entranceway</p>
+                <p class="main-gallery__image-location">Camogli, Italy</p>
+            </div>
+            <div onclick="" class="main-gallery__image revealFade">
+                <img class="main-gallery__img" src="../assets/images/main-gallery/osaka-coffee.jpg" alt="Coffee Cup">
+                <p class="main-gallery__image-title">Cute Coffee</p>
+                <p class="main-gallery__image-location">Osaka, Japan</p>
+            </div>
+            <div onclick="" class="main-gallery__image revealFade">
+                <img class="main-gallery__img" src="../assets/images/main-gallery/scotland-neistpointlighthouse.jpg"
+                    alt="Lighthouse">
+                <p class="main-gallery__image-title">Neist Point Lighthouse</p>
+                <p class="main-gallery__image-location">Neist Point, Scotland</p>
+            </div>
+            <div onclick="" class="main-gallery__image revealFade">
+                <img class="main-gallery__img" src="../assets/images/main-gallery/korea-taiyaki.jpg" alt="Taiyaki">
+                <p class="main-gallery__image-title">Taiyaki Shop</p>
+                <p class="main-gallery__image-location">Jeju, Korea</p>
+            </div>
+            <div onclick="" class="main-gallery__image revealFade">
+                <img class="main-gallery__img" src="../assets/images/main-gallery/korea-daystreet.jpg"
+                    alt="Street during day">
+                <p class="main-gallery__image-title">Daytime Walkway</p>
+                <p class="main-gallery__image-location">Jeju, Korea</p>
+            </div>
+            <div onclick="" class="main-gallery__image revealFade">
+                <img class="main-gallery__img" src="../assets/images/main-gallery/vietnam-hand.jpg"
+                    alt="Hands holding bridge">
+                <p class="main-gallery__image-title">Bridge held by Giant Hands</p>
+                <p class="main-gallery__image-location">Da Nang, Vietnam</p>
+            </div>
+            <div onclick="" class="main-gallery__image revealFade">
+                <img class="main-gallery__img" src="../assets/images/main-gallery/italy-venicegondolas.jpg"
+                    alt="Gondolas">
+                <p class="main-gallery__image-title">Gondolas in Venice</p>
+                <p class="main-gallery__image-location">Camogli, Italy</p>
+            </div>
+            <div onclick="" class="main-gallery__image revealFade">
+                <img class="main-gallery__img" src="../assets/images/main-gallery/osaka-fish.jpg" alt="Koi">
+                <p class="main-gallery__image-title">Koi in tranquil waters</p>
+                <p class="main-gallery__image-location">Fukushima, Japan</p>
+            </div>
+            <div onclick="" class="main-gallery__image revealFade">
+                <img class="main-gallery__img" src="../assets/images/main-gallery/scotland-deanvillage.jpg"
+                    alt="Village">
+                <p class="main-gallery__image-title">Calming Village</p>
+                <p class="main-gallery__image-location">Dean, Scotland</p>
+            </div>
+            <div onclick="" class="main-gallery__image revealFade">
+                <img class="main-gallery__img" src="../assets/images/main-gallery/scotland-whitehouseglencoe.jpg"
+                    alt="Small house">
+                <p class="main-gallery__image-title">White House</p>
+                <p class="main-gallery__image-location">Glencoe, Scotland</p>
+            </div>
+            <div onclick="" class="main-gallery__image revealFade">
+                <img class="main-gallery__img" src="../assets/images/main-gallery/italy-canals.jpg" alt="Canals">
+                <p class="main-gallery__image-title">Canals at night</p>
+                <p class="main-gallery__image-location">Camogli, Italy</p>
+            </div>
+            <div onclick="" class="main-gallery__image revealFade">
+                <img class="main-gallery__img" src="../assets/images/main-gallery/ecuador-parrot.jpg" alt="Parrot">
+                <p class="main-gallery__image-title">Parrot resting</p>
+                <p class="main-gallery__image-location">Quito, Ecuador</p>
+            </div>
+            <div onclick="" class="main-gallery__image revealFade">
+                <img class="main-gallery__img" src="../assets/images/main-gallery/scotland-lochcoruisk.jpg" alt="Lake">
+                <p class="main-gallery__image-title">Loch Coruisk</p>
+                <p class="main-gallery__image-location">Coruisk, Scotland</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============================================ -->
+    <!--                 CTA (Black)                  -->
+    <!-- ============================================ -->
+
+    <div class="cta-black">
+        <h4 class="cta-black__header revealLeft">Don't miss a thing and subscribe to my newsletter</h4>
+        <form class="cta-black__form revealRight" id="form" action="#">
+            <input class="cta-black__form-input" name="email" id="email" type="email"
+                placeholder="Enter your email address" required />
+            <button for="email" type="submit" class="cta-black__form-button">
+                <span class="cta-black__form-button-text">Submit</span>
+            </button>
+        </form>
+    </div>
+</div>

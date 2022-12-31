@@ -1,6 +1,2 @@
-node_modules/
-css/icon-font.css
-css/style.comp.css
-css/style.comp.css.map
-css/style.prefix.css
-css/style.css.map
+node_modules
+public

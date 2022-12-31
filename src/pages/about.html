@@ -1,0 +1,208 @@
+---
+layout: 'base.html'
+description: "About the Minimalist Nomad Blog"
+metaTitle: "Minimalist Nomad"
+tagTitle: "Minimalist Nomad"
+permalink: 'about/'
+---
+
+<!-- 
+This is to pre load any image above the fold (hero section background).
+-->
+
+{% block preload %}
+<!-- <link rel="preload" as="image" href="/assets/images/landing.jpg"> -->
+{% endblock %}
+
+{% block pageCSS %}
+<link rel="stylesheet" href="/css/about.css">
+<link rel="stylesheet" href="/css/local.css">
+
+<!--Defer loading the whole page css-->
+<link rel="stylesheet" href="/css/local.css" media="print" onload="this.media='all'; this.onload=null;">
+{% endblock %}
+
+<!-- End of templating -->
+
+<!-- ============================================ -->
+<!--                 About Section                -->
+<!-- ============================================ -->
+
+<div class="container container__about">
+
+    <section id="about" class="about">
+        <h1 class="main-heading about__heading">About Me</h1>
+        <div class="about__box">
+            <img class="about__image revealFade" src="../assets/images/about/gear.jpg" alt="Backpack">
+            <h3 class="about__head revealFade">My gear</h3>
+            <hr class="about__divider revealFade">
+            <div class="about__description revealFade">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio porro
+                    voluptatibus eaque, soluta blanditiis numquam aut culpa at iusto nesciunt? Quaerat,
+                    assumenda.
+                    Aliquid
+                    mollitia facilis, dolore temporibus omnis perspiciatis veritatis?
+                    Voluptatum dolores ipsum quibusdam sed consequuntur soluta, optio debitis commodi qui eum
+                    explicabo
+                    doloribus, dolore, perspiciatis deserunt totam dolorum. Vero modi omnis eaque ab laudantium
+                    explicabo
+                    minima ut hic temporibus!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum iusto, quam repellendus ea
+                    reprehenderit rem nulla sit debitis suscipit officiis quis odit, nobis, fugiat dicta impedit
+                    ratione neque molestiae sapiente?
+                </p><br>
+                <p>Voluptatum, sequi voluptas impedit odit temporibus distinctio velit blanditiis inventore
+                    minus
+                    quisquam,
+                    nobis consectetur illo harum! Nihil omnis ratione aliquam, harum, perferendis autem ab
+                    repellat,
+                    labore
+                    mollitia quaerat error illo.
+                    Repellendus beatae hic consequuntur ad tenetur ipsum, laboriosam, unde, cupiditate
+                    asperiores
+                    porro
+                    sapiente ea odit cum rem praesentium. Quos vero labore sunt eum corrupti sequi voluptatem
+                    corporis
+                    saepe
+                    voluptas blanditiis.
+                </p><br>
+                <p>Ea doloremque expedita atque sequi repellendus delectus dolore deleniti ut fugit soluta
+                    explicabo
+                    impedit corporis, tempora sint laudantium earum. Laboriosam voluptatibus, soluta est
+                    temporibus
+                    sint
+                    esse eum reprehenderit aut qui?
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident et exercitationem dicta
+                    commodi
+                    quia
+                    accusamus! Ea laborum doloribus iste id quae necessitatibus fuga, nulla tempora maxime atque
+                    non,
+                    aut
+                    veniam.
+                </p>
+            </div>
+            <img class="about__image revealFade" src="../assets/images/about/budget.jpg" alt="Checkbook">
+            <h3 class="about__head revealFade">My budget</h3>
+            <hr class="about__divider revealFade">
+            <div class="about__description revealFade">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui voluptates
+                    placeat aut voluptate soluta fugiat earum molestiae cumque nesciunt error animi fuga unde
+                    cupiditate,
+                    consectetur magni consequuntur totam labore voluptas.
+                    Ullam neque, iste, optio autem quos facilis voluptate minus soluta non officia eum accusamus
+                    dicta.
+                    Modi
+                    repellat amet corporis earum ipsum magni. Itaque deserunt quia aspernatur in? Et, rem
+                    reprehenderit?
+                </p><br>
+                <p>Qui doloribus eaque voluptatem exercitationem quis eveniet hic repellat molestias dolor!
+                    Rerum
+                    dicta
+                    reiciendis incidunt nihil, rem, recusandae, quidem cumque sint ipsum deleniti blanditiis
+                    eius
+                    veritatis
+                    at illo provident aut.
+                    Repudiandae laudantium praesentium, ad eum fuga, a rem aut veniam atque numquam similique,
+                    officiis
+                    totam! Velit non mollitia iure voluptate deleniti ex ut consequuntur, corrupti aperiam nihil
+                    nostrum
+                    dolores voluptas.
+                </p><br>
+                <p>Fugit neque saepe eveniet! Saepe nulla possimus voluptatem eum illum natus corrupti delectus.
+                    Assumenda,
+                    hic quae cumque aspernatur earum, omnis eligendi porro temporibus dolores odit ea voluptate,
+                    harum
+                    reiciendis accusantium?
+                    Magni consectetur ducimus quos provident pariatur nesciunt itaque, quia vitae, mollitia
+                    maiores
+                    deserunt
+                    libero officiis ullam nostrum ipsa placeat aliquid quis. Voluptatum harum aut dolorum
+                    cupiditate
+                    ad
+                    nemo
+                    exercitationem eligendi.
+                </p><br>
+                <p>Numquam perspiciatis aspernatur eum sit cumque inventore maiores at corporis! Ullam,
+                    laboriosam
+                    perferendis corporis molestiae enim dolorum aut! Soluta doloremque veritatis nobis at, ipsam
+                    est
+                    ipsa
+                    recusandae numquam ducimus molestias.
+                    Quaerat, impedit? Accusantium a eos nihil. Facilis reprehenderit nemo unde aliquid non
+                    dolorum
+                    delectus,
+                    rerum amet maiores doloribus blanditiis expedita minima quasi enim. Inventore fugiat
+                    deleniti
+                    nesciunt
+                    nulla eum vitae?
+                </p>
+            </div>
+            <img class="about__image revealFade" src="../assets/images/about/philosophy.jpg" alt="Waterfall">
+            <h3 class="about__head revealFade">My philosophy</h3>
+            <hr class="about__divider revealFade">
+            <div class="about__description revealFade">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est molestias quo
+                    officia tempore ad. Ratione aut amet cumque dolor! Vel sint hic inventore unde eligendi
+                    voluptatum
+                    aut
+                    aspernatur quia maiores?
+                    At consequuntur molestiae, expedita assumenda earum odit esse vero quis. Possimus officia
+                    voluptatem
+                    vero expedita molestiae, incidunt dolores quos veritatis, provident quas facere dignissimos
+                    voluptatum
+                    enim laboriosam tempore fuga consequuntur?
+                </p><br>
+                <p>Quidem voluptatem id natus eveniet? Ullam impedit necessitatibus dignissimos deleniti, quod
+                    ab
+                    eos
+                    adipisci ipsum alias laudantium molestiae minus eveniet explicabo sapiente facilis animi
+                    fuga
+                    labore
+                    optio unde laborum laboriosam.
+                    Sint cum consequatur numquam, vitae eum culpa sapiente eligendi temporibus, eos, magnam
+                    laboriosam
+                    adipisci tempore possimus in error! Ipsa assumenda sunt sapiente necessitatibus repellat
+                    voluptates
+                    ab
+                    nisi nesciunt inventore eos.
+                </p><br>
+                <p>Assumenda quas quo accusantium debitis quam recusandae unde eius perspiciatis impedit,
+                    officiis
+                    sit
+                    aut
+                    sequi voluptatibus a nobis rem. Doloribus nihil porro officia voluptatem, reiciendis aut
+                    earum
+                    quibusdam? Doloribus, dolore!
+                    Rerum repellendus, non veritatis tempore qui odit voluptatum laborum modi cumque tenetur
+                    culpa
+                    dignissimos, accusamus cupiditate. Voluptatem, incidunt? Earum quae esse suscipit optio quod
+                    soluta
+                    commodi cum nulla perspiciatis architecto!
+                </p><br>
+                <p>Quia natus, tempora ut laudantium, in iste a inventore temporibus ratione non dolore
+                    cupiditate
+                    amet
+                    sequi rem quaerat voluptatum impedit praesentium. Dolor, minima sapiente culpa perspiciatis
+                    libero
+                    adipisci ea nostrum?
+                    Voluptatum id repellat neque vel natus saepe, doloremque, eligendi nisi explicabo nemo unde
+                    praesentium
+                    ut vero modi, ducimus ipsum amet quam consequuntur quo. Provident quis accusamus iusto sunt
+                    nulla
+                    dolores.
+                </p>
+            </div>
+        </div>
+    </section>
+    <div class="cta">
+        <h4 class="cta__header revealLeft">Don't miss a thing and subscribe to my newsletter</h4>
+        <form class="cta__form revealRight" id="form" action="#">
+            <input class="cta__form-input" name="email" id="email" type="email" placeholder="Enter your email address"
+                required />
+            <button for="email" type="submit" class="cta__form-button">
+                <span class="cta__form-button-text">Submit</span>
+            </button>
+        </form>
+    </div>
+
+</div>

@@ -1,0 +1,149 @@
+/*-- -------------------------- -->
+<---            Hero            -->
+<--- -------------------------- -*/
+
+.hero {
+    //Parent
+    grid-row: 2 / span 1;
+
+    //Display
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    //Spacing
+    position: relative;
+
+    //Image Styling
+    background-image: linear-gradient(
+            to bottom,
+            rgba(#30362f, 0.1),
+            rgba(#272c26, 0.95)
+        ),
+        url(../assets/images/hero.jpg);
+    background-size: cover;
+    background-position: top;
+
+    &__title {
+        //Spacing
+        margin-bottom: 2.8rem;
+
+        //Font Styling
+        font-size: 8rem;
+        font-weight: 200;
+        line-height: 1;
+
+        //Color Styling
+        color: var(--color-grey-light-1);
+
+        //Animations
+        animation: moveInLeft 0.8s ease-out;
+
+        @media only screen and (max-width: 56.25em) {
+            //Font Styling
+            font-size: 6rem;
+        }
+        @media only screen and (max-width: 37.5em) {
+            //Spacing
+            margin-bottom: 2rem;
+
+            //Font Styling
+            font-size: 4.5rem;
+        }
+    }
+    &__subtitle {
+        //Spacing
+        position: relative;
+        margin-bottom: 20vh;
+
+        //Font Styling
+        font-size: 2.6rem;
+        font-weight: 200;
+        line-height: 1;
+
+        //Color Styling
+        color: var(--color-grey-light-1);
+
+        //Animations
+        animation: moveInLeft 0.8s ease-out 0.8s;
+        animation-fill-mode: backwards;
+
+        & span {
+            //Display
+            display: none;
+
+            //Spacing
+            margin-top: 1rem;
+            margin-left: auto;
+            margin-right: auto;
+            left: 0;
+            right: 0;
+
+            //Font Styling
+            font-size: 1.4rem;
+            text-align: center;
+        }
+        &:hover > span {
+            //Display
+            display: block;
+
+            //Spacing
+            position: absolute;
+        }
+
+        @media only screen and (max-width: 56.25em) {
+            //Font Styling
+            font-size: 2rem;
+        }
+        @media only screen and (max-width: 37.5em) {
+            //Font Styling
+            font-size: 1.6rem;
+        }
+    }
+    &__button {
+        cursor: pointer;
+
+        //Spacing
+        padding: 1.2rem 2rem;
+        margin-bottom: -10vh;
+
+        //Font Styling
+        font-size: 1.8rem;
+        font-weight: 300;
+        text-transform: uppercase;
+        text-decoration: none;
+
+        //Color Styling
+        background-color: var(--color-primary);
+        color: #fff;
+
+        //Border Styling
+        border: none;
+        border-radius: 1rem;
+        box-shadow: 0 1rem 4rem rgba(#000, 0.2);
+
+        //Animations
+        transition: all 0.3s;
+
+        &:hover {
+            //Border Styling
+            box-shadow: 0 1rem 4rem rgba(#000, 0.4);
+
+            //Animations
+            transform: scale(1.06);
+        }
+
+        @media only screen and (max-width: 56.25em) {
+            //Spacing
+            padding: 1.8rem 3.8rem;
+
+            //Font Styling
+            font-size: 1.2rem;
+        }
+        @media only screen and (max-width: 37.5em) {
+            //Spacing
+            padding: 1.2rem 2.6rem;
+        }
+    }
+}

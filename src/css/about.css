@@ -1,0 +1,12 @@
+.about { grid-row: 2 / span 1; }
+.about__heading { background-image: -webkit-gradient(linear, left top, left bottom, from(black), color-stop(10%, rgba(0, 0, 0, 0.7)), color-stop(40%, rgba(0, 0, 0, 0.4)), color-stop(60%, rgba(0, 0, 0, 0.4)), color-stop(90%, rgba(0, 0, 0, 0.7)), to(black)), url(../assets/images/about/about-banner2x.jpg); background-image: linear-gradient(to bottom, black 0%, rgba(0, 0, 0, 0.7) 10%, rgba(0, 0, 0, 0.4) 40%, rgba(0, 0, 0, 0.4) 60%, rgba(0, 0, 0, 0.7) 90%, black 100%), url(../assets/images/about/about-banner2x.jpg); }
+@media only screen and (max-width: 56.25em) { .about__heading { background-image: -webkit-gradient(linear, left top, left bottom, from(black), color-stop(10%, rgba(0, 0, 0, 0.7)), color-stop(40%, rgba(0, 0, 0, 0.4)), color-stop(60%, rgba(0, 0, 0, 0.4)), color-stop(90%, rgba(0, 0, 0, 0.7)), to(black)), url(../assets/images/about/about-banner1x.jpg); background-image: linear-gradient(to bottom, black 0%, rgba(0, 0, 0, 0.7) 10%, rgba(0, 0, 0, 0.4) 40%, rgba(0, 0, 0, 0.4) 60%, rgba(0, 0, 0, 0.7) 90%, black 100%), url(../assets/images/about/about-banner1x.jpg); } }
+.about__box { width: 40%; margin: 10rem auto 0; }
+@media only screen and (max-width: 87.5em) { .about__box { width: 50%; } }
+@media only screen and (max-width: 75em) { .about__box { width: 70%; } }
+@media only screen and (max-width: 56.25em) { .about__box { width: 90%; } }
+.about__image { width: 100%; -o-object-fit: contain; object-fit: contain; -o-object-position: center center; object-position: center center; border: 2px solid var(--color-primary-dark); }
+.about__head { z-index: 2; padding: 2rem 0 1.4rem; font-size: 3rem; font-weight: 600; letter-spacing: 0.4rem; text-transform: uppercase; }
+.about__divider { width: 10rem; margin: 0 auto 0 0; color: var(--color-secondary); border-top-width: 2px; }
+.about__description { padding: 8rem 0 10rem; font-size: 1.6rem; line-height: 3.2rem; text-indent: 3rem; color: var(--color-grey-dark-1); }
+@media only screen and (max-width: 56.25em) { .about__description { padding: 5rem 0 7rem; line-height: 2.8rem; } }

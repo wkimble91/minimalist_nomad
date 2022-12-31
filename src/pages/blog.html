@@ -1,0 +1,92 @@
+---
+layout: 'base.html'
+description: "Gallery for Minimalist Nomad Blog"
+metaTitle: "Minimalist Nomad"
+tagTitle: "Minimalist Nomad"
+permalink: 'blog/'
+---
+
+<!-- 
+This is to pre load any image above the fold (hero section background).
+-->
+
+{% block preload %}
+<!-- <link rel="preload" as="image" href="/assets/images/landing.jpg"> -->
+{% endblock %}
+
+{% block pageCSS %}
+<link rel="stylesheet" href="/css/blog.css">
+<link rel="stylesheet" href="/css/local.css">
+
+<!--Defer loading the whole page css-->
+<link rel="stylesheet" href="/css/local.css" media="print" onload="this.media='all'; this.onload=null;">
+{% endblock %}
+
+<!-- End of templating -->
+
+<!-- ============================================ -->
+<!--              Main Blog Content               -->
+<!-- ============================================ -->
+<div class="container container__blog">
+  <section id="blog" class="blog">
+    <h1 class="main-heading blog__heading">Blog Posts</h1>
+
+    <div class="blog-container main-content-wrapper">
+      <!--Main content -->
+      <div class="main-content">
+        <!-- ============================================ -->
+        <!--                 Blog Articles                -->
+        <!-- ============================================ -->
+
+        {% if collections.post |length == 0 %}
+        <h1>No Recent Posts</h1>
+        {% endif %}
+        {%- for post in collections.post | reverse -%}
+        <article class="recent-articles revealFade">
+          <!--Main Article Image-->
+          <picture class="blog-mainImage">
+            <img src="{{ post.data.image }}" alt="{{ post.data.imageAlt }}" width="795" height="400" decoding="async" />
+          </picture>
+          <!--Article Info-->
+          <div class="article-group">
+            <div class="blog-authorGroup">
+              <!--Author Image-->
+              <picture class="blog-author-img">
+                <img src="/assets/images/profile.svg" alt="house" width="32" height="32" decoding="async" />
+              </picture>
+              <span class="blog-author">{{ post.data.author }}</span>
+              <span aria-hidden="true" class="blog-dot"></span>
+              <!--Blog Date-->
+              <span class="blog-date">{{ post.date | postDate }}</span>
+              <span class="blog-tag">#{{ post.data.blogTag }}</span>
+            </div>
+            <h2 class="blog-h1">
+              {{ post.data.blogTitle }}
+            </h2>
+            <p class="blog-desc">
+              {{ post.data.blogDescription }}
+            </p>
+            <a href="{{ post.url }}" class="blog-link">Continue Reading</a>
+          </div>
+        </article>
+        {%- endfor -%}
+      </div>
+
+      <!-- ============================================ -->
+      <!--                Featured Posts                -->
+      <!-- ============================================ -->
+
+      {% include 'featured-post.html' %}
+    </div>
+  </section>
+  <div class="cta">
+    <h4 class="cta__header revealLeft">Don't miss a thing and subscribe to my newsletter</h4>
+    <form class="cta__form revealRight" id="form" action="#">
+      <input class="cta__form-input" name="email" id="email" type="email" placeholder="Enter your email address"
+        required />
+      <button for="email" type="submit" class="cta__form-button">
+        <span class="cta__form-button-text">Submit</span>
+      </button>
+    </form>
+  </div>
+</div>

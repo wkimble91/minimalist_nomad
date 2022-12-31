@@ -1,0 +1,53 @@
+<!-- ============================================ -->
+<!--                 Navigation                   -->
+<!-- ============================================ -->
+
+<header id="header" class="header">
+    <a href="/" rel="home" class="header__logo">
+        <picture>
+            <source class="header__logo" media="(min-width: 56.26em)" srcset="../assets/images/logo-light.png" />
+            <img class="header__logo" src="../assets/images/logo-sm-light.png" />
+        </picture>
+    </a>
+    <!--Main Nav-->
+    <nav class="header__nav">
+        <a class="{{ 'active' if 'about' == page.fileSlug }} header__nav-item" href="/about">About</a>
+        <a class="{{ 'active' if 'destinations' == page.fileSlug }} header__nav-item"
+            href="/destinations">Destinations</a>
+        <a class="{{ 'active' if 'gallery' == page.fileSlug }} header__nav-item" href="/gallery">Gallery</a>
+        <a class="{{ 'active' if 'blog' == page.fileSlug }} header__nav-item" href="/blog">Blog</a>
+    </nav>
+    <div class="header__links">
+        <div class="header__links--icon-box">
+            <svg class="header__links--icon header__links--icon-reddit">
+                <use href="../assets/images/sprite.svg#icon-reddit"></use>
+            </svg>
+        </div>
+        <div class="header__links--icon-box">
+            <svg class="header__links--icon header__links--icon-snapchat">
+                <use href="../assets/images/sprite.svg#icon-snapchat"></use>
+            </svg>
+        </div>
+        <div class="header__links--icon-box">
+            <svg class="header__links--icon header__links--icon-twitter">
+                <use href="../assets/images/sprite.svg#icon-twitter"></use>
+            </svg>
+        </div>
+        <div class="header__links--icon-box">
+            <svg class="header__links--icon header__links--icon-facebook">
+                <use href="../assets/images/sprite.svg#icon-facebook"></use>
+            </svg>
+        </div>
+        <div class="header__links--icon-box">
+            <svg class="header__links--icon header__links--icon-instagram">
+                <use href="../assets/images/sprite.svg#icon-instagram"></use>
+            </svg>
+        </div>
+    </div>
+    <!--Mobile Nav toggle-->
+    <div class="header__hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
+</header>

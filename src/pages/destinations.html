@@ -1,0 +1,145 @@
+---
+layout: 'base.html'
+description: "Previous destinations for Minimalist Nomad Blog"
+metaTitle: "Minimalist Nomad"
+tagTitle: "Minimalist Nomad"
+permalink: 'destinations/'
+---
+
+<!-- 
+This is to pre load any image above the fold (hero section background).
+-->
+
+{% block preload %}
+<!-- <link rel="preload" as="image" href="/assets/images/landing.jpg"> -->
+{% endblock %}
+
+{% block pageCSS %}
+<link rel="stylesheet" href="/css/destinations.css">
+<link rel="stylesheet" href="/css/local.css">
+
+<!--Defer loading the whole page css-->
+<link rel="stylesheet" href="/css/local.css" media="print" onload="this.media='all'; this.onload=null;">
+{% endblock %}
+
+<!-- End of templating -->
+
+<!-- ============================================ -->
+<!--             Destinations Section             -->
+<!-- ============================================ -->
+
+<div class="container container__destinations">
+
+    <section id="destinations" class="destinations">
+        <h1 class="main-heading destinations__heading">Past destinations</h1>
+        <div class="destinations__grid">
+            <div onclick="" class="destinations__grid-box revealFade">
+                <div class="destination destination-1">
+                    <h5 class="destination__name">Eilean Donan Castle</h5>
+                    <h6 class="destination__location">Scotland</h6>
+                    <p class="destination__price">$850</p>
+                    <p class="destination__length">2 weeks</p>
+                </div>
+            </div>
+            <div onclick="" class="destinations__grid-box revealFade">
+                <div class="destination destination-2">
+                    <h5 class="destination__name">Camogli</h5>
+                    <h6 class="destination__location">Italy</h6>
+                    <p class="destination__price">$1100</p>
+                    <p class="destination__length">3.5 weeks</p>
+                </div>
+            </div>
+            <div onclick="" class="destinations__grid-box revealFade">
+                <div class="destination destination-3">
+                    <h5 class="destination__name">Osaka</h5>
+                    <h6 class="destination__location">Japan</h6>
+                    <p class="destination__price">$940</p>
+                    <p class="destination__length">4 weeks</p>
+                </div>
+            </div>
+            <div onclick="" class="destinations__grid-box revealFade">
+                <div class="destination destination-4">
+                    <h5 class="destination__name">Queenstown</h5>
+                    <h6 class="destination__location">New Zealand</h6>
+                    <p class="destination__price">$1300</p>
+                    <p class="destination__length">1.5 weeks</p>
+                </div>
+            </div>
+            <div onclick="" class="destinations__grid-box revealFade">
+                <div class="destination destination-5">
+                    <h5 class="destination__name">Jeju</h5>
+                    <h6 class="destination__location">Korea</h6>
+                    <p class="destination__price">$800</p>
+                    <p class="destination__length">2.5 weeks</p>
+                </div>
+            </div>
+            <div onclick="" class="destinations__grid-box revealFade">
+                <div class="destination destination-6">
+                    <h5 class="destination__name">København</h5>
+                    <h6 class="destination__location">Denmark</h6>
+                    <p class="destination__price">$1300</p>
+                    <p class="destination__length">3 weeks</p>
+                </div>
+            </div>
+            <div onclick="" class="destinations__grid-box revealFade">
+                <div class="destination destination-7">
+                    <h5 class="destination__name">Puerto Viejo</h5>
+                    <h6 class="destination__location">Costa Rica</h6>
+                    <p class="destination__price">$750</p>
+                    <p class="destination__length">2 weeks</p>
+                </div>
+            </div>
+            <div onclick="" class="destinations__grid-box revealFade">
+                <div class="destination destination-8">
+                    <h5 class="destination__name">Valencia</h5>
+                    <h6 class="destination__location">Spain</h6>
+                    <p class="destination__price">$1200</p>
+                    <p class="destination__length">4 weeks</p>
+                </div>
+            </div>
+            <div onclick="" class="destinations__grid-box revealFade">
+                <div class="destination destination-9">
+                    <h5 class="destination__name">Skopje</h5>
+                    <h6 class="destination__location">North Macedonia</h6>
+                    <p class="destination__price">$700</p>
+                    <p class="destination__length">3 weeks</p>
+                </div>
+            </div>
+            <div onclick="" class="destinations__grid-box revealFade">
+                <div class="destination destination-10">
+                    <h5 class="destination__name">Hoi An</h5>
+                    <h6 class="destination__location">Vietnam</h6>
+                    <p class="destination__price">$950</p>
+                    <p class="destination__length">2.5 weeks</p>
+                </div>
+            </div>
+            <div onclick="" class="destinations__grid-box revealFade">
+                <div class="destination destination-11">
+                    <h5 class="destination__name">Quito</h5>
+                    <h6 class="destination__location">Ecuador</h6>
+                    <p class="destination__price">$1150</p>
+                    <p class="destination__length">3.5 weeks</p>
+                </div>
+            </div>
+            <div onclick="" class="destinations__grid-box revealFade">
+                <div class="destination destination-12">
+                    <h5 class="destination__name">Washington, DC</h5>
+                    <h6 class="destination__location">USA</h6>
+                    <p class="destination__price">$600</p>
+                    <p class="destination__length">1.5 weeks</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="cta">
+        <h4 class="cta__header revealLeft">Don't miss a thing and subscribe to my newsletter</h4>
+        <form class="cta__form revealRight" id="form" action="#">
+            <input class="cta__form-input" name="email" id="email" type="email" placeholder="Enter your email address"
+                required />
+            <button for="email" type="submit" class="cta__form-button">
+                <span class="cta__form-button-text">Submit</span>
+            </button>
+        </form>
+    </div>
+
+</div>

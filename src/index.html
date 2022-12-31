@@ -1,0 +1,100 @@
+---
+layout: 'base.html'
+description: "Landing page for Minimalist Nomad Blog"
+metaTitle: "Minimalist Nomad"
+tagTitle: "Minimalist Nomad"
+permalink: '/'
+---
+
+<!-- 
+This is to pre load any image above the fold (hero section background).
+-->
+
+{% block preload %}
+<link rel="preload" as="image" href="/assets/images/landing.jpg">
+{% endblock %}
+
+{% block pageCSS %}
+<link rel="stylesheet" href="/css/critical.css">
+<link rel="stylesheet" href="/css/local.css">
+
+<!--Defer loading the whole page css-->
+<link rel="stylesheet" href="/css/local.css" media="print" onload="this.media='all'; this.onload=null;">
+{% endblock %}
+
+<!-- End of templating -->
+
+<!-- ============================================ -->
+<!--                    Hero                      -->
+<!-- ============================================ -->
+<div class="container container__home">
+    <div class="hero">
+        <h1 class="hero__title">Minimalist Nomad</h1>
+        <h2 class="hero__subtitle">Love where you are, not what you have<span>And take some water with you</span>
+        </h2>
+        <a href="./blog.html" class="hero__button">Jump to blog</a>
+    </div>
+
+    <!-- ============================================ -->
+    <!--                 Grid Gallery                 -->
+    <!-- ============================================ -->
+    <section id="grid-gallery" class="grid-gallery">
+        <figure class="grid-gallery__item grid-gallery__item--1">
+            <img src="./assets/images/grid-gallery/gal-1.jpg" alt="Gallery image 1" class="grid-gallery__img">
+        </figure>
+        <figure class="grid-gallery__item grid-gallery__item--2">
+            <img src="./assets/images/grid-gallery/gal-2.jpg" alt="Gallery image 2" class="grid-gallery__img">
+        </figure>
+        <figure class="grid-gallery__item grid-gallery__item--3">
+            <img src="./assets/images/grid-gallery/gal-3.jpg" alt="Gallery image 3" class="grid-gallery__img">
+        </figure>
+        <figure class="grid-gallery__item grid-gallery__item--4">
+            <img src="./assets/images/grid-gallery/gal-4.jpg" alt="Gallery image 4" class="grid-gallery__img">
+        </figure>
+        <figure class="grid-gallery__item grid-gallery__item--5">
+            <img src="./assets/images/grid-gallery/gal-5.jpg" alt="Gallery image 5" class="grid-gallery__img">
+        </figure>
+        <figure class="grid-gallery__item grid-gallery__item--6">
+            <img src="./assets/images/grid-gallery/gal-6.jpg" alt="Gallery image 6" class="grid-gallery__img">
+        </figure>
+        <figure class="grid-gallery__item grid-gallery__item--7">
+            <img src="./assets/images/grid-gallery/gal-7.jpg" alt="Gallery image 7" class="grid-gallery__img">
+        </figure>
+        <figure class="grid-gallery__item grid-gallery__item--8">
+            <img src="./assets/images/grid-gallery/gal-8.jpg" alt="Gallery image 8" class="grid-gallery__img">
+        </figure>
+        <figure class="grid-gallery__item grid-gallery__item--9">
+            <img src="./assets/images/grid-gallery/gal-9.jpg" alt="Gallery image 9" class="grid-gallery__img">
+        </figure>
+        <figure class="grid-gallery__item grid-gallery__item--10">
+            <img src="./assets/images/grid-gallery/gal-10.jpg" alt="Gallery image 10" class="grid-gallery__img">
+        </figure>
+        <figure class="grid-gallery__item grid-gallery__item--11">
+            <img src="./assets/images/grid-gallery/gal-11.jpg" alt="Gallery image 11" class="grid-gallery__img">
+        </figure>
+        <figure class="grid-gallery__item grid-gallery__item--12">
+            <img src="./assets/images/grid-gallery/gal-12.jpg" alt="Gallery image 12" class="grid-gallery__img">
+        </figure>
+        <figure class="grid-gallery__item grid-gallery__item--13">
+            <img src="./assets/images/grid-gallery/gal-13.jpg" alt="Gallery image 13" class="grid-gallery__img">
+        </figure>
+        <figure class="grid-gallery__item grid-gallery__item--14">
+            <img src="./assets/images/grid-gallery/gal-14.jpg" alt="Gallery image 14" class="grid-gallery__img">
+        </figure>
+    </section>
+
+    <!-- ============================================ -->
+    <!--                 CTA (Black)                  -->
+    <!-- ============================================ -->
+
+    <div class="cta-black">
+        <h4 class="cta-black__header revealLeft">Don't miss a thing and subscribe to my newsletter</h4>
+        <form class="cta-black__form revealRight" id="form" action="#">
+            <input class="cta-black__form-input" name="email" id="email" type="email"
+                placeholder="Enter your email address" required />
+            <button for="email" type="submit" class="cta-black__form-button">
+                <span class="cta-black__form-button-text">Submit</span>
+            </button>
+        </form>
+    </div>
+</div>

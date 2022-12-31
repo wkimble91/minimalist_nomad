@@ -1,0 +1,824 @@
+:root {
+    /*-- -------------------------- -->
+    <---       Color Schemes        -->
+    <--- -------------------------- -*/
+    --color-primary-light: #a2b36b;
+    --color-primary: #606c38;
+    --color-primary-dark: #283618;
+
+    --color-secondary: #dda15e;
+    --color-secondary-dark: #bc6c25;
+
+    --color-light: #fefae0;
+
+    --color-grey-light-1: #cad0c8;
+    --color-grey-light-2: #94a092;
+
+    --color-grey-dark-1: #272c26;
+    --color-grey-dark-2: #30362f;
+
+    /*-- -------------------------- -->
+    <---        Breakpoints         -->
+    <--- -------------------------- -*/
+    --bp-bigscreen: 125em; //2000px
+    --bp-largest: 87.5em; //1400px
+    --bp-large: 75em; //1200px
+    --bp-medium: 56.25em; //900px
+    --bp-small: 37.5em; //600px
+    --bp-smallest: 31.25em; //600px
+}
+/*-- -------------------------- -->
+<---           Fonts            -->
+<--- -------------------------- -*/
+
+// Grab your fonts to locally host from https://gwfh.mranftl.com/fonts
+
+/* roboto-regular - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+        url('/assets/fonts/roboto-v29-latin-regular.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+            url('/assets/fonts/roboto-v29-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-700 - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+        url('/assets/fonts/roboto-v29-latin-700.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+            url('/assets/fonts/roboto-v29-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-900 - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    src: local(''),
+        url('/assets/fonts/roboto-v29-latin-900.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+            url('/assets/fonts/roboto-v29-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/*-- -------------------------- -->
+<---     General Formatting     -->
+<--- -------------------------- -*/
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; //1rem = 10px
+
+    @media only screen and (max-width: 87.5em) {
+        font-size: 50%; //1rem = 8px
+    }
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    width: 100vw;
+
+    // This prevents horizontal scrolling
+    overflow-x: hidden; // == Added by Jacob Carter (Choice-Studio) ==
+}
+
+/*-- -------------------------- -->
+<---    General Grid Spacing    -->
+<--- -------------------------- -*/
+
+.container {
+    background-color: var(--color-grey-light-1);
+    display: grid;
+    grid-template-columns: 100%;
+
+    &__home {
+        grid-template-rows: 0 105vh max-content 30rem min-content;
+    }
+    &__about {
+        grid-template-rows: 0 max-content 50rem min-content;
+    }
+    &__destinations {
+        grid-template-rows: 0 min-content 50rem min-content;
+    }
+    &__gallery {
+        grid-template-rows: 0 max-content 0 30rem min-content;
+    }
+    &__blog {
+        grid-template-rows: 0 min-content 50rem min-content;
+    }
+    &__blog-post {
+        grid-template-rows: max-content max-content 50rem min-content;
+    }
+}
+
+/*-- -------------------------- -->
+<---        Highlighting        -->
+<--- -------------------------- -*/
+
+::selection {
+    background-color: var(--color-primary);
+    color: #fff;
+}
+
+/*-- -------------------------- -->
+<---    CSS Animation Classes   -->
+<--- -------------------------- -*/
+@keyframes moveInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-6rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/*-- -------------------------- -->
+<---    JS Animation Classes    -->
+<--- -------------------------- -*/
+.revealRight {
+    transform: translateX(15rem);
+    opacity: 0;
+    transition: 1s all ease;
+}
+.revealLeft {
+    transform: translateX(-15rem);
+    opacity: 0;
+    transition: 1s all ease;
+}
+.revealFade {
+    opacity: 0;
+    transition: 1s all ease;
+}
+
+.revealRight.active,
+.revealLeft.active,
+.revealFade.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/*-- -------------------------- -->
+<---         Typography         -->
+<--- -------------------------- -*/
+
+.main-heading {
+    //Display
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-column-gap: 4rem;
+    align-items: center;
+    justify-content: center;
+
+    //Spacing
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    padding: 8rem 0;
+
+    //Font Styling
+    font-size: 18rem;
+    font-weight: 100;
+
+    //Color Styling
+    color: white;
+
+    //Image Styling
+    background-size: cover;
+    background-position: center center;
+
+    &::before,
+    &::after {
+        content: '';
+
+        //Display
+        display: block;
+
+        //Spacing
+        height: 2px;
+
+        //Color Styling
+        background-color: white;
+    }
+    @media only screen and (max-width: 75em) {
+        //Spacing
+        padding: 6rem 0;
+
+        //Font Styling
+        font-size: 12rem;
+    }
+    @media only screen and (max-width: 37.5em) {
+        //Font Styling
+        font-size: 10rem;
+    }
+    @media only screen and (max-width: 37.5em) {
+        //Spacing
+        padding: 8rem 0 4rem;
+
+        //Font Styling
+        font-size: 8rem;
+    }
+}
+
+.secondary-heading {
+    //Parent
+    grid-column: 1 / -1;
+
+    //Display
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-column-gap: 4rem;
+    align-items: center;
+    justify-content: center;
+
+    //Spacing
+    width: 100%;
+    height: 6rem;
+    padding: 0 10rem;
+    overflow: hidden;
+
+    //Font Styling
+    font-size: 2.6rem;
+    font-weight: 200;
+    font-style: italic;
+
+    //Color Styling
+    color: var(--color-grey-dark-1);
+
+    &::after,
+    &::before {
+        content: '';
+
+        //Display
+        display: block;
+
+        //Spacing
+        height: 1px;
+
+        //Color Styling
+        background-color: currentColor;
+    }
+
+    @media only screen and (max-width: 31.25em) {
+        //Display
+        grid-column-gap: 1rem;
+    }
+}
+
+.terrtiary-heading {
+    //Spacing
+    z-index: 2;
+
+    //Font Styling
+    text-transform: uppercase;
+
+    //Color Styling
+    color: var(--color-light);
+    background-color: var(--color-grey-dark-1);
+
+    @media only screen and (max-width: 87.5em) {
+        //Spacing
+        margin-top: -3rem;
+    }
+}
+
+.btn {
+    cursor: pointer;
+
+    //Spacing
+    padding: 1.8rem 3rem;
+
+    //Font Styling
+    font-size: 1.5rem;
+    text-transform: uppercase;
+
+    //Color Styling
+    background-color: var(--color-primary);
+    color: #fff;
+
+    //Border Styling
+    border: none;
+    border-radius: 0;
+
+    //Animations
+    transition: all 0.2s;
+
+    &:hover {
+        //Color Styling
+        background-color: var(--color-primary-dark);
+    }
+}
+
+/*-- -------------------------- -->
+<---         Navigation         -->
+<--- -------------------------- -*/
+
+.header {
+    //Parent
+    grid-column: 1 / -1;
+
+    //Display
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    //Spacing
+    height: 9rem;
+    position: fixed;
+    width: 100%;
+    z-index: 200;
+
+    //Font Styling
+    text-decoration: none;
+
+    //Color Styling
+    background-color: transparent;
+    color: var(--color-grey-light-1);
+
+    //Animations
+    transition: all 0.2s;
+
+    &-scrolled {
+        /* This is applied when you scroll the height of the navbar */
+
+        //Spacing
+        height: 7rem;
+
+        //Font Styling
+        font-size: 1.8rem;
+
+        //Color Styling
+        background-color: var(--color-grey-dark-1);
+    }
+
+    &__logo {
+        cursor: pointer;
+
+        //Spacing
+        padding-left: 1rem;
+        height: 7rem;
+
+        //Animations
+        transition: all 0.1s;
+
+        &:hover {
+            //Color Styling
+            fill: var(--color-primary-light);
+
+            //Animations
+            transform: scale(1.03);
+        }
+
+        @media only screen and (max-width: 75em) {
+            //Spacing
+            padding: 0;
+        }
+        @media only screen and (max-width: 37.5em) {
+            //Spacing
+            margin-right: 0;
+        }
+    }
+
+    &__nav {
+        //Display
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        //Font Styling
+        font-size: 1.8rem;
+        font-weight: 300;
+
+        & a {
+            //Font Styling
+            text-decoration: none;
+
+            //Color Styling
+            color: var(--color-grey-light-1);
+
+            //Animations
+            transition: all 0.1s;
+
+            &:not(:last-child) {
+                //Spacing
+                margin-right: 4rem;
+
+                @media only screen and (max-width: 56.25em) {
+                    //Spacing
+                    margin-right: 3rem;
+                }
+                @media only screen and (max-width: 37.5em) {
+                    //Spacing
+                    margin-right: 0rem;
+                }
+            }
+            &:hover {
+                //Color Styling
+                color: var(--color-primary-light);
+
+                //Animations
+                transform: scale(1.1);
+            }
+        }
+        @media only screen and (max-width: 56.25em) {
+            //Spacing
+            margin-left: 5rem;
+
+            //Font Styling
+            font-size: 1.6rem;
+        }
+        @media only screen and (max-width: 37.5em) {
+            //Display
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+
+            //Spacing
+            position: fixed;
+            width: 120%;
+            top: -50%;
+            left: -10%;
+            height: 35rem;
+            z-index: -1;
+            margin-left: 0rem;
+            padding-top: 7rem;
+
+            //Font Styling
+            text-align: center;
+            font-weight: 300;
+            font-size: 2rem;
+
+            //Color Styling
+            background-color: var(--color-grey-dark-1);
+            color: var(--color-grey-light-1);
+
+            //Border Styling
+            box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+
+            //Animations
+            transition: 0.6s ease-out;
+
+            &.active {
+                //Spacing
+                top: 0rem;
+            }
+        }
+
+        & * {
+            & a {
+                //Spacing
+                margin-right: 6rem;
+
+                //Font Styling
+                font-size: 1.4rem;
+
+                //Animations
+                transition: all 0.1s;
+
+                //Color Styling
+                color: var(--color-primary);
+
+                @media only screen and (max-width: 37.5em) {
+                    //Spacing
+                    width: 100%;
+                    margin: auto;
+
+                    //Color Styling
+                    color: var(--color-primary-dark);
+
+                    //Font Styling
+                    font-size: 2.5rem;
+                }
+            }
+        }
+    }
+
+    &__links {
+        //Display
+        display: flex;
+        align-items: center;
+
+        //Spacing
+        padding-right: 2rem;
+        margin-left: 16rem;
+
+        //Color Styling
+        fill: var(--color-grey-light-1);
+
+        & > * {
+            //Display
+            display: flex;
+            align-items: center;
+
+            //Spacing
+            padding: 0 0.8rem;
+            height: 100%;
+        }
+
+        &--icon-box {
+            //Spacing
+            position: relative;
+
+            @media only screen and (max-width: 37.5em) {
+                //Spacing
+                position: absolute;
+            }
+        }
+
+        &--icon {
+            cursor: pointer;
+
+            //Spacing
+            height: 1.5rem;
+            width: 1.5rem;
+
+            //Animations
+            transition: all 0.1s;
+
+            &-reddit:hover {
+                //Color Styling
+                fill: #ff4500;
+
+                //Animations
+                transform: scale(1.2);
+            }
+            &-snapchat:hover {
+                //Color Styling
+                fill: #fffc00;
+
+                //Animations
+                transform: scale(1.2);
+            }
+            &-twitter:hover {
+                //Color Styling
+                fill: #1da1f2;
+
+                //Animations
+                transform: scale(1.2);
+            }
+            &-facebook:hover {
+                //Color Styling
+                fill: #1877f2;
+
+                //Animations
+                transform: scale(1.2);
+            }
+            &-instagram:hover {
+                //Color Styling
+                fill: #e4405f;
+
+                //Animations
+                transform: scale(1.2);
+            }
+
+            @media only screen and (max-width: 37.5em) {
+                //Display
+                display: none;
+
+                //Spacing
+                width: 0;
+            }
+        }
+
+        @media only screen and (max-width: 56.25em) {
+            //Spacing
+            margin-left: 0;
+
+            & > * {
+                //Spacing
+                padding: 0 0.5rem;
+            }
+        }
+    }
+
+    &__hamburger {
+        //Display
+        display: none;
+
+        @media only screen and (max-width: 37.5em) {
+            cursor: pointer;
+
+            //Display
+            display: block;
+
+            //Spacing
+            margin: auto 3rem;
+            z-index: 20;
+        }
+
+        & .bar {
+            //Display
+            display: block;
+
+            //Spacing
+            width: 4rem;
+            height: 1px;
+            margin: 8px auto;
+
+            //Color Styling
+            background-color: white;
+
+            //Animations
+            transition: all 0.3s ease-in-out;
+        }
+
+        &.active {
+            & .bar:nth-child(2) {
+                //Image Styling
+                opacity: 0;
+            }
+
+            & .bar:nth-child(1) {
+                //Animations
+                transform: translateY(9px) rotate(45deg);
+            }
+
+            & .bar:nth-child(3) {
+                //Animations
+                transform: translateY(-9px) rotate(-45deg);
+            }
+        }
+    }
+}
+
+/*-- -------------------------- -->
+<---           Footer           -->
+<--- -------------------------- -*/
+
+.footer {
+    //Parent
+    grid-row: 4 / span 1;
+
+    //Display
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    //Spacing
+    z-index: 5;
+    padding: 4rem;
+
+    //Color Styling
+    background-color: var(--color-grey-dark-1);
+
+    &__cta {
+        //Display
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        //Spacing
+        padding-bottom: 15rem;
+        width: 100%;
+
+        //Font Styling
+        text-align: center;
+
+        &-header {
+            //Spacing
+            padding: 0 1rem;
+            margin-bottom: 2rem;
+
+            //Font Styling
+            font-size: 3rem;
+            font-weight: 200;
+
+            //Color Styling
+            color: white;
+
+            @media only screen and (max-width: 56.25em) {
+                //Font Styling
+                font-size: 2rem;
+            }
+            @media only screen and (max-width: 31.25em) {
+                //Font Styling
+                font-size: 1.4rem;
+            }
+        }
+    }
+    &__logo-box {
+        //Spacing
+        margin: 20rem auto 10rem;
+
+        //Font Styling
+        text-align: center;
+    }
+    &__logo {
+        //Spacing
+        width: 55rem;
+        height: auto;
+
+        @media only screen and (max-width: 56.25em) {
+            //Spacing
+            width: 35rem;
+        }
+    }
+
+    &__container {
+        width: 100%;
+    }
+
+    &-nav {
+        //Display
+        display: grid;
+        grid-template-columns: repeat(4, minmax(6rem, 1fr));
+        grid-gap: 4rem;
+        align-items: center;
+
+        //Spacing
+        margin: 0 20rem;
+
+        //Font Styling
+        list-style: none;
+
+        @media only screen and (max-width: 87.5em) {
+            //Spacing
+            margin: 0 12rem;
+        }
+        @media only screen and (max-width: 56.25em) {
+            //Display
+            grid-gap: 1rem;
+
+            //Spacing
+            margin: 0 8rem;
+        }
+        @media only screen and (max-width: 37.5em) {
+            //Spacing
+            margin: 0;
+        }
+
+        &__link:link,
+        &__link:visited {
+            //Display
+            display: block;
+
+            //Spacing
+            padding: 2rem;
+
+            //Font Styling
+            font-size: 1.8rem;
+            font-weight: 300;
+            text-decoration: none;
+            text-transform: uppercase;
+            text-align: center;
+
+            //Color Styling
+            color: var(--color-grey-light-1);
+
+            //Animations
+            transition: all 0.2s;
+
+            &:hover,
+            &:active {
+                //Color Styling
+                background-color: rgba(#fff, 0.03);
+                color: var(--color-primary-light);
+
+                //Animations
+                transform: scale(1.05);
+            }
+
+            @media only screen and (max-width: 56.25em) {
+                //Spacing
+                padding: 1rem;
+
+                //Font Styling
+                font-size: 1.2rem;
+            }
+        }
+    }
+}
+
+.copyright {
+    //Spacing
+    margin-top: 5rem;
+
+    //Font Styling
+    font-size: 1.3rem;
+    text-align: center;
+
+    //Color Styling
+    color: var(--color-grey-light-2);
+
+    &__link {
+        //Font Styling
+        text-decoration: none;
+
+        //Color Styling
+        color: var(--color-grey-light-2);
+    }
+}
