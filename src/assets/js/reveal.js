@@ -39,6 +39,8 @@ function revealFade() {
 }
 
 // Initial loading of images on Destinations already on screen
+revealRight();
+revealLeft();
 revealFade();
 
 window.addEventListener('scroll', revealRight);
