@@ -1,7 +1,7 @@
 ---
-pageName: vegetarian-sushi
-blogTitle: 'Vegetarian Sushi'
-titleTag: 'Vegetarian Sushi'
+pageName: vegan-sushi
+blogTitle: 'Vegan Sushi'
+titleTag: 'Vegan Sushi'
 author: 'Will Kimble'
 blogDescription: More options than you expect and genuinely great.
 date: 2020-01-21T15:46:45.249Z

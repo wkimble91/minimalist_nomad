@@ -62,7 +62,7 @@ imageAlt: Rice Bowl
         nulla eum vitae?
     </p>
 </div>
-<h3 class="blog-post__sub-heading revealFade">Finding vegetarian options</h3>
+<h3 class="blog-post__sub-heading revealFade">Finding vegan options</h3>
 <hr class="blog-post__divider revealFade">
 <div class="blog-post__description revealFade">
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est molestias quo
