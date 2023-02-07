@@ -1,5 +1,5 @@
 {
   "layout": "blog-post-template.html",
   "tags": "post",
-  "permalink": "/{{ page.fileSlug }}.html"
+  "permalink": "/blog/{{ page.fileSlug }}.html"
 }
