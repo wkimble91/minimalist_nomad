@@ -402,6 +402,15 @@ body {
         font-size: 1.8rem;
         font-weight: 300;
 
+        &-active {
+            border-bottom: 1px solid white;
+
+            &:hover {
+                //Color Styling
+                color: var(--color-primary-light);
+            }
+        }
+
         & a {
             //Font Styling
             text-decoration: none;

@@ -90,6 +90,8 @@ body { font-family: 'Inter', sans-serif; line-height: 1.6; width: 100vw; overflo
 @media only screen and (max-width: 75em) { .header__logo { padding: 0; } }
 @media only screen and (max-width: 37.5em) { .header__logo { margin-right: 0; } }
 .header__nav { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; font-size: 1.8rem; font-weight: 300; }
+.header__nav-active { border-bottom: 1px solid white; }
+.header__nav-active:hover { color: var(--color-primary-light); }
 .header__nav a { text-decoration: none; color: var(--color-grey-light-1); -webkit-transition: all 0.1s; transition: all 0.1s; }
 .header__nav a:not(:last-child) { margin-right: 4rem; }
 @media only screen and (max-width: 56.25em) { .header__nav a:not(:last-child) { margin-right: 3rem; } }

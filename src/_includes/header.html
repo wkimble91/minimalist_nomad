@@ -11,11 +11,12 @@
     </a>
     <!--Main Nav-->
     <nav class="header__nav">
-        <a class="{{ 'active' if 'about' == page.fileSlug }} header__nav-item" href="/about">About</a>
-        <a class="{{ 'active' if 'destinations' == page.fileSlug }} header__nav-item"
+        <a class="{{ 'header__nav-active' if 'about' == page.fileSlug }} header__nav-item" href="/about">About</a>
+        <a class="{{ 'header__nav-active' if 'destinations' == page.fileSlug }} header__nav-item"
             href="/destinations">Destinations</a>
-        <a class="{{ 'active' if 'gallery' == page.fileSlug }} header__nav-item" href="/gallery">Gallery</a>
-        <a class="{{ 'active' if 'blog' == page.fileSlug }} header__nav-item" href="/blog">Blog</a>
+        <a class="{{ 'header__nav-active' if 'gallery' == page.fileSlug }} header__nav-item" href="/gallery">Gallery</a>
+        <a class="{{ 'header__nav-active' if 'blog' == page.fileSlug }} header__nav-item" href="/blog">Blog</a>
+        <a class="header__nav-item" href="http://store.minimalistnomad.world/">Store</a>
     </nav>
     <div class="header__links">
         <div class="header__links--icon-box">
