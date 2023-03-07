@@ -745,7 +745,7 @@ body {
         //Display
         display: grid;
         grid-template-columns: repeat(4, minmax(6rem, 1fr));
-        grid-gap: 4rem;
+        grid-gap: 6rem;
         align-items: center;
 
         //Spacing
@@ -776,7 +776,7 @@ body {
             display: block;
 
             //Spacing
-            padding: 2rem;
+            padding: 1.8rem;
 
             //Font Styling
             font-size: 1.8rem;
