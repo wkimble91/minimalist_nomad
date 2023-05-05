@@ -6,9 +6,9 @@ author: 'Will Kimble'
 blogDescription: Getting lost in the best way and GROND.
 date: 2016-08-25T15:46:45.249Z
 tags:
-    - post
-    - featured
-    - vista
+  - post
+  - featured
+  - vista
 blogTag: vista
 image: /assets/images/blog/vista-3-2x.jpg
 imageSmall: /assets/images/blog/vista-3-1x.jpg
@@ -18,95 +18,32 @@ imageAlt: Flowers in a meadow
 <h3 class="blog-post__sub-heading revealFade">Getting lost in the best way</h3>
 <hr class="blog-post__divider revealFade">
 <div class="blog-post__description revealFade">
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui voluptates
-        placeat aut voluptate soluta fugiat earum molestiae cumque nesciunt error animi fuga unde
-        cupiditate,
-        consectetur magni consequuntur totam labore voluptas.
-        Ullam neque, iste, optio autem quos facilis voluptate minus soluta non officia eum accusamus
-        dicta.
-        Modi
-        repellat amet corporis earum ipsum magni. Itaque deserunt quia aspernatur in? Et, rem
-        reprehenderit?
+    <p>If you're planning a trip to New Zealand, one unique way to experience the country's stunning natural beauty is by getting lost intentionally. Of course, this doesn't mean that you should venture out without any preparation or safety precautions, but rather that you should embrace the unexpected and allow yourself to wander off the beaten path.
     </p><br>
-    <p>Qui doloribus eaque voluptatem exercitationem quis eveniet hic repellat molestias dolor! Rerum
-        dicta
-        reiciendis incidunt nihil, rem, recusandae, quidem cumque sint ipsum deleniti blanditiis eius
-        veritatis
-        at illo provident aut.
-        Repudiandae laudantium praesentium, ad eum fuga, a rem aut veniam atque numquam similique,
-        officiis
-        totam! Velit non mollitia iure voluptate deleniti ex ut consequuntur, corrupti aperiam nihil
-        nostrum
-        dolores voluptas.
+    <p>New Zealand is home to some of the most spectacular natural landscapes in the world, from snow-capped mountains and rugged coastlines to lush forests and crystal-clear lakes. By intentionally getting lost, you may stumble upon hidden gems that you wouldn't have discovered otherwise.
     </p><br>
-    <p>Fugit neque saepe eveniet! Saepe nulla possimus voluptatem eum illum natus corrupti delectus.
-        Assumenda,
-        hic quae cumque aspernatur earum, omnis eligendi porro temporibus dolores odit ea voluptate,
-        harum
-        reiciendis accusantium?
-        Magni consectetur ducimus quos provident pariatur nesciunt itaque, quia vitae, mollitia maiores
-        deserunt
-        libero officiis ullam nostrum ipsa placeat aliquid quis. Voluptatum harum aut dolorum cupiditate
-        ad
-        nemo
-        exercitationem eligendi.
+    <p>One way to intentionally get lost is by going for a hike in one of the country's many national parks or nature reserves. With over 14,000 kilometers of hiking trails, there's no shortage of options for all skill levels. Pack a backpack with some food, water, and a map, and set out on a trail that catches your eye. Don't be afraid to take a detour or explore a side trail that looks interesting.
     </p><br>
-    <p>Numquam perspiciatis aspernatur eum sit cumque inventore maiores at corporis! Ullam, laboriosam
-        perferendis corporis molestiae enim dolorum aut! Soluta doloremque veritatis nobis at, ipsam est
-        ipsa
-        recusandae numquam ducimus molestias.
-        Quaerat, impedit? Accusantium a eos nihil. Facilis reprehenderit nemo unde aliquid non dolorum
-        delectus,
-        rerum amet maiores doloribus blanditiis expedita minima quasi enim. Inventore fugiat deleniti
-        nesciunt
-        nulla eum vitae?
+    <p>Another way to intentionally get lost is by renting a car and taking a scenic drive. New Zealand has some of the most breathtaking drives in the world, with winding roads that offer stunning views around every corner. Choose a route that interests you and let yourself get sidetracked by any interesting sights or towns along the way.
+    </p><br>
+    <p>Of course, it's important to exercise caution when intentionally getting lost. Always let someone know where you're going and when you plan to return, and bring a fully charged phone and a map or GPS device with you. And be prepared for the unexpected - you may encounter unexpected weather, difficult terrain, or other challenges along the way.
+    </p><br>
+    <p>Getting lost in New Zealand can be a unique and rewarding way to experience the country's natural beauty. By embracing the unexpected and allowing yourself to wander off the beaten path, you may discover hidden gems and create memories that will last a lifetime.
     </p>
 </div>
 <h3 class="blog-post__sub-heading revealFade">GROND GROND GROND</h3>
 <hr class="blog-post__divider revealFade">
 <div class="blog-post__description revealFade">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est molestias quo
-        officia tempore ad. Ratione aut amet cumque dolor! Vel sint hic inventore unde eligendi
-        voluptatum
-        aut
-        aspernatur quia maiores?
-        At consequuntur molestiae, expedita assumenda earum odit esse vero quis. Possimus officia
-        voluptatem
-        vero expedita molestiae, incidunt dolores quos veritatis, provident quas facere dignissimos
-        voluptatum
-        enim laboriosam tempore fuga consequuntur?
+    <p>New Zealand is a dream destination for fans of The Lord of the Rings movies. The stunning landscapes and dramatic scenery of the country were the perfect backdrop for the epic tale of hobbits, wizards, and dragons. If you're a fan of the movies, here are some must-see locations to add to your New Zealand itinerary:
     </p><br>
-    <p>Quidem voluptatem id natus eveniet? Ullam impedit necessitatibus dignissimos deleniti, quod ab
-        eos
-        adipisci ipsum alias laudantium molestiae minus eveniet explicabo sapiente facilis animi fuga
-        labore
-        optio unde laborum laboriosam.
-        Sint cum consequatur numquam, vitae eum culpa sapiente eligendi temporibus, eos, magnam
-        laboriosam
-        adipisci tempore possimus in error! Ipsa assumenda sunt sapiente necessitatibus repellat
-        voluptates
-        ab
-        nisi nesciunt inventore eos.
-    </p><br>
-    <p>Assumenda quas quo accusantium debitis quam recusandae unde eius perspiciatis impedit, officiis
-        sit
-        aut
-        sequi voluptatibus a nobis rem. Doloribus nihil porro officia voluptatem, reiciendis aut earum
-        quibusdam? Doloribus, dolore!
-        Rerum repellendus, non veritatis tempore qui odit voluptatum laborum modi cumque tenetur culpa
-        dignissimos, accusamus cupiditate. Voluptatem, incidunt? Earum quae esse suscipit optio quod
-        soluta
-        commodi cum nulla perspiciatis architecto!
-    </p><br>
-    <p>Quia natus, tempora ut laudantium, in iste a inventore temporibus ratione non dolore cupiditate
-        amet
-        sequi rem quaerat voluptatum impedit praesentium. Dolor, minima sapiente culpa perspiciatis
-        libero
-        adipisci ea nostrum?
-        Voluptatum id repellat neque vel natus saepe, doloremque, eligendi nisi explicabo nemo unde
-        praesentium
-        ut vero modi, ducimus ipsum amet quam consequuntur quo. Provident quis accusamus iusto sunt
-        nulla
-        dolores.
+    <ol>
+        <li><b>Hobbiton</b>: Located in the heart of the North Island, Hobbiton is a must-visit for any Lord of the Rings fan. You can take a guided tour of the movie set, which includes hobbit holes, the Green Dragon Inn, and other iconic locations from the movies.</li><br>
+        <li><b>Mount Doom</b>: Mount Ngauruhoe, located in Tongariro National Park, was used as the filming location for Mount  Doom in the movies. You can hike to the summit of the mountain for stunning views of the surrounding landscape.</li><br>
+        <li><b>Edoras</b>: The capital city of Rohan was filmed on top of Mount Sunday in Canterbury. You can take a guided tour to see the stunning views of the surrounding landscape and learn more about the making of the movie.</li><br>
+        <li><b>Pelennor Fields</b>: The epic battle scene from The Return of the King was filmed at various locations in the South Island. You can visit Twizel, which was used for the set of the Pelennor Fields, and take in the stunning scenery.</li><br>
+        <li><b>Weta Workshop</b>: Weta Workshop in Wellington is responsible for many of the props, costumes, and special   effects in The Lord of the Rings movies. You can take a tour of the workshop to see how the movies were made and learn about the behind-the-scenes work that went into creating the films.</li><br>
+    </ol><br>
+    <p>New Zealand is a paradise for fans of The Lord of the Rings movies. Whether you're a die-hard fan or simply appreciate the stunning landscapes, a trip to New Zealand is sure to be an unforgettable adventure. And remember, not
+    all who wander are lost.
     </p>
 </div>

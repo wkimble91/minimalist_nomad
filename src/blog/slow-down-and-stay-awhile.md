@@ -6,9 +6,9 @@ author: 'Will Kimble'
 blogDescription: Don't be afraid to stay more long term if possible. And don't attempt to do everything immediately.
 date: 2020-12-08T15:46:45.249Z
 tags:
-    - post
-    - featured
-    - sustainable
+  - post
+  - featured
+  - sustainable
 blogTag: sustainable
 image: /assets/images/blog/sustainable-1-2x.jpg
 imageSmall: /assets/images/blog/sustainable-1-2x.jpg
@@ -18,95 +18,33 @@ imageAlt: Salad on table outside
 <h3 class="blog-post__sub-heading revealFade">Don't be afraid to stay more long term if possible</h3>
 <hr class="blog-post__divider revealFade">
 <div class="blog-post__description revealFade">
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui voluptates
-        placeat aut voluptate soluta fugiat earum molestiae cumque nesciunt error animi fuga unde
-        cupiditate,
-        consectetur magni consequuntur totam labore voluptas.
-        Ullam neque, iste, optio autem quos facilis voluptate minus soluta non officia eum accusamus
-        dicta.
-        Modi
-        repellat amet corporis earum ipsum magni. Itaque deserunt quia aspernatur in? Et, rem
-        reprehenderit?
+    <p>Traveling can be an expensive experience, but there are ways to make it more affordable. One way is to stay in a location for a longer period of time. By doing this, you can take advantage of long-term accommodation options and save money on daily expenses.
     </p><br>
-    <p>Qui doloribus eaque voluptatem exercitationem quis eveniet hic repellat molestias dolor! Rerum
-        dicta
-        reiciendis incidunt nihil, rem, recusandae, quidem cumque sint ipsum deleniti blanditiis eius
-        veritatis
-        at illo provident aut.
-        Repudiandae laudantium praesentium, ad eum fuga, a rem aut veniam atque numquam similique,
-        officiis
-        totam! Velit non mollitia iure voluptate deleniti ex ut consequuntur, corrupti aperiam nihil
-        nostrum
-        dolores voluptas.
+    <p>Here are some tips for staying long-term and saving money while traveling:
     </p><br>
-    <p>Fugit neque saepe eveniet! Saepe nulla possimus voluptatem eum illum natus corrupti delectus.
-        Assumenda,
-        hic quae cumque aspernatur earum, omnis eligendi porro temporibus dolores odit ea voluptate,
-        harum
-        reiciendis accusantium?
-        Magni consectetur ducimus quos provident pariatur nesciunt itaque, quia vitae, mollitia maiores
-        deserunt
-        libero officiis ullam nostrum ipsa placeat aliquid quis. Voluptatum harum aut dolorum cupiditate
-        ad
-        nemo
-        exercitationem eligendi.
-    </p><br>
-    <p>Numquam perspiciatis aspernatur eum sit cumque inventore maiores at corporis! Ullam, laboriosam
-        perferendis corporis molestiae enim dolorum aut! Soluta doloremque veritatis nobis at, ipsam est
-        ipsa
-        recusandae numquam ducimus molestias.
-        Quaerat, impedit? Accusantium a eos nihil. Facilis reprehenderit nemo unde aliquid non dolorum
-        delectus,
-        rerum amet maiores doloribus blanditiis expedita minima quasi enim. Inventore fugiat deleniti
-        nesciunt
-        nulla eum vitae?
+    <ol>
+        <li><b>Rent an apartment or house</b>: Rather than staying in hotels or hostels, consider renting an apartment or house for a month or longer. This can often be more cost-effective than paying for daily accommodations. </li><br>
+        <li><b>Cook your own meals</b>: Eating out can quickly add up, so consider cooking your own meals. By renting a place with a kitchen, you can save money on food expenses and even try local ingredients and dishes.</li><br>
+        <li><b>Take advantage of local transportation options</b>: Many places offer discounted monthly passes for public transportation, which can be more cost-effective than buying tickets daily.</li><br>
+        <li><b>Look for discounts</b>: Many attractions and activities offer discounts for long-term visitors, so be sure to ask about any deals or promotions available.</li><br>
+        <li><b>Volunteer</b>: Some organizations offer free accommodations in exchange for volunteer work. This is a great way to save money while also giving back to the community.</li><br>
+    </ol><br>
+    <p>By staying in one location for a longer period of time, you can immerse yourself in the local culture and save money on daily expenses. So, if you have the flexibility and time, consider staying long-term during your travels.
     </p>
 </div>
 <h3 class="blog-post__sub-heading revealFade">Don't attempt to do everything immediately</h3>
 <hr class="blog-post__divider revealFade">
 <div class="blog-post__description revealFade">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est molestias quo
-        officia tempore ad. Ratione aut amet cumque dolor! Vel sint hic inventore unde eligendi
-        voluptatum
-        aut
-        aspernatur quia maiores?
-        At consequuntur molestiae, expedita assumenda earum odit esse vero quis. Possimus officia
-        voluptatem
-        vero expedita molestiae, incidunt dolores quos veritatis, provident quas facere dignissimos
-        voluptatum
-        enim laboriosam tempore fuga consequuntur?
+    <p>When traveling, it's easy to get caught up in the excitement and try to cram as many experiences into a short period of time as possible. However, staying long-term in a location can offer the opportunity to slow down and fully immerse yourself in the local culture.
     </p><br>
-    <p>Quidem voluptatem id natus eveniet? Ullam impedit necessitatibus dignissimos deleniti, quod ab
-        eos
-        adipisci ipsum alias laudantium molestiae minus eveniet explicabo sapiente facilis animi fuga
-        labore
-        optio unde laborum laboriosam.
-        Sint cum consequatur numquam, vitae eum culpa sapiente eligendi temporibus, eos, magnam
-        laboriosam
-        adipisci tempore possimus in error! Ipsa assumenda sunt sapiente necessitatibus repellat
-        voluptates
-        ab
-        nisi nesciunt inventore eos.
+    <p>Here are some benefits of not trying to do everything immediately when staying long-term:
     </p><br>
-    <p>Assumenda quas quo accusantium debitis quam recusandae unde eius perspiciatis impedit, officiis
-        sit
-        aut
-        sequi voluptatibus a nobis rem. Doloribus nihil porro officia voluptatem, reiciendis aut earum
-        quibusdam? Doloribus, dolore!
-        Rerum repellendus, non veritatis tempore qui odit voluptatum laborum modi cumque tenetur culpa
-        dignissimos, accusamus cupiditate. Voluptatem, incidunt? Earum quae esse suscipit optio quod
-        soluta
-        commodi cum nulla perspiciatis architecto!
-    </p><br>
-    <p>Quia natus, tempora ut laudantium, in iste a inventore temporibus ratione non dolore cupiditate
-        amet
-        sequi rem quaerat voluptatum impedit praesentium. Dolor, minima sapiente culpa perspiciatis
-        libero
-        adipisci ea nostrum?
-        Voluptatum id repellat neque vel natus saepe, doloremque, eligendi nisi explicabo nemo unde
-        praesentium
-        ut vero modi, ducimus ipsum amet quam consequuntur quo. Provident quis accusamus iusto sunt
-        nulla
-        dolores.
+    <ol>
+        <li><b>More time to explore</b>: By staying in one location for an extended period of time, you have the opportunity to explore the area at a more leisurely pace. You can take your time to fully appreciate the local sights, sounds, and flavors.</li><br>
+        <li><b>Better understanding of the culture</b>: Staying long-term allows you to experience the local culture in a more in-depth way. You have the opportunity to learn the language, meet locals, and understand the customs and traditions.</li><br>
+        <li><b>More affordable</b>: By not rushing to do everything at once, you can spread out your expenses over a longer period of time. This can make your travels more affordable and sustainable in the long run.</li><br>
+        <li><b>Less stressful</b>: Rushing from one activity to another can be exhausting and stressful. By taking your time and not trying to do everything immediately, you can reduce stress and enjoy your travels more.</li><br>
+    </ol><br>
+    <p>Staying long-term and not trying to do everything immediately can offer many benefits. So, if you have the opportunity, take your time and fully immerse yourself in the local culture. You might be surprised at what you discover!
     </p>
 </div>

@@ -3,12 +3,12 @@ pageName: korean-street-foods
 blogTitle: 'Korean Street Foods'
 titleTag: 'Korean Street Foods'
 author: 'Will Kimble'
-blogDescription: What you absolutely must try and finding vegetarian options.
+blogDescription: What you absolutely must try and finding vegan options.
 date: 2022-03-11T15:46:45.249Z
 tags:
-    - post
-    - featured
-    - food
+  - post
+  - featured
+  - food
 blogTag: food
 image: /assets/images/blog/food-2-2x.jpg
 imageSmall: /assets/images/blog/food-2-1x.jpg
@@ -18,95 +18,32 @@ imageAlt: Rice Bowl
 <h3 class="blog-post__sub-heading revealFade">What you absolutely must try</h3>
 <hr class="blog-post__divider revealFade">
 <div class="blog-post__description revealFade">
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui voluptates
-        placeat aut voluptate soluta fugiat earum molestiae cumque nesciunt error animi fuga unde
-        cupiditate,
-        consectetur magni consequuntur totam labore voluptas.
-        Ullam neque, iste, optio autem quos facilis voluptate minus soluta non officia eum accusamus
-        dicta.
-        Modi
-        repellat amet corporis earum ipsum magni. Itaque deserunt quia aspernatur in? Et, rem
-        reprehenderit?
+    <p>If you're planning a trip to South Korea, make sure to indulge in the vibrant street food scene. Korea's street food is an important aspect of its culture, and trying some of the delicious local delicacies is a must-do for any traveler. Here are some of the popular street foods that you should definitely try when in Korea:
     </p><br>
-    <p>Qui doloribus eaque voluptatem exercitationem quis eveniet hic repellat molestias dolor! Rerum
-        dicta
-        reiciendis incidunt nihil, rem, recusandae, quidem cumque sint ipsum deleniti blanditiis eius
-        veritatis
-        at illo provident aut.
-        Repudiandae laudantium praesentium, ad eum fuga, a rem aut veniam atque numquam similique,
-        officiis
-        totam! Velit non mollitia iure voluptate deleniti ex ut consequuntur, corrupti aperiam nihil
-        nostrum
-        dolores voluptas.
+    <ol>
+        <li><b>Tteokbokki (떡볶이)</b>: A spicy and chewy rice cake dish served in a spicy sauce. It's one of the most popular street foods in Korea.</li><br>
+        <li><b>Kimbap (김밥)</b>: A Korean version of sushi, kimbap is made by rolling seaweed, rice, and various fillings like egg, vegetables, and meat.</li><br>
+        <li><b>Hotteok (호떡)</b>: A sweet and savory Korean pancake stuffed with brown sugar, honey, and nuts.</li><br>
+        <li><b>Mandu (만두)</b>: Korean dumplings that come in a variety of flavors and fillings like pork, beef, vegetables, or kimchi.</li><br>
+        <li><b>Jjajangmyeon (자장면)</b>: A popular Korean-Chinese dish of noodles topped with a thick black bean sauce and vegetables.</li><br>
+        <li><b>Twigim (야채튀김)</b>:Korean-style tempura or deep-fried vegetables, seafood, or meat.</li><br>
+    </ol><br>
+    <p>These are just a few of the many street foods that you can find in Korea. Be sure to keep an open mind and try new things - you might be surprised by how much you enjoy it! You'll find street food vendors in almost every corner of Korean cities, especially in busy areas like markets and subway stations.
     </p><br>
-    <p>Fugit neque saepe eveniet! Saepe nulla possimus voluptatem eum illum natus corrupti delectus.
-        Assumenda,
-        hic quae cumque aspernatur earum, omnis eligendi porro temporibus dolores odit ea voluptate,
-        harum
-        reiciendis accusantium?
-        Magni consectetur ducimus quos provident pariatur nesciunt itaque, quia vitae, mollitia maiores
-        deserunt
-        libero officiis ullam nostrum ipsa placeat aliquid quis. Voluptatum harum aut dolorum cupiditate
-        ad
-        nemo
-        exercitationem eligendi.
-    </p><br>
-    <p>Numquam perspiciatis aspernatur eum sit cumque inventore maiores at corporis! Ullam, laboriosam
-        perferendis corporis molestiae enim dolorum aut! Soluta doloremque veritatis nobis at, ipsam est
-        ipsa
-        recusandae numquam ducimus molestias.
-        Quaerat, impedit? Accusantium a eos nihil. Facilis reprehenderit nemo unde aliquid non dolorum
-        delectus,
-        rerum amet maiores doloribus blanditiis expedita minima quasi enim. Inventore fugiat deleniti
-        nesciunt
-        nulla eum vitae?
+    <p>Experiencing Korea's street food scene is an essential part of any trip to the country. With so many delicious and unique dishes to try, make sure to leave some room in your stomach and let your taste buds explore the wonderful world of Korean street food.
     </p>
-</div>
 <h3 class="blog-post__sub-heading revealFade">Finding vegan options</h3>
 <hr class="blog-post__divider revealFade">
 <div class="blog-post__description revealFade">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est molestias quo
-        officia tempore ad. Ratione aut amet cumque dolor! Vel sint hic inventore unde eligendi
-        voluptatum
-        aut
-        aspernatur quia maiores?
-        At consequuntur molestiae, expedita assumenda earum odit esse vero quis. Possimus officia
-        voluptatem
-        vero expedita molestiae, incidunt dolores quos veritatis, provident quas facere dignissimos
-        voluptatum
-        enim laboriosam tempore fuga consequuntur?
+    <p>If you're a vegan traveler planning a trip to South Korea, don't worry - you can still enjoy the country's delicious food culture! While Korea is famous for its meat dishes, there are also plenty of vegan options available. Here are some tips for finding vegan food in Korea:
     </p><br>
-    <p>Quidem voluptatem id natus eveniet? Ullam impedit necessitatibus dignissimos deleniti, quod ab
-        eos
-        adipisci ipsum alias laudantium molestiae minus eveniet explicabo sapiente facilis animi fuga
-        labore
-        optio unde laborum laboriosam.
-        Sint cum consequatur numquam, vitae eum culpa sapiente eligendi temporibus, eos, magnam
-        laboriosam
-        adipisci tempore possimus in error! Ipsa assumenda sunt sapiente necessitatibus repellat
-        voluptates
-        ab
-        nisi nesciunt inventore eos.
-    </p><br>
-    <p>Assumenda quas quo accusantium debitis quam recusandae unde eius perspiciatis impedit, officiis
-        sit
-        aut
-        sequi voluptatibus a nobis rem. Doloribus nihil porro officia voluptatem, reiciendis aut earum
-        quibusdam? Doloribus, dolore!
-        Rerum repellendus, non veritatis tempore qui odit voluptatum laborum modi cumque tenetur culpa
-        dignissimos, accusamus cupiditate. Voluptatem, incidunt? Earum quae esse suscipit optio quod
-        soluta
-        commodi cum nulla perspiciatis architecto!
-    </p><br>
-    <p>Quia natus, tempora ut laudantium, in iste a inventore temporibus ratione non dolore cupiditate
-        amet
-        sequi rem quaerat voluptatum impedit praesentium. Dolor, minima sapiente culpa perspiciatis
-        libero
-        adipisci ea nostrum?
-        Voluptatum id repellat neque vel natus saepe, doloremque, eligendi nisi explicabo nemo unde
-        praesentium
-        ut vero modi, ducimus ipsum amet quam consequuntur quo. Provident quis accusamus iusto sunt
-        nulla
-        dolores.
+    <ol>
+        <li><b>Look for traditional vegan dishes</b>: There are many traditional Korean dishes that are naturally vegan, such as bibimbap (a rice bowl with vegetables) and japchae (a noodle dish with vegetables).</li><br>
+        <li><b>Check out Buddhist temples</b>: Korea has a long tradition of Buddhism, and many Buddhist temples offer vegan food to their visitors. These meals are often simple, healthy, and flavorful.</li><br>
+        <li><b>Explore vegan-friendly neighborhoods</b>: Some neighborhoods in Korea, such as Hongdae in Seoul, are known for their vegan-friendly restaurants and cafes. Do some research and plan to visit these areas during your trip.</li><br>
+        <li><b>Use food apps</b>: There are many food apps available in Korea, such as HappyCow and Mango Plate, that can help you find vegan restaurants and cafes near your location.</li><br>
+        <li><b>Communicate with locals</b>: If you're not sure whether a dish is vegan or not, don't be afraid to ask the server or the chef. Koreans are known for their hospitality, and they will often go out of their way to accommodate your dietary needs.</li><br>
+    </ol><br>
+    <p>While it might require a bit of effort to find vegan options in Korea, it's definitely possible. By following these tips and keeping an open mind, you can experience the best of Korean food culture without compromising your dietary choices.
     </p>
 </div>

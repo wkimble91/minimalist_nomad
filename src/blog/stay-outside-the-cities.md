@@ -3,12 +3,12 @@ pageName: stay-outside-the-cities
 blogTitle: 'Stay Outside The Cities'
 titleTag: 'Stay Outside The Cities'
 author: 'Will Kimble'
-blogDescription: Don't be afraid to stay more long term if possible and don't attempt to do everything immediately.
+blogDescription: Stay long term and embracing the local culture.
 date: 2019-02-11T15:46:45.249Z
 tags:
-    - post
-    - featured
-    - budget
+  - post
+  - featured
+  - budget
 blogTag: budget
 image: /assets/images/blog/budget-3-2x.jpg
 imageSmall: /assets/images/blog/budget-3-1x.jpg
@@ -18,95 +18,27 @@ imageAlt: Village with winding road
 <h3 class="blog-post__sub-heading revealFade">Don't be afraid to stay more long term if possible</h3>
 <hr class="blog-post__divider revealFade">
 <div class="blog-post__description revealFade">
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui voluptates
-        placeat aut voluptate soluta fugiat earum molestiae cumque nesciunt error animi fuga unde
-        cupiditate,
-        consectetur magni consequuntur totam labore voluptas.
-        Ullam neque, iste, optio autem quos facilis voluptate minus soluta non officia eum accusamus
-        dicta.
-        Modi
-        repellat amet corporis earum ipsum magni. Itaque deserunt quia aspernatur in? Et, rem
-        reprehenderit?
+    <p>Staying outside of the cities long-term can be a great way to experience the local culture and save money on travel expenses. Here are some reasons why:
     </p><br>
-    <p>Qui doloribus eaque voluptatem exercitationem quis eveniet hic repellat molestias dolor! Rerum
-        dicta
-        reiciendis incidunt nihil, rem, recusandae, quidem cumque sint ipsum deleniti blanditiis eius
-        veritatis
-        at illo provident aut.
-        Repudiandae laudantium praesentium, ad eum fuga, a rem aut veniam atque numquam similique,
-        officiis
-        totam! Velit non mollitia iure voluptate deleniti ex ut consequuntur, corrupti aperiam nihil
-        nostrum
-        dolores voluptas.
-    </p><br>
-    <p>Fugit neque saepe eveniet! Saepe nulla possimus voluptatem eum illum natus corrupti delectus.
-        Assumenda,
-        hic quae cumque aspernatur earum, omnis eligendi porro temporibus dolores odit ea voluptate,
-        harum
-        reiciendis accusantium?
-        Magni consectetur ducimus quos provident pariatur nesciunt itaque, quia vitae, mollitia maiores
-        deserunt
-        libero officiis ullam nostrum ipsa placeat aliquid quis. Voluptatum harum aut dolorum cupiditate
-        ad
-        nemo
-        exercitationem eligendi.
-    </p><br>
-    <p>Numquam perspiciatis aspernatur eum sit cumque inventore maiores at corporis! Ullam, laboriosam
-        perferendis corporis molestiae enim dolorum aut! Soluta doloremque veritatis nobis at, ipsam est
-        ipsa
-        recusandae numquam ducimus molestias.
-        Quaerat, impedit? Accusantium a eos nihil. Facilis reprehenderit nemo unde aliquid non dolorum
-        delectus,
-        rerum amet maiores doloribus blanditiis expedita minima quasi enim. Inventore fugiat deleniti
-        nesciunt
-        nulla eum vitae?
+    <ol>
+        <li><b>Affordability</b>: Staying outside of the cities is often more affordable than staying in the heart of the city. Accommodations, food, and transportation costs can be significantly lower, allowing you to stretch your travel budget further.</li><br>
+        <li><b>Authenticity</b>: Staying in smaller towns or rural areas can provide a more authentic experience of the local culture. You can meet locals, try traditional foods, and learn about the history and traditions of the area. </li><br>
+        <li><b>Natural beauty</b>: Staying outside of the cities often means being surrounded by beautiful natural landscapes. You can go hiking, explore the countryside, and appreciate the stunning views.</li><br>
+        <li><b>Peace and quiet</b>: Cities can be noisy and chaotic, and staying outside of them can provide a much-needed break from the hustle and bustle. It can be a great way to relax and recharge while still enjoying your travels.</li><br>
+    </ol><br>
+    <p>Staying outside of the cities long-term can be a great way to save money, experience the local culture, enjoy natural beauty, and find peace and quiet. So, consider taking a break from the cities and explore what the surrounding areas have to offer. I'll try and write a full blog post about this topic in more detail.
     </p>
 </div>
-<h3 class="blog-post__sub-heading revealFade">Don't attempt to do everything immediately</h3>
+<h3 class="blog-post__sub-heading revealFade">Embrace the local culture</h3>
 <hr class="blog-post__divider revealFade">
 <div class="blog-post__description revealFade">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est molestias quo
-        officia tempore ad. Ratione aut amet cumque dolor! Vel sint hic inventore unde eligendi
-        voluptatum
-        aut
-        aspernatur quia maiores?
-        At consequuntur molestiae, expedita assumenda earum odit esse vero quis. Possimus officia
-        voluptatem
-        vero expedita molestiae, incidunt dolores quos veritatis, provident quas facere dignissimos
-        voluptatum
-        enim laboriosam tempore fuga consequuntur?
+    <p>Traveling and staying outside of the cities can be a great way to experience the local cultures in a more authentic way. Here are some reasons why:
     </p><br>
-    <p>Quidem voluptatem id natus eveniet? Ullam impedit necessitatibus dignissimos deleniti, quod ab
-        eos
-        adipisci ipsum alias laudantium molestiae minus eveniet explicabo sapiente facilis animi fuga
-        labore
-        optio unde laborum laboriosam.
-        Sint cum consequatur numquam, vitae eum culpa sapiente eligendi temporibus, eos, magnam
-        laboriosam
-        adipisci tempore possimus in error! Ipsa assumenda sunt sapiente necessitatibus repellat
-        voluptates
-        ab
-        nisi nesciunt inventore eos.
-    </p><br>
-    <p>Assumenda quas quo accusantium debitis quam recusandae unde eius perspiciatis impedit, officiis
-        sit
-        aut
-        sequi voluptatibus a nobis rem. Doloribus nihil porro officia voluptatem, reiciendis aut earum
-        quibusdam? Doloribus, dolore!
-        Rerum repellendus, non veritatis tempore qui odit voluptatum laborum modi cumque tenetur culpa
-        dignissimos, accusamus cupiditate. Voluptatem, incidunt? Earum quae esse suscipit optio quod
-        soluta
-        commodi cum nulla perspiciatis architecto!
-    </p><br>
-    <p>Quia natus, tempora ut laudantium, in iste a inventore temporibus ratione non dolore cupiditate
-        amet
-        sequi rem quaerat voluptatum impedit praesentium. Dolor, minima sapiente culpa perspiciatis
-        libero
-        adipisci ea nostrum?
-        Voluptatum id repellat neque vel natus saepe, doloremque, eligendi nisi explicabo nemo unde
-        praesentium
-        ut vero modi, ducimus ipsum amet quam consequuntur quo. Provident quis accusamus iusto sunt
-        nulla
-        dolores.
+    <ol>
+        <li><b>Immersion</b>: Staying in smaller towns or rural areas can provide a more immersive experience of the local culture. You can interact with locals, learn about their customs and traditions, and experience their way of life. </li><br>
+        <li><b>Food</b>: Local food is often one of the best ways to experience a new culture, and staying outside of the cities can provide a great opportunity to try local cuisine. Smaller towns and villages often have their own unique dishes and ingredients that you might not find in the cities.</li><br>
+        <li><b>Landscape</b>: Staying outside of the cities can also provide an opportunity to explore the natural landscape and outdoor activities that the region has to offer. This can be a great way to learn about the natural environment and its role in the local culture.</li><br>
+    </ol><br>
+    <p>Staying outside of the cities can be a great way to experience the local cultures in a more authentic and immersive way. By interacting with locals, trying local food, exploring the natural landscape, and learning about customs and traditions, you can gain a deeper appreciation of the local culture. So, consider taking a break from the cities on your next trip and exploring what the surrounding areas have to offer. You won't regret it.
     </p>
 </div>

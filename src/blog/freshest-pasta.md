@@ -6,9 +6,9 @@ author: 'Will Kimble'
 blogDescription: What to look for and how I prepared it.
 date: 2018-02-11T15:46:45.249Z
 tags:
-    - post
-    - featured
-    - food
+  - post
+  - featured
+  - food
 blogTag: food
 image: /assets/images/blog/food-1-2x.jpg
 imageSmall: /assets/images/blog/food-1-1x.jpg
@@ -18,95 +18,32 @@ imageAlt: Pasta
 <h3 class="blog-post__sub-heading revealFade">What to look for</h3>
 <hr class="blog-post__divider revealFade">
 <div class="blog-post__description revealFade">
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui voluptates
-        placeat aut voluptate soluta fugiat earum molestiae cumque nesciunt error animi fuga unde
-        cupiditate,
-        consectetur magni consequuntur totam labore voluptas.
-        Ullam neque, iste, optio autem quos facilis voluptate minus soluta non officia eum accusamus
-        dicta.
-        Modi
-        repellat amet corporis earum ipsum magni. Itaque deserunt quia aspernatur in? Et, rem
-        reprehenderit?
+    <p>Italy is known for its delicious cuisine, and one of the staples of Italian food is fresh pasta. While it's easy to find dried pasta in supermarkets and restaurants around the world, there's nothing quite like the taste and texture of freshly made pasta.
     </p><br>
-    <p>Qui doloribus eaque voluptatem exercitationem quis eveniet hic repellat molestias dolor! Rerum
-        dicta
-        reiciendis incidunt nihil, rem, recusandae, quidem cumque sint ipsum deleniti blanditiis eius
-        veritatis
-        at illo provident aut.
-        Repudiandae laudantium praesentium, ad eum fuga, a rem aut veniam atque numquam similique,
-        officiis
-        totam! Velit non mollitia iure voluptate deleniti ex ut consequuntur, corrupti aperiam nihil
-        nostrum
-        dolores voluptas.
+    <p>If you're traveling to Italy, you'll have no shortage of opportunities to try fresh pasta. From small local restaurants to high-end gourmet establishments, there are countless places to enjoy this Italian specialty.
     </p><br>
-    <p>Fugit neque saepe eveniet! Saepe nulla possimus voluptatem eum illum natus corrupti delectus.
-        Assumenda,
-        hic quae cumque aspernatur earum, omnis eligendi porro temporibus dolores odit ea voluptate,
-        harum
-        reiciendis accusantium?
-        Magni consectetur ducimus quos provident pariatur nesciunt itaque, quia vitae, mollitia maiores
-        deserunt
-        libero officiis ullam nostrum ipsa placeat aliquid quis. Voluptatum harum aut dolorum cupiditate
-        ad
-        nemo
-        exercitationem eligendi.
+    <p>One of the best ways to find fresh pasta is to seek out local pasta makers. In many towns and cities, you'll find small shops and markets that specialize in making and selling fresh pasta. These shops often offer a wide variety of shapes and flavors, and you can even watch the pasta being made right in front of you.
     </p><br>
-    <p>Numquam perspiciatis aspernatur eum sit cumque inventore maiores at corporis! Ullam, laboriosam
-        perferendis corporis molestiae enim dolorum aut! Soluta doloremque veritatis nobis at, ipsam est
-        ipsa
-        recusandae numquam ducimus molestias.
-        Quaerat, impedit? Accusantium a eos nihil. Facilis reprehenderit nemo unde aliquid non dolorum
-        delectus,
-        rerum amet maiores doloribus blanditiis expedita minima quasi enim. Inventore fugiat deleniti
-        nesciunt
-        nulla eum vitae?
+    <p>Another great option is to visit a local restaurant that specializes in fresh pasta dishes. These restaurants often have a small selection of pasta dishes on the menu, but they are typically made with the freshest ingredients and prepared to order. Some popular fresh pasta dishes to look out for include tagliatelle, ravioli, and gnocchi.
+    </p><br>
+    <p>Finally, if you're feeling adventurous, you can even try making fresh pasta yourself. Many cooking schools and culinary experiences in Italy offer classes on making fresh pasta, where you can learn the techniques and secrets of this Italian specialty firsthand.
+    </p><br>
+    <p>If you're a pasta lover and traveling to Italy, don't miss out on the opportunity to try fresh pasta. Whether you're visiting a local pasta maker, dining at a restaurant that specializes in fresh pasta, or even making it yourself, the taste and texture of fresh pasta are sure to be a highlight of your Italian experience.
     </p>
 </div>
-<h3 class="blog-post__sub-heading revealFade">How I prepared it</h3>
+<h3 class="blog-post__sub-heading revealFade">How to prepared it</h3>
 <hr class="blog-post__divider revealFade">
 <div class="blog-post__description revealFade">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est molestias quo
-        officia tempore ad. Ratione aut amet cumque dolor! Vel sint hic inventore unde eligendi
-        voluptatum
-        aut
-        aspernatur quia maiores?
-        At consequuntur molestiae, expedita assumenda earum odit esse vero quis. Possimus officia
-        voluptatem
-        vero expedita molestiae, incidunt dolores quos veritatis, provident quas facere dignissimos
-        voluptatum
-        enim laboriosam tempore fuga consequuntur?
+    <p>First and foremost, selecting the right type of pasta is crucial. There are many varieties of pasta available in Italy, ranging from spaghetti and linguine to rigatoni and farfalle. Each pasta has its own unique texture and shape, making it perfect for different sauces and dishes.
     </p><br>
-    <p>Quidem voluptatem id natus eveniet? Ullam impedit necessitatibus dignissimos deleniti, quod ab
-        eos
-        adipisci ipsum alias laudantium molestiae minus eveniet explicabo sapiente facilis animi fuga
-        labore
-        optio unde laborum laboriosam.
-        Sint cum consequatur numquam, vitae eum culpa sapiente eligendi temporibus, eos, magnam
-        laboriosam
-        adipisci tempore possimus in error! Ipsa assumenda sunt sapiente necessitatibus repellat
-        voluptates
-        ab
-        nisi nesciunt inventore eos.
+    <p>When it comes to cooking the pasta, the key is to cook it al dente, which means it should be cooked so that it's firm to the bite. Start by bringing a large pot of salted water to a boil, then add the pasta and stir occasionally to prevent it from sticking together. Check the pasta frequently to ensure it doesn't overcook.
     </p><br>
-    <p>Assumenda quas quo accusantium debitis quam recusandae unde eius perspiciatis impedit, officiis
-        sit
-        aut
-        sequi voluptatibus a nobis rem. Doloribus nihil porro officia voluptatem, reiciendis aut earum
-        quibusdam? Doloribus, dolore!
-        Rerum repellendus, non veritatis tempore qui odit voluptatum laborum modi cumque tenetur culpa
-        dignissimos, accusamus cupiditate. Voluptatem, incidunt? Earum quae esse suscipit optio quod
-        soluta
-        commodi cum nulla perspiciatis architecto!
+    <p>While the pasta is cooking, prepare your sauce. Many classic Italian pasta dishes use simple ingredients like tomatoes, garlic, olive oil, and herbs, but there are countless variations to choose from. You can also experiment with adding different vegetables, meats, and cheeses to create your own unique sauce.
     </p><br>
-    <p>Quia natus, tempora ut laudantium, in iste a inventore temporibus ratione non dolore cupiditate
-        amet
-        sequi rem quaerat voluptatum impedit praesentium. Dolor, minima sapiente culpa perspiciatis
-        libero
-        adipisci ea nostrum?
-        Voluptatum id repellat neque vel natus saepe, doloremque, eligendi nisi explicabo nemo unde
-        praesentium
-        ut vero modi, ducimus ipsum amet quam consequuntur quo. Provident quis accusamus iusto sunt
-        nulla
-        dolores.
+    <p>Once the pasta is cooked to al dente, drain it and add it to the sauce. Toss the pasta with the sauce to ensure that each piece is coated evenly. You can also top the pasta with additional grated cheese, fresh herbs, or a drizzle of olive oil for added flavor.
+    </p><br>
+    <p>In Italy, pasta is often served as a first course, followed by a meat or seafood dish. But it can also be enjoyed as a main course, especially when paired with a simple side salad and a glass of wine.
+    </p><br>
+    <p>Cooking pasta in an authentic way is a great way to experience the rich culinary traditions of Italy. With the right ingredients and techniques, you can create a delicious and satisfying meal that captures the essence of Italian cuisine.
     </p>
 </div>
