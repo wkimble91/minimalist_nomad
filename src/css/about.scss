@@ -1,105 +1,109 @@
 .about {
-    //Parent
-    grid-row: 2 / span 1;
+  //Parent
+  grid-row: 2 / span 1;
 
-    &__heading {
-        //Image Styling
-        background-image: linear-gradient(
-                to bottom,
-                rgba(0, 0, 0, 1) 0%,
-                rgba(0, 0, 0, 0.7) 10%,
-                rgba(0, 0, 0, 0.4) 40%,
-                rgba(0, 0, 0, 0.4) 60%,
-                rgba(0, 0, 0, 0.7) 90%,
-                rgba(0, 0, 0, 1) 100%
-            ),
-            url(../assets/images/about/about-banner2x.jpg);
-        @media only screen and (max-width: 56.25em) {
-            //Image Styling
-            background-image: linear-gradient(
-                    to bottom,
-                    rgba(0, 0, 0, 1) 0%,
-                    rgba(0, 0, 0, 0.7) 10%,
-                    rgba(0, 0, 0, 0.4) 40%,
-                    rgba(0, 0, 0, 0.4) 60%,
-                    rgba(0, 0, 0, 0.7) 90%,
-                    rgba(0, 0, 0, 1) 100%
-                ),
-                url(../assets/images/about/about-banner1x.jpg);
-        }
+  &__heading {
+    //Image Styling
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 1) 0%,
+        rgba(0, 0, 0, 0.7) 10%,
+        rgba(0, 0, 0, 0.4) 40%,
+        rgba(0, 0, 0, 0.4) 60%,
+        rgba(0, 0, 0, 0.7) 90%,
+        rgba(0, 0, 0, 1) 100%
+      ),
+      url(../assets/images/about/about-banner2x.jpg);
+    @media only screen and (max-width: 56.25em) {
+      //Image Styling
+      background-image: linear-gradient(
+          to bottom,
+          rgba(0, 0, 0, 1) 0%,
+          rgba(0, 0, 0, 0.7) 10%,
+          rgba(0, 0, 0, 0.4) 40%,
+          rgba(0, 0, 0, 0.4) 60%,
+          rgba(0, 0, 0, 0.7) 90%,
+          rgba(0, 0, 0, 1) 100%
+        ),
+        url(../assets/images/about/about-banner1x.jpg);
+    }
+  }
+
+  &__box {
+    //Spacing
+    width: 40%;
+    margin: 10rem auto 0;
+
+    @media only screen and (max-width: 87.5em) {
+      //Spacing
+      width: 50%;
+    }
+    @media only screen and (max-width: 75em) {
+      //Spacing
+      width: 70%;
+    }
+    @media only screen and (max-width: 56.25em) {
+      //Spacing
+      width: 90%;
+    }
+  }
+
+  &__image {
+    //Spacing
+    width: 100%;
+
+    //Image Styling
+    object-fit: contain;
+    object-position: center center;
+
+    //Border Styling
+    border: 2px solid var(--color-primary-dark);
+  }
+
+  &__head {
+    //Spacing
+    z-index: 2;
+    padding: 2rem 0 1.4rem;
+
+    //Font Styling
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: 0.4rem;
+    text-transform: uppercase;
+  }
+  &__divider {
+    //Spacing
+    width: 10rem;
+    margin: 0 auto 0 0;
+
+    //Color Styling
+    color: var(--color-secondary);
+
+    //Border Styling
+    border-top-width: 2px;
+  }
+  &__description {
+    //Spacing
+    padding: 8rem 0 10rem;
+
+    //Font Styling
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    text-indent: 1.5rem;
+
+    //Color Styling
+    color: var(--color-grey-dark-1);
+
+    ol {
+      list-style-position: inside;
     }
 
-    &__box {
-        //Spacing
-        width: 40%;
-        margin: 10rem auto 0;
+    @media only screen and (max-width: 56.25em) {
+      //Spacing
+      padding: 5rem 0 7rem;
 
-        @media only screen and (max-width: 87.5em) {
-            //Spacing
-            width: 50%;
-        }
-        @media only screen and (max-width: 75em) {
-            //Spacing
-            width: 70%;
-        }
-        @media only screen and (max-width: 56.25em) {
-            //Spacing
-            width: 90%;
-        }
+      //Font Styling
+      line-height: 2.8rem;
     }
-
-    &__image {
-        //Spacing
-        width: 100%;
-
-        //Image Styling
-        object-fit: contain;
-        object-position: center center;
-
-        //Border Styling
-        border: 2px solid var(--color-primary-dark);
-    }
-
-    &__head {
-        //Spacing
-        z-index: 2;
-        padding: 2rem 0 1.4rem;
-
-        //Font Styling
-        font-size: 3rem;
-        font-weight: 600;
-        letter-spacing: 0.4rem;
-        text-transform: uppercase;
-    }
-    &__divider {
-        //Spacing
-        width: 10rem;
-        margin: 0 auto 0 0;
-
-        //Color Styling
-        color: var(--color-secondary);
-
-        //Border Styling
-        border-top-width: 2px;
-    }
-    &__description {
-        //Spacing
-        padding: 8rem 0 10rem;
-
-        //Font Styling
-        font-size: 1.6rem;
-        line-height: 3.2rem;
-        text-indent: 3rem;
-
-        //Color Styling
-        color: var(--color-grey-dark-1);
-
-        @media only screen and (max-width: 56.25em) {
-            //Spacing
-            padding: 5rem 0 7rem;
-
-            //Font Styling
-            line-height: 2.8rem;
-        }
-    }
+  }
 }

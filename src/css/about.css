@@ -8,5 +8,6 @@
 .about__image { width: 100%; -o-object-fit: contain; object-fit: contain; -o-object-position: center center; object-position: center center; border: 2px solid var(--color-primary-dark); }
 .about__head { z-index: 2; padding: 2rem 0 1.4rem; font-size: 3rem; font-weight: 600; letter-spacing: 0.4rem; text-transform: uppercase; }
 .about__divider { width: 10rem; margin: 0 auto 0 0; color: var(--color-secondary); border-top-width: 2px; }
-.about__description { padding: 8rem 0 10rem; font-size: 1.6rem; line-height: 3.2rem; text-indent: 3rem; color: var(--color-grey-dark-1); }
+.about__description { padding: 8rem 0 10rem; font-size: 1.6rem; line-height: 3.2rem; text-indent: 1.5rem; color: var(--color-grey-dark-1); }
+.about__description ol { list-style-position: inside; }
 @media only screen and (max-width: 56.25em) { .about__description { padding: 5rem 0 7rem; line-height: 2.8rem; } }
