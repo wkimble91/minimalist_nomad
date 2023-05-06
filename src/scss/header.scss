@@ -15,7 +15,7 @@
   //Spacing
   height: 9rem;
   position: fixed;
-  width: 100%;
+  width: 100vw;
   z-index: 200;
 
   //Font Styling
@@ -78,7 +78,7 @@
     align-items: center;
     gap: 3rem;
 
-    width: 100%;
+    width: 100vw;
 
     //Font Styling
     font-size: 1.8rem;

@@ -52,15 +52,15 @@
 @media only screen and (max-width: 37.5em) { .cta-dark__header { margin-bottom: 1rem; padding: 1rem; } }
 @media only screen and (max-width: 31.25em) { .cta-dark__header { padding: 1rem; } }
 .cta-dark__form { display: -webkit-box; display: -ms-flexbox; display: flex; }
+@media only screen and (max-width: 37.5em) { .cta-dark__form { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; } }
 .cta-dark__form-input { width: 40rem; padding: 0 1.5rem; background-color: #fff; border: 0; border-radius: 10px; -webkit-transition: all 0.2s; transition: all 0.2s; }
 .cta-dark__form-input:active, .cta-dark__form-input:focus { -webkit-box-shadow: 0 10px 4px rgba(0, 0, 0, 0.5); box-shadow: 0 10px 4px rgba(0, 0, 0, 0.5); -webkit-transform: translateY(-0.2rem); transform: translateY(-0.2rem); }
 @media only screen and (max-width: 56.25em) { .cta-dark__form-input { width: 40rem; } }
-@media only screen and (max-width: 37.5em) { .cta-dark__form-input { width: 30rem; font-size: 1.4rem; } }
+@media only screen and (max-width: 37.5em) { .cta-dark__form-input { height: 6rem; font-size: 1.4rem; } }
 .cta-dark__form-button { cursor: pointer; padding: 1.2rem 4rem; margin-left: 2rem; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; position: relative; background-color: rgba(39, 44, 38, 0.8); color: white; border: 2px solid white; border-radius: 60px; -webkit-box-shadow: -4px 4px 1px rgba(0, 0, 0, 0.3); box-shadow: -4px 4px 1px rgba(0, 0, 0, 0.3); text-shadow: -2px 2px 1px #000000; -webkit-transition: all 0.2s; transition: all 0.2s; }
 .cta-dark__form-button:hover { -webkit-box-shadow: -6px 6px 3px rgba(0, 0, 0, 0.5); box-shadow: -6px 6px 3px rgba(0, 0, 0, 0.5); -webkit-transform: scale(1.05) translatex(0.6rem); transform: scale(1.05) translatex(0.6rem); }
 .cta-dark__form-button--text { font-size: clamp(16px, 1.8vw, 2.6rem); font-weight: 600; text-transform: uppercase; text-decoration: none; }
 .cta-dark__form-button--icon { display: inline-block; margin-left: 1.5rem; width: 3rem; height: 3rem; fill: white; overflow: visible; }
 @media only screen and (max-width: 56.25em) { .cta-dark__form-button { padding: 1rem 2rem; margin-left: 2rem; }
   .cta-dark__form-button--icon { width: 2.4rem; height: 2.4rem; margin-left: 1.5rem; } }
-@media only screen and (max-width: 37.5em) { .cta-dark__form-button { padding: 0.8rem 1.4rem; margin-left: 1.4rem; }
-  .cta-dark__form-button--icon { width: 2rem; height: 2rem; margin-left: 1.5rem; } }
+@media only screen and (max-width: 37.5em) { .cta-dark__form-button { padding: 0.8rem 1.4rem; margin: 2rem 0 0; } }

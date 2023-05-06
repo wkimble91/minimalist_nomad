@@ -398,6 +398,11 @@
     //Display
     display: flex;
 
+    @media only screen and (max-width: 37.5em) {
+      //Display
+      flex-direction: column;
+    }
+
     &-input {
       //Spacing
       width: 40rem;
@@ -428,7 +433,7 @@
       }
       @media only screen and (max-width: 37.5em) {
         //Spacing
-        width: 30rem;
+        height: 6rem;
 
         //Font Styling
         font-size: 1.4rem;
@@ -503,14 +508,7 @@
       @media only screen and (max-width: 37.5em) {
         //Spacing
         padding: 0.8rem 1.4rem;
-        margin-left: 1.4rem;
-
-        &--icon {
-          //Spacing
-          width: 2rem;
-          height: 2rem;
-          margin-left: 1.5rem;
-        }
+        margin: 2rem 0 0;
       }
     }
   }
