@@ -8,7 +8,7 @@
 .hero__title { font-size: 12rem; font-weight: 400; line-height: 1; color: white; text-shadow: -3px 3px 1px #000; -webkit-animation: moveInLeft 0.8s ease-out; animation: moveInLeft 0.8s ease-out; }
 @media only screen and (max-width: 80em) { .hero__title { font-size: 10rem; } }
 @media only screen and (max-width: 37.5em) { .hero__title { font-size: 7.8rem; text-shadow: -2px 2px 1px #000; font-weight: 600; } }
-@media only screen and (max-width: 31.25em) { .hero__title { font-size: 6.8rem; } }
+@media only screen and (max-width: 22em) { .hero__title { font-size: 6.8rem; } }
 .hero__subtitle { position: relative; margin: 3rem 0 1.6rem; font-size: 3rem; font-weight: 400; line-height: 1; color: white; text-shadow: -1px 1px 2px #000; -webkit-animation: moveInLeft 0.8s ease-out 0.8s; animation: moveInLeft 0.8s ease-out 0.8s; -webkit-animation-fill-mode: backwards; animation-fill-mode: backwards; }
 .hero__subtitle .hero__subtitle-divider { margin: 0 2rem; }
 @media only screen and (max-width: 56.25em) { .hero__subtitle .hero__subtitle-divider { display: block; opacity: 0; height: 1rem; } }

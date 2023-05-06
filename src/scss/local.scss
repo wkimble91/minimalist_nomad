@@ -186,10 +186,7 @@
   }
 }
 
-.cta {
-  //Parent
-  grid-row: 3 / span 1;
-
+@mixin cta {
   //Display
   display: flex;
   flex-direction: column;
@@ -200,18 +197,6 @@
   position: relative;
   z-index: 2;
   height: 50rem;
-
-  //Image Styling
-  background-image: linear-gradient(
-      to bottom,
-      rgba(#cad0c8, 1) 0,
-      rgba(#272c26, 0) 50%,
-      rgba(#272c26, 1) 99%
-    ),
-    url(../assets/images/banner.jpg);
-  background-size: cover;
-  background-position: center;
-  overflow: hidden;
 
   @media only screen and (max-width: 56.25em) {
     //Display
@@ -235,6 +220,11 @@
 
     //Color Styling
     color: white;
+
+    //Image Styling
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
 
     @media only screen and (max-width: 37.5em) {
       //Spacing
@@ -368,177 +358,26 @@
   }
 }
 
+.cta {
+  @include cta;
+  //Parent
+  grid-row: 3 / span 1;
+
+  //Image Styling
+  background-image: linear-gradient(
+      to bottom,
+      rgba(#cad0c8, 1) 0,
+      rgba(#272c26, 0) 50%,
+      rgba(#272c26, 1) 99%
+    ),
+    url(../assets/images/banner.jpg);
+}
+
 .cta-dark {
+  @include cta;
   //Parent
   grid-row: 4 / span 1;
 
-  //Display
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  //Spacing
-  position: relative;
-  z-index: 5;
-  height: 30rem;
-
   //Image Styling
   background-color: #272c26;
-  background-size: cover;
-  background-position: center;
-  overflow: hidden;
-
-  @media only screen and (max-width: 56.25em) {
-    //Display
-    flex-direction: column;
-    justify-content: center;
-
-    //Spacing
-    padding: 15rem 0;
-  }
-
-  &__header {
-    //Spacing
-    padding: 0 1rem;
-    margin-bottom: 2rem;
-
-    //Font Styling
-    font-size: clamp(18px, 3.5vw, 4rem);
-    font-weight: 400;
-    text-shadow: -2px 2px 1px #000000;
-    text-align: center;
-
-    //Color Styling
-    color: white;
-
-    @media only screen and (max-width: 37.5em) {
-      //Spacing
-      margin-bottom: 1rem;
-      padding: 1rem;
-    }
-    @media only screen and (max-width: 31.25em) {
-      //Spacing
-      padding: 1rem;
-    }
-  }
-
-  &__form {
-    //Display
-    display: flex;
-
-    @media only screen and (max-width: 37.5em) {
-      //Display
-      flex-direction: column;
-    }
-
-    &-input {
-      //Spacing
-      width: 40rem;
-      padding: 0 1.5rem;
-
-      //Color Styling
-      background-color: #fff;
-
-      //Border Styling
-      border: 0;
-      border-radius: 10px;
-
-      //Animations
-      transition: all 0.2s;
-
-      &:active,
-      &:focus {
-        //Border Styling
-        box-shadow: 0 10px 4px rgba(#000, 0.5);
-
-        //Animations
-        transform: translateY(-0.2rem);
-      }
-
-      @media only screen and (max-width: 56.25em) {
-        //Spacing
-        width: 40rem;
-      }
-      @media only screen and (max-width: 37.5em) {
-        //Spacing
-        height: 6rem;
-
-        //Font Styling
-        font-size: 1.4rem;
-      }
-    }
-    &-button {
-      cursor: pointer;
-
-      //Spacing
-      padding: 1.2rem 4rem;
-      margin-left: 2rem;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      position: relative;
-
-      //Color Styling
-      background-color: rgba(#272c26, 0.8);
-      color: white;
-
-      //Border Styling
-      border: 2px solid white;
-      border-radius: 60px;
-      box-shadow: -4px 4px 1px rgba(#000, 0.3);
-      text-shadow: -2px 2px 1px #000000;
-
-      //Animations
-      transition: all 0.2s;
-
-      &:hover {
-        //Border Styling
-        box-shadow: -6px 6px 3px rgba(#000, 0.5);
-
-        //Animations
-        transform: scale(1.05) translatex(0.6rem);
-      }
-
-      &--text {
-        //Font Styling
-        font-size: clamp(16px, 1.8vw, 2.6rem);
-        font-weight: 600;
-        text-transform: uppercase;
-        text-decoration: none;
-      }
-
-      &--icon {
-        //Display
-        display: inline-block;
-        margin-left: 1.5rem;
-
-        //Spacing
-        width: 3rem;
-        height: 3rem;
-
-        //Color Styling
-        fill: white;
-        overflow: visible;
-      }
-
-      @media only screen and (max-width: 56.25em) {
-        //Spacing
-        padding: 1rem 2rem;
-        margin-left: 2rem;
-
-        &--icon {
-          //Spacing
-          width: 2.4rem;
-          height: 2.4rem;
-          margin-left: 1.5rem;
-        }
-      }
-      @media only screen and (max-width: 37.5em) {
-        //Spacing
-        padding: 0.8rem 1.4rem;
-        margin: 2rem 0 0;
-      }
-    }
-  }
 }
