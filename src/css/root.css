@@ -136,7 +136,7 @@ src: url("/assets/fonts/poppins-v20-latin-800italic.eot?#iefix") format("embedde
 html { -webkit-box-sizing: border-box; box-sizing: border-box; font-size: 62.5%; }
 @media only screen and (max-width: 87.5em) { html { font-size: 50%; } }
 
-body { font-family: 'Poppins', sans-serif; line-height: 1.6; width: 100vw; overflow-x: hidden; }
+body { font-family: 'Poppins', sans-serif; line-height: 1.6; width: 100vw; overflow-x: hidden !important; }
 
 /*-- -------------------------- -->
 <---    General Grid Spacing    -->
