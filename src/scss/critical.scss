@@ -17,13 +17,14 @@
   //Image Styling
   background-image: linear-gradient(
       to bottom,
-      rgba(#272c26, 1) 0%,
-      rgba(#272c26, 0.7) 30%,
-      rgba(#272c26, 0.6) 50%,
-      rgba(#272c26, 0.7) 70%,
+      rgba(#272c26, 0.8) 0%,
+      rgba(#272c26, 0.3) 30%,
+      rgba(#272c26, 0.3) 50%,
+      rgba(#272c26, 0.3) 70%,
+      rgba(#272c26, 0.7) 85%,
       rgba(#272c26, 1) 100%
     ),
-    url(../assets/images/hero.jpg);
+    url(../assets/images/hero3.jpg);
   background-size: cover;
   background-position: top;
 
