@@ -35,17 +35,21 @@
 .cta { grid-row: 3 / span 1; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; position: relative; z-index: 2; height: 50rem; background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #cad0c8), color-stop(50%, rgba(39, 44, 38, 0)), color-stop(99%, #272c26)), url(../assets/images/banner.jpg); background-image: linear-gradient(to bottom, #cad0c8 0, rgba(39, 44, 38, 0) 50%, #272c26 99%), url(../assets/images/banner.jpg); background-size: cover; background-position: center; overflow: hidden; }
 @media only screen and (max-width: 56.25em) { .cta { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; padding: 15rem 0; } }
 .cta__header { padding: 0 1rem; margin-bottom: 2rem; font-size: clamp(18px, 3.5vw, 4rem); font-weight: 400; text-shadow: -1px 1px 2px #000; text-align: center; color: white; }
-@media only screen and (max-width: 37.5em) { .cta__header { padding: 2rem; } }
+@media only screen and (max-width: 37.5em) { .cta__header { padding: 2rem; font-weight: 600; text-shadow: -2px 2px 4px #000; } }
 @media only screen and (max-width: 31.25em) { .cta__header { padding: 1rem; } }
 .cta__form { display: -webkit-box; display: -ms-flexbox; display: flex; }
+@media only screen and (max-width: 37.5em) { .cta__form { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; } }
 .cta__form-input { width: 40rem; padding: 0 1.5rem; background-color: #fff; border: 0; border-radius: 1rem; -webkit-transition: all 0.2s; transition: all 0.2s; }
 .cta__form-input:active, .cta__form-input:focus { -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); -webkit-transform: translateY(-0.2rem); transform: translateY(-0.2rem); }
-@media only screen and (max-width: 56.25em) { .cta__form-input { width: 30rem; } }
-@media only screen and (max-width: 37.5em) { .cta__form-input { width: 20rem; font-size: 1.4rem; } }
+@media only screen and (max-width: 56.25em) { .cta__form-input { width: 40rem; } }
+@media only screen and (max-width: 37.5em) { .cta__form-input { height: 6rem; font-size: 1.4rem; } }
 .cta__form-button { cursor: pointer; padding: 1.2rem 4rem; margin-left: 2rem; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; position: relative; background-color: rgba(39, 44, 38, 0.8); color: white; border: 2px solid white; border-radius: 60px; -webkit-box-shadow: -4px 4px 1px rgba(0, 0, 0, 0.3); box-shadow: -4px 4px 1px rgba(0, 0, 0, 0.3); text-shadow: -2px 2px 1px #000000; -webkit-transition: all 0.2s; transition: all 0.2s; }
 .cta__form-button:hover { -webkit-box-shadow: -6px 6px 3px rgba(0, 0, 0, 0.5); box-shadow: -6px 6px 3px rgba(0, 0, 0, 0.5); -webkit-transform: scale(1.05) translatex(0.6rem); transform: scale(1.05) translatex(0.6rem); }
 .cta__form-button--text { font-size: clamp(16px, 1.8vw, 2.6rem); font-weight: 600; text-transform: uppercase; text-decoration: none; }
 .cta__form-button--icon { display: inline-block; margin-left: 1.5rem; width: 3rem; height: 3rem; fill: white; overflow: visible; }
+@media only screen and (max-width: 56.25em) { .cta__form-button { padding: 1rem 2rem; margin-left: 2rem; }
+  .cta__form-button--icon { width: 2.4rem; height: 2.4rem; margin-left: 1.5rem; } }
+@media only screen and (max-width: 37.5em) { .cta__form-button { padding: 0.8rem 1.4rem; margin: 2rem 0 0; } }
 
 .cta-dark { grid-row: 4 / span 1; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; position: relative; z-index: 5; height: 30rem; background-color: #272c26; background-size: cover; background-position: center; overflow: hidden; }
 @media only screen and (max-width: 56.25em) { .cta-dark { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; padding: 15rem 0; } }

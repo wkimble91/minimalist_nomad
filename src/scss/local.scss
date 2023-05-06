@@ -239,22 +239,23 @@
     @media only screen and (max-width: 37.5em) {
       //Spacing
       padding: 2rem;
-
-      //Font Styling
-      // font-size: 2rem;
+      font-weight: 600;
+      text-shadow: -2px 2px 4px #000;
     }
     @media only screen and (max-width: 31.25em) {
       //Spacing
       padding: 1rem;
-
-      //Font Styling
-      // font-size: 1.6rem;
     }
   }
 
   &__form {
     //Display
     display: flex;
+
+    @media only screen and (max-width: 37.5em) {
+      //Display
+      flex-direction: column;
+    }
 
     &-input {
       //Spacing
@@ -282,11 +283,11 @@
 
       @media only screen and (max-width: 56.25em) {
         //Spacing
-        width: 30rem;
+        width: 40rem;
       }
       @media only screen and (max-width: 37.5em) {
         //Spacing
-        width: 20rem;
+        height: 6rem;
 
         //Font Styling
         font-size: 1.4rem;
@@ -344,6 +345,24 @@
         //Color Styling
         fill: white;
         overflow: visible;
+      }
+
+      @media only screen and (max-width: 56.25em) {
+        //Spacing
+        padding: 1rem 2rem;
+        margin-left: 2rem;
+
+        &--icon {
+          //Spacing
+          width: 2.4rem;
+          height: 2.4rem;
+          margin-left: 1.5rem;
+        }
+      }
+      @media only screen and (max-width: 37.5em) {
+        //Spacing
+        padding: 0.8rem 1.4rem;
+        margin: 2rem 0 0;
       }
     }
   }
