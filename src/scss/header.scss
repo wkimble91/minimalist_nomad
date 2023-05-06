@@ -60,13 +60,8 @@
       transform: scale(1.02);
     }
 
-    @media only screen and (max-width: 75em) {
-      //Spacing
-      padding: 0;
-    }
     @media only screen and (max-width: 37.5em) {
       //Spacing
-      margin-right: 0;
       height: 6rem;
     }
   }
@@ -319,7 +314,7 @@
       display: block;
 
       //Spacing
-      margin: auto 2rem;
+      margin: auto 3rem;
       z-index: 300;
     }
 

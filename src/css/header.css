@@ -5,8 +5,7 @@
 .header-scrolled { /* This is applied when you scroll the height of the navbar */ height: 7rem; font-size: 1.8rem; background-color: var(--color-grey-dark-1); }
 .header__logo { cursor: pointer; padding-left: 1rem; height: 8rem; -webkit-transition: all 0.1s; transition: all 0.1s; z-index: 10; }
 .header__logo:hover { fill: var(--color-primary-light); -webkit-transform: scale(1.02); transform: scale(1.02); }
-@media only screen and (max-width: 75em) { .header__logo { padding: 0; } }
-@media only screen and (max-width: 37.5em) { .header__logo { margin-right: 0; height: 6rem; } }
+@media only screen and (max-width: 37.5em) { .header__logo { height: 6rem; } }
 .header__nav { position: absolute; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; gap: 3rem; width: 100vw; font-size: 1.8rem; font-weight: 300; text-shadow: -1px 1px #000; }
 .header__nav-item { padding: 1rem 0.5rem; text-decoration: none; color: var(--color-grey-light-1); -webkit-transition: all 0.1s ease-in-out; transition: all 0.1s ease-in-out; }
 .header__nav-item--logo { display: none; }
@@ -35,7 +34,7 @@
 @media only screen and (max-width: 56.25em) { .header__links { margin-left: 0; }
   .header__links > * { padding: 0 0.5rem; } }
 .header__hamburger { display: none; }
-@media only screen and (max-width: 56.25em) { .header__hamburger { cursor: pointer; display: block; margin: auto 2rem; z-index: 300; } }
+@media only screen and (max-width: 56.25em) { .header__hamburger { cursor: pointer; display: block; margin: auto 3rem; z-index: 300; } }
 .header__hamburger .bar { display: block; width: 4rem; height: 1px; margin: 8px auto; background-color: white; -webkit-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; }
 .header__hamburger.active .bar:nth-child(2) { opacity: 0; }
 .header__hamburger.active .bar:nth-child(1) { -webkit-transform: translateY(9px) rotate(45deg); transform: translateY(9px) rotate(45deg); }
