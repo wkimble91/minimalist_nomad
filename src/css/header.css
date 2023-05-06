@@ -8,8 +8,12 @@
 @media only screen and (max-width: 75em) { .header__logo { padding: 0; } }
 @media only screen and (max-width: 37.5em) { .header__logo { margin-right: 0; height: 6rem; } }
 .header__nav { position: absolute; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; gap: 3rem; width: 100vw; font-size: 1.8rem; font-weight: 300; text-shadow: -1px 1px #000; }
-.header__nav a { padding: 1rem 0.5rem; text-decoration: none; color: var(--color-grey-light-1); -webkit-transition: all 0.1s ease-in-out; transition: all 0.1s ease-in-out; }
-.header__nav a:hover { font-weight: 400; -webkit-transform: scale(1.05); transform: scale(1.05); }
+.header__nav-item { padding: 1rem 0.5rem; text-decoration: none; color: var(--color-grey-light-1); -webkit-transition: all 0.1s ease-in-out; transition: all 0.1s ease-in-out; }
+.header__nav-item--logo { display: none; }
+@media only screen and (max-width: 56.25em) { .header__nav-item--logo { display: inline-block; margin: -15vh 0 5vh; } }
+.header__nav-item--logo img { width: 18rem; height: 18rem; }
+.header__nav-item:hover { font-weight: 400; -webkit-transform: scale(1.05); transform: scale(1.05); }
+@media only screen and (max-width: 56.25em) { .header__nav-item { font-size: 3rem; } }
 .header__nav-active { text-decoration: underline !important; text-underline-offset: 1rem; margin-bottom: 1rem; font-weight: 600; }
 .header__nav-active:hover { color: var(--color-grey-light-1) !important; -webkit-transform: scale(1) !important; transform: scale(1) !important; font-weight: 600 !important; }
 @media only screen and (max-width: 56.25em) { .header__nav { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; position: absolute; left: 0; top: 0; z-index: 100; height: 100vh; width: 100vw; background-color: var(--color-grey-dark-1); opacity: 0; text-align: center; -webkit-transition: all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55); transition: all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55); -webkit-transform: scale(0); transform: scale(0); }

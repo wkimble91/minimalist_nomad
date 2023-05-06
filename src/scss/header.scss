@@ -87,7 +87,7 @@
 
     text-shadow: -1px 1px #000;
 
-    & a {
+    &-item {
       //Spacing
       padding: 1rem 0.5rem;
       //Font Styling
@@ -99,12 +99,29 @@
       //Animations
       transition: all 0.1s ease-in-out;
 
+      &--logo {
+        display: none;
+
+        @media only screen and (max-width: 56.25em) {
+          display: inline-block;
+          margin: -15vh 0 5vh;
+        }
+        img {
+          width: 18rem;
+          height: 18rem;
+        }
+      }
+
       &:hover {
         //Color Styling
         font-weight: 400;
 
         //Animations
         transform: scale(1.05);
+      }
+
+      @media only screen and (max-width: 56.25em) {
+        font-size: 3rem;
       }
     }
 
