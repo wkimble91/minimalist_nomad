@@ -20,3 +20,4 @@
 
 .copyright { margin-top: 5rem; font-size: 1.3rem; text-align: center; color: var(--color-grey-light-2); }
 .copyright__link { text-underline-offset: 2px; color: var(--color-grey-light-2); }
+@media only screen and (max-width: 56.25em) { .copyright span { display: block; margin-top: 0.5rem; } }

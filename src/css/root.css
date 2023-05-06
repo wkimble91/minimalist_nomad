@@ -59,6 +59,7 @@
 
 .copyright { margin-top: 5rem; font-size: 1.3rem; text-align: center; color: var(--color-grey-light-2); }
 .copyright__link { text-underline-offset: 2px; color: var(--color-grey-light-2); }
+@media only screen and (max-width: 56.25em) { .copyright span { display: block; margin-top: 0.5rem; } }
 
 :root { /*-- -------------------------- --> <---       Color Schemes        --> <--- -------------------------- -*/ --color-primary-light: #a2b36b; --color-primary: #606c38; --color-primary-dark: #283618; --color-secondary: #dda15e; --color-secondary-dark: #bc6c25; --color-light: #fefae0; --color-grey-light-1: #cad0c8; --color-grey-light-2: #94a092; --color-grey-dark-1: #272c26; --color-grey-dark-2: #30362f; /*-- -------------------------- --> <---        Breakpoints         --> <--- -------------------------- -*/ --bp-bigscreen: 125em; --bp-largest: 87.5em; --bp-large: 75em; --bp-medium: 56.25em; --bp-small: 37.5em; --bp-smallest: 31.25em; }
 
