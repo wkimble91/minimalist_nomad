@@ -211,6 +211,7 @@
     url(../assets/images/banner.jpg);
   background-size: cover;
   background-position: center;
+  overflow: hidden;
 
   @media only screen and (max-width: 56.25em) {
     //Display
@@ -358,8 +359,6 @@
   justify-content: center;
   align-items: center;
 
-  overflow: hidden;
-
   //Spacing
   position: relative;
   z-index: 5;
@@ -369,6 +368,7 @@
   background-color: #272c26;
   background-size: cover;
   background-position: center;
+  overflow: hidden;
 
   @media only screen and (max-width: 56.25em) {
     //Display
