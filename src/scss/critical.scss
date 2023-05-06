@@ -41,12 +41,12 @@
 
     @media only screen and (max-width: 56.25em) {
       //Spacing
-      margin: 18vh 0 auto 6vw;
+      margin: 20vh 0 auto 6vw;
     }
 
     @media only screen and (max-width: 31.25em) {
       //Spacing
-      margin: 10vh 0 auto 4vw;
+      margin: 20vh 0 auto 4vw;
     }
   }
 
@@ -67,18 +67,16 @@
       //Font Styling
       font-size: 10rem;
     }
-    @media only screen and (max-width: 56.25em) {
-      //Font Styling
-      font-size: 7.5rem;
-    }
+
     @media only screen and (max-width: 37.5em) {
       //Font Styling
-      font-size: 7rem;
+      font-size: 7.8rem;
+      text-shadow: -2px 2px 1px #000;
       font-weight: 600;
     }
     @media only screen and (max-width: 31.25em) {
       //Font Styling
-      font-size: 6rem;
+      font-size: 6.8rem;
     }
   }
   &__subtitle {
@@ -152,7 +150,7 @@
     cursor: pointer;
 
     //Spacing
-    margin-top: 15vh;
+    // margin-top: 15vh;
     padding: 1.6rem 6rem;
     display: flex;
     justify-content: center;
@@ -179,6 +177,11 @@
     animation: moveInLeft 0.8s ease-out 1.6s;
     animation-fill-mode: backwards;
     transition: all 0.2s;
+
+    @media only screen and (max-width: 56.25em) {
+      //Font Styling
+      margin-left: 5vw;
+    }
 
     &:hover {
       //Border Styling
