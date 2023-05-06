@@ -178,7 +178,7 @@
     //Animations
     animation: moveInLeft 0.8s ease-out 1.6s;
     animation-fill-mode: backwards;
-    transition: all 0.2s;
+    transition: all 0.2s ease-out;
 
     @media only screen and (max-width: 56.25em) {
       //Font Styling
@@ -194,10 +194,10 @@
     }
 
     &:hover &-icon {
-      transform: translateX(2rem);
+      transform: translateX(1.2rem);
 
       @media only screen and (max-width: 56.25em) {
-        transform: translateX(1rem);
+        transform: translateX(0.6rem);
       }
     }
 
@@ -217,9 +217,6 @@
     }
 
     @media only screen and (max-width: 56.25em) {
-      //Spacing
-      padding: 1.2rem 4rem;
-
       //Font Styling
       font-size: 2rem;
     }
