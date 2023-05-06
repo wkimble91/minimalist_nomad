@@ -26,14 +26,7 @@
         rgba(0, 0, 0, 1) 100%
       ),
       url(../assets/images/destinations/destinations-banner2x.jpg);
-    @media only screen and (max-width: 87.5em) {
-      //Font Styling
-      font-size: 15rem !important;
-    }
-    @media only screen and (max-width: 75em) {
-      //Font Styling
-      font-size: 12rem !important;
-    }
+
     @media only screen and (max-width: 56.25em) {
       //Image Styling
       background-image: linear-gradient(
@@ -46,18 +39,10 @@
           rgba(0, 0, 0, 1) 100%
         ),
         url(../assets/images/destinations/destinations-banner1x.jpg);
-      font-size: 9rem !important;
     }
     @media only screen and (max-width: 37.5em) {
       //Spacing
       padding: 14rem 0 4rem;
-
-      //Font Styling
-      font-size: 6rem !important;
-    }
-    @media only screen and (max-width: 31.25em) {
-      //Font Styling
-      font-size: 4rem !important;
     }
   }
 
