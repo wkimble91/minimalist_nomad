@@ -106,11 +106,17 @@
     &-box {
       //Spacing
       overflow: hidden;
-      transition: all 0.2s;
+      transition: all 0.4s;
 
       &:hover {
-        scale: 1.02;
-        box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.7);
+        scale: 1.05;
+        box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.7);
+        transform: rotate(2deg);
+        z-index: 5;
+
+        .destination__name {
+          text-shadow: -4px 4px 2px #000;
+        }
       }
 
       @media only screen and (max-width: 37.5em) {
@@ -131,6 +137,7 @@
       position: relative;
       width: 100%;
       height: 100%;
+      z-index: 4;
 
       //Font Styling
       line-height: 1.6rem;
@@ -162,11 +169,12 @@
 
         //Font Styling
         font-size: 1.8rem;
-        font-weight: 500;
+        font-weight: 600;
         text-align: center;
 
         //Color Styling
         color: #fff;
+        text-shadow: -2px 2px 1px #000;
 
         //Animations
         transition: all 0.3s;
@@ -186,6 +194,7 @@
 
         //Color Styling
         color: var(--color-secondary);
+        text-shadow: -1px 1px 2px #000;
 
         //Animations
         transition: all 0.3s;
@@ -205,6 +214,7 @@
 
         //Color Styling
         color: var(--color-light);
+        text-shadow: -1px 1px 1px #000;
 
         //Animations
         transition: all 0.3s;
@@ -224,6 +234,7 @@
 
         //Color Styling
         color: var(--color-light);
+        text-shadow: -1px 1px 1px #000;
 
         //Animations
         transition: all 0.3s;

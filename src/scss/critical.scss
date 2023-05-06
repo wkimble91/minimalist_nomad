@@ -1,0 +1,200 @@
+/*-- -------------------------- -->
+<---            Hero            -->
+<--- -------------------------- -*/
+
+.hero {
+  //Parent
+  grid-row: 2 / span 1;
+
+  //Display
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  //Spacing
+  position: relative;
+
+  //Image Styling
+  background-image: linear-gradient(
+      to bottom,
+      rgba(#272c26, 1) 0%,
+      rgba(#272c26, 0.4) 30%,
+      rgba(#272c26, 0.4) 70%,
+      rgba(#272c26, 1) 100%
+    ),
+    url(../assets/images/hero.jpg);
+  background-size: cover;
+  background-position: top;
+
+  &__box {
+    //Spacing
+    margin: 23vh 0 auto 5vw;
+    width: fit-content;
+    height: 50vh;
+
+    //Display
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  &__title {
+    //Font Styling
+    font-size: 12rem;
+    font-weight: 400;
+    line-height: 1;
+
+    //Color Styling
+    color: white;
+    text-shadow: -3px 3px 1px #000;
+
+    //Animations
+    animation: moveInLeft 0.8s ease-out;
+
+    @media only screen and (max-width: 80em) {
+      //Font Styling
+      font-size: 10rem;
+    }
+    @media only screen and (max-width: 56.25em) {
+      //Font Styling
+      font-size: 7.5rem;
+    }
+    @media only screen and (max-width: 37.5em) {
+      //Font Styling
+      font-size: 7rem;
+      font-weight: 600;
+    }
+    @media only screen and (max-width: 31.25em) {
+      //Font Styling
+      font-size: 6rem;
+    }
+  }
+  &__subtitle {
+    //Spacing
+    position: relative;
+    margin: 3rem 0 1.6rem;
+
+    //Font Styling
+    font-size: 3.6rem;
+    font-weight: 400;
+    line-height: 1;
+
+    //Color Styling
+    color: white;
+    text-shadow: -1px 1px 2px #000;
+
+    //Animations
+    animation: moveInLeft 0.8s ease-out 0.8s;
+    animation-fill-mode: backwards;
+
+    & &-divider {
+      //Spacing
+      margin: 0 3rem;
+
+      @media only screen and (max-width: 56.25em) {
+        //Font Styling
+        display: block;
+        opacity: 0;
+        height: 1rem;
+      }
+    }
+
+    & &-hidden {
+      //Display
+      display: none;
+
+      //Spacing
+      margin-top: 1rem;
+      left: 0;
+      right: 0;
+
+      //Font Styling
+      font-size: 1.8rem;
+    }
+    &:hover &-hidden {
+      //Display
+      display: block;
+
+      //Spacing
+      position: absolute;
+    }
+
+    @media only screen and (max-width: 80em) {
+      //Font Styling
+      font-size: 3.6rem;
+    }
+    @media only screen and (max-width: 56.25em) {
+      //Font Styling
+      font-size: 3.2rem;
+    }
+    @media only screen and (max-width: 37.5em) {
+      //Font Styling
+      font-size: 3rem;
+    }
+    @media only screen and (max-width: 31.25em) {
+      //Font Styling
+      font-size: 2.8rem;
+    }
+  }
+  &__button {
+    cursor: pointer;
+
+    //Spacing
+    margin-top: 15vh;
+    padding: 1.6rem 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    //Font Styling
+    font-size: 2.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    //Color Styling
+    background-color: rgba(#272c26, 0.8);
+    color: white;
+
+    //Border Styling
+    border: 4px solid white;
+    border-radius: 60px;
+    box-shadow: -4px 4px 4px rgba(#000, 0.8);
+    text-shadow: -2px 2px #000;
+
+    //Animations
+    transition: all 0.2s;
+
+    &:hover {
+      //Border Styling
+      box-shadow: -8px 8px 10px rgba(#000, 0.8);
+
+      //Animations
+      transform: scale(1.05) translatex(0.6rem);
+    }
+
+    &-icon {
+      //Display
+      display: inline-block;
+      margin-left: 1.5rem;
+
+      //Spacing
+      width: 3rem;
+      height: 3rem;
+
+      //Color Styling
+      fill: white;
+      overflow: visible;
+    }
+
+    @media only screen and (max-width: 56.25em) {
+      //Spacing
+      padding: 1.2rem 4rem;
+
+      //Font Styling
+      font-size: 2rem;
+    }
+  }
+}

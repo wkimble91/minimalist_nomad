@@ -29,10 +29,26 @@ This is to pre load any image above the fold (hero section background).
 <!-- ============================================ -->
 <div class="container container__home">
     <div class="hero">
-        <h1 class="hero__title">Minimalist Nomad</h1>
-        <h2 class="hero__subtitle">Love where you are, not what you have<span>And take some water with you</span>
-        </h2>
-        <a href="/blog" class="hero__button">Jump to blog</a>
+        <div class="hero__box">
+            <div class="hero__title-box">
+                <h1 class="hero__title">Minimalist Nomad</h1>
+                <h2 class="hero__subtitle">Love where you are <span class="hero__subtitle-divider">|</span> Not what you
+                    have<span class="hero__subtitle-hidden">And take some water with you</span></h2>
+            </div>
+            <a href="/blog" class="hero__button">
+                <div>Blog</div><svg class="hero__button-icon">
+                    <use xlink:href="#icon-circle-right">
+                        <symbol id="icon-circle-right" viewBox="0 0 32 32">
+                            <path
+                                d="M16 0c-8.837 0-16 7.163-16 16s7.163 16 16 16 16-7.163 16-16-7.163-16-16-16zM16 29c-7.18 0-13-5.82-13-13s5.82-13 13-13 13 5.82 13 13-5.82 13-13 13z">
+                            </path>
+                            <path d="M11.086 22.086l2.829 2.829 8.914-8.914-8.914-8.914-2.828 2.828 6.086 6.086z">
+                            </path>
+                        </symbol>
+                    </use>
+                </svg>
+            </a>
+        </div>
     </div>
 
     <!-- ============================================ -->
@@ -84,16 +100,27 @@ This is to pre load any image above the fold (hero section background).
     </section>
 
     <!-- ============================================ -->
-    <!--                 CTA (Black)                  -->
+    <!--                 CTA (Dark)                  -->
     <!-- ============================================ -->
 
-    <div class="cta-black">
-        <h4 class="cta-black__header revealLeft">Don't miss a thing and subscribe to my newsletter</h4>
-        <form class="cta-black__form revealRight" id="form" action="#">
-            <input class="cta-black__form-input" name="email" id="email" type="email"
+    <div class="cta-dark">
+        <h4 class="cta-dark__header revealLeft">Don't miss a thing and subscribe to my newsletter</h4>
+        <form class="cta-dark__form revealRight" id="form" action="#">
+            <input class="cta-dark__form-input" name="email" id="email" type="email"
                 placeholder="Enter your email address" required />
-            <button for="email" type="submit" class="cta-black__form-button">
-                <span class="cta-black__form-button-text">Submit</span>
+            <button for="email" type="submit" class="cta-dark__form-button">
+                <span class="cta-dark__form-button--text">Submit</span>
+                <svg class="cta-dark__form-button--icon">
+                    <use xlink:href="#icon-circle-right">
+                        <symbol id="icon-circle-right" viewBox="0 0 32 32">
+                            <path
+                                d="M16 0c-8.837 0-16 7.163-16 16s7.163 16 16 16 16-7.163 16-16-7.163-16-16-16zM16 29c-7.18 0-13-5.82-13-13s5.82-13 13-13 13 5.82 13 13-5.82 13-13 13z">
+                            </path>
+                            <path d="M11.086 22.086l2.829 2.829 8.914-8.914-8.914-8.914-2.828 2.828 6.086 6.086z">
+                            </path>
+                        </symbol>
+                    </use>
+                </svg>
             </button>
         </form>
     </div>

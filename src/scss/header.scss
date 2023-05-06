@@ -1,0 +1,340 @@
+/*-- -------------------------- -->
+<---         Navigation         -->
+<--- -------------------------- -*/
+
+.header {
+  //Parent
+  grid-column: 1 / -1;
+
+  //Display
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+
+  //Spacing
+  height: 9rem;
+  position: fixed;
+  width: 100%;
+  z-index: 200;
+
+  //Font Styling
+  text-decoration: none;
+
+  //Color Styling
+  background-color: transparent;
+  color: var(--color-grey-light-1);
+
+  //Animations
+  transition: all 0.2s;
+
+  &-scrolled {
+    /* This is applied when you scroll the height of the navbar */
+
+    //Spacing
+    height: 7rem;
+
+    //Font Styling
+    font-size: 1.8rem;
+
+    //Color Styling
+    background-color: var(--color-grey-dark-1);
+  }
+
+  &__logo {
+    cursor: pointer;
+
+    //Spacing
+    padding-left: 1rem;
+    height: 8rem;
+
+    //Animations
+    transition: all 0.1s;
+    z-index: 10;
+
+    &:hover {
+      //Color Styling
+      fill: var(--color-primary-light);
+
+      //Animations
+      transform: scale(1.02);
+    }
+
+    @media only screen and (max-width: 75em) {
+      //Spacing
+      padding: 0;
+    }
+    @media only screen and (max-width: 37.5em) {
+      //Spacing
+      margin-right: 0;
+    }
+  }
+
+  &__nav {
+    position: absolute;
+    //Display
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+
+    width: 100%;
+
+    //Font Styling
+    font-size: 1.8rem;
+    font-weight: 300;
+
+    text-shadow: -1px 1px #000;
+
+    & a {
+      //Spacing
+      padding: 1rem 0.5rem;
+      //Font Styling
+      text-decoration: none;
+
+      //Color Styling
+      color: var(--color-grey-light-1);
+
+      //Animations
+      transition: all 0.1s ease-in-out;
+
+      &:hover {
+        //Color Styling
+        font-weight: 400;
+
+        //Animations
+        transform: scale(1.05);
+      }
+    }
+
+    &-active {
+      text-decoration: underline !important;
+      text-underline-offset: 1rem;
+      margin-bottom: 1rem;
+      font-weight: 600;
+
+      &:hover {
+        //Color Styling
+        color: var(--color-grey-light-1) !important;
+        transform: scale(1) !important;
+        font-weight: 600 !important;
+      }
+    }
+
+    @media only screen and (max-width: 56.25em) {
+      //Font Styling
+      font-size: 1.6rem;
+    }
+    @media only screen and (max-width: 37.5em) {
+      //Display
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+
+      //Spacing
+      position: fixed;
+      width: 120%;
+      top: -50%;
+      left: -10%;
+      height: 35rem;
+      z-index: -1;
+      margin-left: 0rem;
+      padding-top: 7rem;
+
+      //Font Styling
+      text-align: center;
+      font-weight: 300;
+      font-size: 2rem;
+
+      //Color Styling
+      background-color: var(--color-grey-dark-1);
+      color: var(--color-grey-light-1);
+
+      //Border Styling
+      box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+
+      //Animations
+      transition: 0.6s ease-out;
+
+      &.active {
+        //Spacing
+        top: 0rem;
+      }
+    }
+
+    & * {
+      & a {
+        //Spacing
+        margin-right: 6rem;
+
+        //Font Styling
+        font-size: 1.4rem;
+
+        //Animations
+        transition: all 0.1s ease-in-out;
+
+        //Color Styling
+        color: var(--color-primary);
+
+        @media only screen and (max-width: 37.5em) {
+          //Spacing
+          width: 100%;
+          margin: auto;
+
+          //Color Styling
+          color: var(--color-primary-dark);
+
+          //Font Styling
+          font-size: 2.5rem;
+        }
+      }
+    }
+  }
+
+  &__links {
+    //Display
+    display: flex;
+    align-items: center;
+
+    //Spacing
+    padding-right: 2rem;
+
+    //Color Styling
+    fill: var(--color-grey-light-1);
+
+    & > * {
+      //Display
+      display: flex;
+      align-items: center;
+
+      //Spacing
+      padding: 0 0.8rem;
+      height: 100%;
+    }
+
+    &--icon-box {
+      //Spacing
+      position: relative;
+
+      @media only screen and (max-width: 37.5em) {
+        //Spacing
+        position: absolute;
+      }
+    }
+
+    &--icon {
+      cursor: pointer;
+
+      //Spacing
+      height: 2rem;
+      width: 2rem;
+      overflow: visible;
+
+      //Animations
+      transition: all 0.1s ease-in-out;
+
+      &-reddit:hover {
+        //Color Styling
+        fill: #ff4500;
+
+        //Animations
+        transform: scale(1.2);
+      }
+      &-snapchat:hover {
+        //Color Styling
+        fill: #fffc00;
+
+        //Animations
+        transform: scale(1.2);
+      }
+      &-twitter:hover {
+        //Color Styling
+        fill: #1da1f2;
+
+        //Animations
+        transform: scale(1.2);
+      }
+      &-facebook:hover {
+        //Color Styling
+        fill: #1877f2;
+
+        //Animations
+        transform: scale(1.2);
+      }
+      &-instagram:hover {
+        //Color Styling
+        fill: #e4405f;
+
+        //Animations
+        transform: scale(1.3);
+      }
+
+      @media only screen and (max-width: 37.5em) {
+        //Display
+        display: none;
+
+        //Spacing
+        width: 0;
+      }
+    }
+
+    @media only screen and (max-width: 56.25em) {
+      //Spacing
+      margin-left: 0;
+
+      & > * {
+        //Spacing
+        padding: 0 0.5rem;
+      }
+    }
+  }
+
+  &__hamburger {
+    //Display
+    display: none;
+
+    @media only screen and (max-width: 37.5em) {
+      cursor: pointer;
+
+      //Display
+      display: block;
+
+      //Spacing
+      margin: auto 3rem;
+      z-index: 20;
+    }
+
+    & .bar {
+      //Display
+      display: block;
+
+      //Spacing
+      width: 4rem;
+      height: 1px;
+      margin: 8px auto;
+
+      //Color Styling
+      background-color: white;
+
+      //Animations
+      transition: all 0.3s ease-in-out;
+    }
+
+    &.active {
+      & .bar:nth-child(2) {
+        //Image Styling
+        opacity: 0;
+      }
+
+      & .bar:nth-child(1) {
+        //Animations
+        transform: translateY(9px) rotate(45deg);
+      }
+
+      & .bar:nth-child(3) {
+        //Animations
+        transform: translateY(-9px) rotate(-45deg);
+      }
+    }
+  }
+}

@@ -1,0 +1,172 @@
+/*-- -------------------------- -->
+<---           Footer           -->
+<--- -------------------------- -*/
+
+.footer {
+  //Parent
+  grid-row: 4 / span 1;
+
+  //Display
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  //Spacing
+  z-index: 5;
+  padding: 4rem;
+
+  //Color Styling
+  background-color: var(--color-grey-dark-1);
+
+  &__cta {
+    //Display
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    //Spacing
+    padding-bottom: 15rem;
+    width: 100%;
+
+    //Font Styling
+    text-align: center;
+
+    &-header {
+      //Spacing
+      padding: 0 1rem;
+      margin-bottom: 2rem;
+
+      //Font Styling
+      font-size: 3rem;
+      font-weight: 200;
+
+      //Color Styling
+      color: white;
+
+      @media only screen and (max-width: 56.25em) {
+        //Font Styling
+        font-size: 2rem;
+      }
+      @media only screen and (max-width: 31.25em) {
+        //Font Styling
+        font-size: 1.4rem;
+      }
+    }
+  }
+  &__logo-box {
+    //Spacing
+    margin: 20rem auto 10rem;
+
+    //Font Styling
+    text-align: center;
+  }
+  &__logo {
+    //Spacing
+    width: 55rem;
+    height: auto;
+
+    @media only screen and (max-width: 56.25em) {
+      //Spacing
+      width: 35rem;
+    }
+  }
+
+  &__container {
+    width: 100%;
+  }
+
+  &-nav {
+    //Display
+    display: grid;
+    grid-template-columns: repeat(4, minmax(6rem, 1fr));
+    grid-gap: 6rem;
+    align-items: center;
+
+    //Spacing
+    margin: 0 10vw;
+
+    //Font Styling
+    list-style: none;
+
+    @media only screen and (max-width: 87.5em) {
+      //Spacing
+      margin: 0 12rem;
+    }
+    @media only screen and (max-width: 56.25em) {
+      //Display
+      grid-gap: 1rem;
+
+      //Spacing
+      margin: 0 8rem;
+    }
+    @media only screen and (max-width: 37.5em) {
+      //Spacing
+      margin: 0;
+    }
+
+    &__link:link,
+    &__link:visited {
+      //Display
+      display: block;
+
+      //Spacing
+      padding: 1.8rem;
+
+      //Font Styling
+      font-size: 1.8rem;
+      font-weight: 300;
+      text-decoration: none;
+      text-transform: uppercase;
+      text-align: center;
+      border-radius: 10px;
+
+      //Color Styling
+      color: var(--color-grey-light-1);
+
+      //Animations
+      transition: all 0.1s;
+
+      &:hover,
+      &:active {
+        //Color Styling
+        background-color: rgba(#fff, 0.03);
+        color: var(--color-primary-light);
+        box-shadow: -2px 1px 1px rgba(0, 0, 0, 0.4);
+
+        font-weight: 400;
+
+        //Animations
+        transform: scale(1.05);
+      }
+
+      @media only screen and (max-width: 56.25em) {
+        //Spacing
+        padding: 1rem;
+
+        //Font Styling
+        font-size: 1.2rem;
+      }
+    }
+  }
+}
+
+.copyright {
+  //Spacing
+  margin-top: 5rem;
+
+  //Font Styling
+  font-size: 1.3rem;
+  text-align: center;
+
+  //Color Styling
+  color: var(--color-grey-light-2);
+
+  &__link {
+    //Spacing
+    text-underline-offset: 2px;
+
+    //Color Styling
+    color: var(--color-grey-light-2);
+  }
+}
