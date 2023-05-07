@@ -57,7 +57,7 @@
 
 /* poppins-300 - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: swap;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 300;
@@ -76,7 +76,7 @@
 
 /* poppins-regular - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: swap;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
@@ -95,7 +95,7 @@
 
 /* poppins-italic - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: swap;
   font-family: 'Poppins';
   font-style: italic;
   font-weight: 400;
@@ -114,7 +114,7 @@
 
 /* poppins-600 - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: swap;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
@@ -133,7 +133,7 @@
 
 /* poppins-600italic - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: swap;
   font-family: 'Poppins';
   font-style: italic;
   font-weight: 600;
@@ -152,7 +152,7 @@
 
 /* poppins-700 - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: swap;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
@@ -171,7 +171,7 @@
 
 /* poppins-800 - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: swap;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 800;
@@ -190,7 +190,7 @@
 
 /* poppins-800italic - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: swap;
   font-family: 'Poppins';
   font-style: italic;
   font-weight: 800;
@@ -292,23 +292,32 @@ body {
 /*-- -------------------------- -->
 <---    JS Animation Classes    -->
 <--- -------------------------- -*/
-.revealRight {
-  transform: translateX(15rem);
-  opacity: 0;
-  transition: 1s all ease;
+
+@keyframes revealLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-15rem);
+  }
+  60% {
+    opacity: 1;
+    transform: translateX(5rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 .revealLeft {
-  transform: translateX(-15rem);
   opacity: 0;
-  transition: 1s all ease;
 }
 .revealFade {
   opacity: 0;
   transition: 1s all ease;
 }
-
-.revealRight.active,
-.revealLeft.active,
+.revealLeft.active {
+  animation: revealLeft 1s ease-in-out;
+  opacity: 1;
+}
 .revealFade.active {
   transform: translateY(0);
   opacity: 1;
