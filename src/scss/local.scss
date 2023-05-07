@@ -224,7 +224,25 @@
     //Image Styling
     background-size: cover;
     background-position: center;
-    overflow: hidden;
+    overflow: visible;
+
+    & .cta__header-single {
+      //Display
+      display: inline-block;
+
+      @media only screen and (max-width: 56.25em) {
+        //Display
+        display: none;
+      }
+    }
+    & .cta__header-double {
+      //Display
+      display: none;
+      @media only screen and (max-width: 56.25em) {
+        //Display
+        display: block;
+      }
+    }
 
     @media only screen and (max-width: 37.5em) {
       //Spacing
