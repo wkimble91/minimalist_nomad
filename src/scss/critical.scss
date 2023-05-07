@@ -104,9 +104,7 @@
 
       @media only screen and (max-width: 56.25em) {
         //Font Styling
-        display: block;
-        opacity: 0;
-        height: 1rem;
+        margin: 0 0.2rem;
       }
     }
 
@@ -132,19 +130,19 @@
 
     @media only screen and (max-width: 80em) {
       //Font Styling
-      font-size: 3.6rem;
+      font-size: 3.2rem;
     }
     @media only screen and (max-width: 56.25em) {
       //Font Styling
-      font-size: 3.2rem;
+      font-size: 3rem;
     }
     @media only screen and (max-width: 37.5em) {
       //Font Styling
-      font-size: 3rem;
+      font-size: 2.8rem;
     }
     @media only screen and (max-width: 31.25em) {
       //Font Styling
-      font-size: 2.8rem;
+      font-size: 2rem;
     }
   }
   &__button {
