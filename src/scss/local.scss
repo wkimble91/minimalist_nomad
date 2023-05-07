@@ -198,6 +198,11 @@
   z-index: 2;
   height: 50rem;
 
+      //Image Styling
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+
   @media only screen and (max-width: 56.25em) {
     //Display
     flex-direction: column;
@@ -221,9 +226,7 @@
     //Color Styling
     color: white;
 
-    //Image Styling
-    background-size: cover;
-    background-position: center;
+
     overflow: visible;
 
     & .cta__header-single {
