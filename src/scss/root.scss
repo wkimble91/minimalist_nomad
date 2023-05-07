@@ -300,7 +300,7 @@ body {
   }
   60% {
     opacity: 1;
-    transform: translateX(5rem);
+    transform: translateX(2rem);
   }
   100% {
     opacity: 1;
@@ -315,7 +315,7 @@ body {
   transition: 1s all ease;
 }
 .revealLeft.active {
-  animation: revealLeft 1s ease-in-out;
+  animation: revealLeft 1s ease-out;
   opacity: 1;
 }
 .revealFade.active {

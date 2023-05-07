@@ -154,16 +154,16 @@ body { font-family: 'Poppins', sans-serif; line-height: 1.6; width: 100vw; overf
 <---    JS Animation Classes    -->
 <--- -------------------------- -*/
 @-webkit-keyframes revealLeft { 0% { opacity: 0; -webkit-transform: translateX(-15rem); transform: translateX(-15rem); }
-  60% { opacity: 1; -webkit-transform: translateX(5rem); transform: translateX(5rem); }
+  60% { opacity: 1; -webkit-transform: translateX(2rem); transform: translateX(2rem); }
   100% { opacity: 1; -webkit-transform: translateX(0); transform: translateX(0); } }
 @keyframes revealLeft { 0% { opacity: 0; -webkit-transform: translateX(-15rem); transform: translateX(-15rem); }
-  60% { opacity: 1; -webkit-transform: translateX(5rem); transform: translateX(5rem); }
+  60% { opacity: 1; -webkit-transform: translateX(2rem); transform: translateX(2rem); }
   100% { opacity: 1; -webkit-transform: translateX(0); transform: translateX(0); } }
 .revealLeft { opacity: 0; }
 
 .revealFade { opacity: 0; -webkit-transition: 1s all ease; transition: 1s all ease; }
 
-.revealLeft.active { -webkit-animation: revealLeft 1s ease-in-out; animation: revealLeft 1s ease-in-out; opacity: 1; }
+.revealLeft.active { -webkit-animation: revealLeft 1s ease-out; animation: revealLeft 1s ease-out; opacity: 1; }
 
 .revealFade.active { -webkit-transform: translateY(0); transform: translateY(0); opacity: 1; }
 
