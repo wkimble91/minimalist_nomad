@@ -344,6 +344,7 @@ body {
   //Font Styling
   font-size: 18rem;
   font-weight: 100;
+  text-shadow: -3px 3px 1px #000;
 
   //Color Styling
   color: white;
@@ -364,6 +365,7 @@ body {
 
     //Color Styling
     background-color: white;
+    box-shadow: 0 2px 1px #000;
   }
   @media only screen and (max-width: 75em) {
     //Spacing

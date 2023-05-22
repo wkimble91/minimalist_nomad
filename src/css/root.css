@@ -170,8 +170,8 @@ body { font-family: 'Poppins', sans-serif; line-height: 1.6; width: 100vw; overf
 /*-- -------------------------- -->
 <---         Typography         -->
 <--- -------------------------- -*/
-.main-heading { display: grid; grid-template-columns: 1fr -webkit-max-content 1fr; grid-template-columns: 1fr max-content 1fr; grid-column-gap: 4rem; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; position: relative; z-index: 2; width: 100%; padding: 8rem 0; font-size: 18rem; font-weight: 100; color: white; background-size: cover; background-position: center center; }
-.main-heading::before, .main-heading::after { content: ''; display: block; height: 2px; background-color: white; }
+.main-heading { display: grid; grid-template-columns: 1fr -webkit-max-content 1fr; grid-template-columns: 1fr max-content 1fr; grid-column-gap: 4rem; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; position: relative; z-index: 2; width: 100%; padding: 8rem 0; font-size: 18rem; font-weight: 100; text-shadow: -3px 3px 1px #000; color: white; background-size: cover; background-position: center center; }
+.main-heading::before, .main-heading::after { content: ''; display: block; height: 2px; background-color: white; -webkit-box-shadow: 0 2px 1px #000; box-shadow: 0 2px 1px #000; }
 @media only screen and (max-width: 75em) { .main-heading { padding: 6rem 0; font-size: 12rem; } }
 @media only screen and (max-width: 37.5em) { .main-heading { font-size: 10rem; } }
 @media only screen and (max-width: 37.5em) { .main-heading { padding: 8rem 0 4rem; font-size: 8rem; } }
