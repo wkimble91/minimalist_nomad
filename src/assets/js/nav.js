@@ -17,10 +17,15 @@ function closeMenu() {
   navMenu.classList.remove('active');
 }
 
-// Scrolled class to shrink nav and apply background
-$(function () {
-  $(document).scroll(function () {
-    var $nav = $('#header');
-    $nav.toggleClass('header-scrolled', $(this).scrollTop() > $nav.height());
-  });
+//Adds scrolled class to header when scrolled
+const header = document.querySelector('#header');
+const scrollWatcher = document.createElement('div');
+
+scrollWatcher.setAttribute('data-scroll-watcher', '');
+header.before(scrollWatcher);
+
+const navObserver = new IntersectionObserver((entries) => {
+  header.classList.toggle('header-scrolled', entries[0].intersectionRatio < 1);
 });
+
+navObserver.observe(scrollWatcher);

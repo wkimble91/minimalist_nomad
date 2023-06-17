@@ -51,29 +51,9 @@
     <main id="main">{{ content | safe }}</main>
     {% include "footer.html" %}
 
-    <!-- jQuery for the Header Scroll Function -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
 
     <script defer src="/assets/js/nav.js"></script>
     <script defer src="/assets/js/reveal.js"></script>
-
-    <!--
-        This script adds a class to the body after scrolling 100px
-        and we used these body.scroll styles to create some on scroll 
-        animations with the navbar
-    -->
-    <script defer>
-        document.addEventListener('scroll', (e) => {
-            const scroll=document.documentElement.scrollTop;
-            if (scroll>=100) {
-                document.querySelector('body').classList.add('scroll')
-            } else {
-                document.querySelector('body').classList.remove('scroll')
-            }
-        });
-    </script>
 
     <!-- GetInsights Analytics -->
     <script src="https://getinsights.io/js/insights.js"></script>
