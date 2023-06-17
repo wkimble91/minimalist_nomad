@@ -13,51 +13,38 @@
   justify-content: flex-start;
   align-items: center;
 
-  //Spacing
-  position: relative;
-
   //Image Styling
-  background-image: linear-gradient(
-      to bottom,
+  background-image: linear-gradient(to bottom,
       rgba(#272c26, 0.8) 0%,
       rgba(#272c26, 0.3) 30%,
       rgba(#272c26, 0.3) 50%,
       rgba(#272c26, 0.3) 70%,
       rgba(#272c26, 0.7) 85%,
-      rgba(#272c26, 1) 100%
-    ),
+      rgba(#272c26, 1) 100%),
     url(../assets/images/hero.jpg);
   background-size: cover;
-  background-position: top;
+  background-repeat: no-repeat;
+  background-position: center;
 
-  &__box {
+  &-box {
     //Spacing
-    margin: 23vh 0 auto 10vw;
-    width: fit-content;
-    height: 50vh;
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
 
     //Display
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: space-between;
-
-    @media only screen and (max-width: 56.25em) {
-      //Spacing
-      margin: 20vh 0 auto 6vw;
-    }
-
-    @media only screen and (max-width: 31.25em) {
-      //Spacing
-      margin: 20vh 0 auto 4vw;
-    }
   }
 
   &__title {
     //Font Styling
+
     font-size: 12rem;
     font-weight: 400;
     line-height: 1;
+
 
     //Color Styling
     color: white;
@@ -65,6 +52,19 @@
 
     //Animations
     animation: moveInLeft 0.8s ease-out;
+
+    &-box {
+      position: fixed;
+      margin: 14vh 0 0 5vw;
+    }
+
+    &-mask {
+      position: absolute;
+      inset: 0;
+      mask: url(../assets/images/hero-mask.svg);
+      mask-size: cover;
+      mask-position: center;
+    }
 
     @media only screen and (max-width: 80em) {
       //Font Styling
@@ -77,11 +77,13 @@
       text-shadow: -2px 2px 1px #000;
       font-weight: 600;
     }
+
     @media only screen and (max-width: 22em) {
       //Font Styling
       font-size: 6.8rem;
     }
   }
+
   &__subtitle {
     //Spacing
     position: relative;
@@ -122,6 +124,7 @@
       //Font Styling
       font-size: 1.8rem;
     }
+
     &:hover &-hidden {
       //Display
       display: block;
@@ -134,29 +137,34 @@
       //Font Styling
       font-size: 3.2rem;
     }
+
     @media only screen and (max-width: 56.25em) {
       //Font Styling
       font-size: 3rem;
     }
+
     @media only screen and (max-width: 37.5em) {
       //Font Styling
       font-size: 2.8rem;
     }
+
     @media only screen and (max-width: 31.25em) {
       //Font Styling
       font-size: 2rem;
     }
   }
+
   &__button {
     cursor: pointer;
 
     //Spacing
-    // margin-top: 15vh;
+    margin: 45vh 0 0 5vw;
+    z-index: 1;
     padding: 2rem 6rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
+    position: fixed;
 
     //Font Styling
     font-size: 2.8rem;

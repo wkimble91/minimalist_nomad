@@ -130,7 +130,7 @@ body { font-family: 'Poppins', sans-serif; line-height: 1.6; width: 100vw; overf
 <---    General Grid Spacing    -->
 <--- -------------------------- -*/
 .container { background-color: var(--color-grey-light-1); display: grid; grid-template-columns: 100%; }
-.container__home { grid-template-rows: 0 105vh -webkit-max-content 30rem -webkit-min-content; grid-template-rows: 0 105vh max-content 30rem min-content; }
+.container__home { grid-template-rows: 0 100vh -webkit-max-content 30rem -webkit-min-content; grid-template-rows: 0 100vh max-content 30rem min-content; }
 .container__about { grid-template-rows: 0 -webkit-max-content 50rem -webkit-min-content; grid-template-rows: 0 max-content 50rem min-content; }
 .container__destinations { grid-template-rows: 0 -webkit-min-content 50rem -webkit-min-content; grid-template-rows: 0 min-content 50rem min-content; }
 .container__gallery { grid-template-rows: 0 -webkit-max-content 0 30rem -webkit-min-content; grid-template-rows: 0 max-content 0 30rem min-content; }
