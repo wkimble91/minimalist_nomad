@@ -61,7 +61,7 @@
     &-mask {
       position: absolute;
       inset: 0;
-      mask: url(../assets/images/hero-mask.svg);
+      mask: url(../assets/images/hero-mask-upper.svg);
       mask-size: cover;
       mask-position: center;
     }
@@ -208,6 +208,14 @@
       @media only screen and (max-width: 56.25em) {
         transform: translateX(0.6rem);
       }
+    }
+
+    &-mask {
+      position: absolute;
+      inset: 0;
+      mask: url(../assets/images/hero-mask-lower.svg);
+      mask-size: cover;
+      mask-position: center;
     }
 
     &-icon {
