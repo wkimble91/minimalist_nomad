@@ -16,8 +16,8 @@
 @media only screen and (max-width: 37.5em) { .footer-nav { margin: 0; } }
 .footer-nav__link:link, .footer-nav__link:visited { display: block; padding: 1.8rem; font-size: 1.8rem; font-weight: 300; text-decoration: none; text-transform: uppercase; text-align: center; border-radius: 10px; color: var(--color-grey-light-1); -webkit-transition: all 0.1s; transition: all 0.1s; }
 .footer-nav__link:link:hover, .footer-nav__link:link:active, .footer-nav__link:visited:hover, .footer-nav__link:visited:active { background-color: rgba(255, 255, 255, 0.02); color: var(--color-primary-light); -webkit-box-shadow: -3px 3px 3px rgba(0, 0, 0, 0.4); box-shadow: -3px 3px 3px rgba(0, 0, 0, 0.4); font-weight: 400; -webkit-transform: scale(1.05); transform: scale(1.05); }
-@media only screen and (max-width: 56.25em) { .footer-nav__link:link, .footer-nav__link:visited { padding: 1rem; font-size: 1.2rem; } }
+@media only screen and (max-width: 56.25em) { .footer-nav__link:link, .footer-nav__link:visited { padding: 1rem; font-size: 1.6rem; } }
 
-.copyright { margin-top: 5rem; font-size: 1.3rem; text-align: center; color: var(--color-grey-light-2); }
+.copyright { margin-top: 5rem; font-size: 1.6rem; text-align: center; color: var(--color-grey-light-2); }
 .copyright__link { text-underline-offset: 2px; color: var(--color-grey-light-2); }
 @media only screen and (max-width: 56.25em) { .copyright span { display: block; margin-top: 0.5rem; } }

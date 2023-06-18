@@ -48,12 +48,14 @@
         //Font Styling
         font-size: 2rem;
       }
+
       @media only screen and (max-width: 31.25em) {
         //Font Styling
         font-size: 1.4rem;
       }
     }
   }
+
   &__logo-box {
     //Spacing
     margin: 20rem auto 10rem;
@@ -61,6 +63,7 @@
     //Font Styling
     text-align: center;
   }
+
   &__logo {
     //Spacing
     width: 55rem;
@@ -93,6 +96,7 @@
       //Spacing
       margin: 0 12rem;
     }
+
     @media only screen and (max-width: 56.25em) {
       //Display
       grid-gap: 1rem;
@@ -100,6 +104,7 @@
       //Spacing
       margin: 0 8rem;
     }
+
     @media only screen and (max-width: 37.5em) {
       //Spacing
       margin: 0;
@@ -145,7 +150,7 @@
         padding: 1rem;
 
         //Font Styling
-        font-size: 1.2rem;
+        font-size: 1.6rem;
       }
     }
   }
@@ -156,7 +161,7 @@
   margin-top: 5rem;
 
   //Font Styling
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   text-align: center;
 
   //Color Styling
