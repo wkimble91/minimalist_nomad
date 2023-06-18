@@ -366,7 +366,7 @@ body {
 
   //Font Styling
   font-size: 18rem;
-  font-weight: 100;
+  font-weight: 200;
   text-shadow: -3px 3px 1px #000;
 
   //Color Styling
@@ -410,68 +410,6 @@ body {
 
     //Font Styling
     font-size: 8rem;
-  }
-}
-
-.secondary-heading {
-  //Parent
-  grid-column: 1 / -1;
-
-  //Display
-  display: grid;
-  grid-template-columns: 1fr max-content 1fr;
-  grid-column-gap: 4rem;
-  align-items: center;
-  justify-content: center;
-
-  //Spacing
-  width: 100%;
-  height: 6rem;
-  padding: 0 10rem;
-  overflow: hidden;
-
-  //Font Styling
-  font-size: 2.6rem;
-  font-weight: 200;
-  font-style: italic;
-
-  //Color Styling
-  color: var(--color-grey-dark-1);
-
-  &::after,
-  &::before {
-    content: '';
-
-    //Display
-    display: block;
-
-    //Spacing
-    height: 1px;
-
-    //Color Styling
-    background-color: currentColor;
-  }
-
-  @media only screen and (max-width: 31.25em) {
-    //Display
-    grid-column-gap: 1rem;
-  }
-}
-
-.terrtiary-heading {
-  //Spacing
-  z-index: 2;
-
-  //Font Styling
-  text-transform: uppercase;
-
-  //Color Styling
-  color: var(--color-light);
-  background-color: var(--color-grey-dark-1);
-
-  @media only screen and (max-width: 87.5em) {
-    //Spacing
-    margin-top: -3rem;
   }
 }
 
