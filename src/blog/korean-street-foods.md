@@ -32,6 +32,7 @@ imageAlt: Rice Bowl
     </p><br>
     <p>Experiencing Korea's street food scene is an essential part of any trip to the country. With so many delicious and unique dishes to try, make sure to leave some room in your stomach and let your taste buds explore the wonderful world of Korean street food.
     </p>
+</div>
 <h3 class="blog-post__sub-heading revealFade">Finding vegan options</h3>
 <hr class="blog-post__divider revealFade">
 <div class="blog-post__description revealFade">
