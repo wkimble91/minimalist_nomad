@@ -23,11 +23,11 @@ imageAlt: Salad on table outside
     <p>Here are some tips for staying long-term and saving money while traveling:
     </p><br>
     <ol>
-        <li><b>Rent an apartment or house</b>: Rather than staying in hotels or hostels, consider renting an apartment or house for a month or longer. This can often be more cost-effective than paying for daily accommodations. </li><br>
-        <li><b>Cook your own meals</b>: Eating out can quickly add up, so consider cooking your own meals. By renting a place with a kitchen, you can save money on food expenses and even try local ingredients and dishes.</li><br>
-        <li><b>Take advantage of local transportation options</b>: Many places offer discounted monthly passes for public transportation, which can be more cost-effective than buying tickets daily.</li><br>
-        <li><b>Look for discounts</b>: Many attractions and activities offer discounts for long-term visitors, so be sure to ask about any deals or promotions available.</li><br>
-        <li><b>Volunteer</b>: Some organizations offer free accommodations in exchange for volunteer work. This is a great way to save money while also giving back to the community.</li><br>
+        <li><b>Rent an apartment or house</b>: Rather than staying in hotels or hostels, consider renting an apartment or house for a month or longer. This can often be more cost-effective than paying for daily accommodations. </li>
+        <li><b>Cook your own meals</b>: Eating out can quickly add up, so consider cooking your own meals. By renting a place with a kitchen, you can save money on food expenses and even try local ingredients and dishes.</li>
+        <li><b>Take advantage of local transportation options</b>: Many places offer discounted monthly passes for public transportation, which can be more cost-effective than buying tickets daily.</li>
+        <li><b>Look for discounts</b>: Many attractions and activities offer discounts for long-term visitors, so be sure to ask about any deals or promotions available.</li>
+        <li><b>Volunteer</b>: Some organizations offer free accommodations in exchange for volunteer work. This is a great way to save money while also giving back to the community.</li>
     </ol><br>
     <p>By staying in one location for a longer period of time, you can immerse yourself in the local culture and save money on daily expenses. So, if you have the flexibility and time, consider staying long-term during your travels.
     </p>
@@ -40,10 +40,10 @@ imageAlt: Salad on table outside
     <p>Here are some benefits of not trying to do everything immediately when staying long-term:
     </p><br>
     <ol>
-        <li><b>More time to explore</b>: By staying in one location for an extended period of time, you have the opportunity to explore the area at a more leisurely pace. You can take your time to fully appreciate the local sights, sounds, and flavors.</li><br>
-        <li><b>Better understanding of the culture</b>: Staying long-term allows you to experience the local culture in a more in-depth way. You have the opportunity to learn the language, meet locals, and understand the customs and traditions.</li><br>
-        <li><b>More affordable</b>: By not rushing to do everything at once, you can spread out your expenses over a longer period of time. This can make your travels more affordable and sustainable in the long run.</li><br>
-        <li><b>Less stressful</b>: Rushing from one activity to another can be exhausting and stressful. By taking your time and not trying to do everything immediately, you can reduce stress and enjoy your travels more.</li><br>
+        <li><b>More time to explore</b>: By staying in one location for an extended period of time, you have the opportunity to explore the area at a more leisurely pace. You can take your time to fully appreciate the local sights, sounds, and flavors.</li>
+        <li><b>Better understanding of the culture</b>: Staying long-term allows you to experience the local culture in a more in-depth way. You have the opportunity to learn the language, meet locals, and understand the customs and traditions.</li>
+        <li><b>More affordable</b>: By not rushing to do everything at once, you can spread out your expenses over a longer period of time. This can make your travels more affordable and sustainable in the long run.</li>
+        <li><b>Less stressful</b>: Rushing from one activity to another can be exhausting and stressful. By taking your time and not trying to do everything immediately, you can reduce stress and enjoy your travels more.</li>
     </ol><br>
     <p>Staying long-term and not trying to do everything immediately can offer many benefits. So, if you have the opportunity, take your time and fully immerse yourself in the local culture. You might be surprised at what you discover!
     </p>

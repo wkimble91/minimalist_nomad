@@ -37,11 +37,11 @@ imageAlt: Flowers in a meadow
     <p>New Zealand is a dream destination for fans of The Lord of the Rings movies. The stunning landscapes and dramatic scenery of the country were the perfect backdrop for the epic tale of hobbits, wizards, and dragons. If you're a fan of the movies, here are some must-see locations to add to your New Zealand itinerary:
     </p><br>
     <ol>
-        <li><b>Hobbiton</b>: Located in the heart of the North Island, Hobbiton is a must-visit for any Lord of the Rings fan. You can take a guided tour of the movie set, which includes hobbit holes, the Green Dragon Inn, and other iconic locations from the movies.</li><br>
-        <li><b>Mount Doom</b>: Mount Ngauruhoe, located in Tongariro National Park, was used as the filming location for Mount  Doom in the movies. You can hike to the summit of the mountain for stunning views of the surrounding landscape.</li><br>
-        <li><b>Edoras</b>: The capital city of Rohan was filmed on top of Mount Sunday in Canterbury. You can take a guided tour to see the stunning views of the surrounding landscape and learn more about the making of the movie.</li><br>
-        <li><b>Pelennor Fields</b>: The epic battle scene from The Return of the King was filmed at various locations in the South Island. You can visit Twizel, which was used for the set of the Pelennor Fields, and take in the stunning scenery.</li><br>
-        <li><b>Weta Workshop</b>: Weta Workshop in Wellington is responsible for many of the props, costumes, and special   effects in The Lord of the Rings movies. You can take a tour of the workshop to see how the movies were made and learn about the behind-the-scenes work that went into creating the films.</li><br>
+        <li><b>Hobbiton</b>: Located in the heart of the North Island, Hobbiton is a must-visit for any Lord of the Rings fan. You can take a guided tour of the movie set, which includes hobbit holes, the Green Dragon Inn, and other iconic locations from the movies.</li>
+        <li><b>Mount Doom</b>: Mount Ngauruhoe, located in Tongariro National Park, was used as the filming location for Mount  Doom in the movies. You can hike to the summit of the mountain for stunning views of the surrounding landscape.</li>
+        <li><b>Edoras</b>: The capital city of Rohan was filmed on top of Mount Sunday in Canterbury. You can take a guided tour to see the stunning views of the surrounding landscape and learn more about the making of the movie.</li>
+        <li><b>Pelennor Fields</b>: The epic battle scene from The Return of the King was filmed at various locations in the South Island. You can visit Twizel, which was used for the set of the Pelennor Fields, and take in the stunning scenery.</li>
+        <li><b>Weta Workshop</b>: Weta Workshop in Wellington is responsible for many of the props, costumes, and special   effects in The Lord of the Rings movies. You can take a tour of the workshop to see how the movies were made and learn about the behind-the-scenes work that went into creating the films.</li>
     </ol><br>
     <p>New Zealand is a paradise for fans of The Lord of the Rings movies. Whether you're a die-hard fan or simply appreciate the stunning landscapes, a trip to New Zealand is sure to be an unforgettable adventure. And remember, not
     all who wander are lost.
