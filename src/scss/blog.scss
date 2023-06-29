@@ -53,6 +53,7 @@
 
       &:hover {
         color: var(--color-grey-dark-1);
+
         &:before {
           opacity: 1;
         }
@@ -60,34 +61,31 @@
     }
   }
 }
+
 /*-- -------------------------- -->
 <---           Header           -->
 <--- -------------------------- -*/
 .blog {
   &__heading {
     //Image Styling
-    background-image: linear-gradient(
-        to bottom,
+    background-image: linear-gradient(to bottom,
         rgba(0, 0, 0, 1) 0%,
         rgba(0, 0, 0, 0.7) 10%,
         rgba(0, 0, 0, 0.4) 40%,
         rgba(0, 0, 0, 0.4) 60%,
         rgba(0, 0, 0, 0.7) 90%,
-        rgba(0, 0, 0, 1) 100%
-      ),
+        rgba(0, 0, 0, 1) 100%),
       url(../assets/images/blog/blog-banner2x.jpg);
 
     @media only screen and (max-width: 56.25em) {
       //Image Styling
-      background-image: linear-gradient(
-          to bottom,
+      background-image: linear-gradient(to bottom,
           rgba(0, 0, 0, 1) 0%,
           rgba(0, 0, 0, 0.7) 10%,
           rgba(0, 0, 0, 0.4) 40%,
           rgba(0, 0, 0, 0.4) 60%,
           rgba(0, 0, 0, 0.7) 90%,
-          rgba(0, 0, 0, 1) 100%
-        ),
+          rgba(0, 0, 0, 1) 100%),
         url(../assets/images/blog/blog-banner1x.jpg);
     }
   }
@@ -147,6 +145,7 @@
 
     &:hover {
       color: var(--color-grey-dark-1);
+
       &:before {
         opacity: 1;
       }
@@ -239,10 +238,12 @@
         //Color Styling
         background-color: white;
       }
+
       @media only screen and (max-width: 75em) {
         //Spacing
         padding: 6rem 0;
       }
+
       @media only screen and (max-width: 37.5em) {
         //Spacing
         padding: 8rem 0 4rem;
@@ -281,6 +282,7 @@
     padding-block-end: 6.25rem;
     background-attachment: fixed;
     font-size: inherit;
+
     h1 {
       font-size: 6rem;
     }
@@ -483,6 +485,7 @@
 
       &:hover {
         color: var(--color-grey-dark-1);
+
         &:before {
           opacity: 1;
         }
@@ -622,6 +625,7 @@
     max-width: 100rem;
     width: 100%;
     display: block;
+
     .blog-mainImage {
       width: 100%;
       height: clamp(200px, 30vw, 400px);
@@ -723,6 +727,7 @@
       color: var(--color-grey-dark-1);
       text-transform: capitalize;
     }
+
     &__divider {
       //Spacing
       width: 10rem;
@@ -734,6 +739,7 @@
       //Border Styling
       border-top-width: 3px;
     }
+
     &__description {
       //Spacing
       padding: 4rem 0 6rem;
@@ -748,6 +754,15 @@
 
       ol {
         list-style-position: inside;
+
+
+        li {
+          margin-bottom: 1.5rem;
+
+          &::marker {
+            font-weight: bold;
+          }
+        }
       }
 
       @media only screen and (max-width: 56.25em) {
