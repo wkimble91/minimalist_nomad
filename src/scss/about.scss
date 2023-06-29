@@ -4,27 +4,24 @@
 
   &__heading {
     //Image Styling
-    background-image: linear-gradient(
-        to bottom,
+    background-image: linear-gradient(to bottom,
         rgba(0, 0, 0, 1) 0%,
         rgba(0, 0, 0, 0.7) 10%,
         rgba(0, 0, 0, 0.4) 40%,
         rgba(0, 0, 0, 0.4) 60%,
         rgba(0, 0, 0, 0.7) 90%,
-        rgba(0, 0, 0, 1) 100%
-      ),
+        rgba(0, 0, 0, 1) 100%),
       url(../assets/images/about/about-banner2x.jpg);
+
     @media only screen and (max-width: 56.25em) {
       //Image Styling
-      background-image: linear-gradient(
-          to bottom,
+      background-image: linear-gradient(to bottom,
           rgba(0, 0, 0, 1) 0%,
           rgba(0, 0, 0, 0.7) 10%,
           rgba(0, 0, 0, 0.4) 40%,
           rgba(0, 0, 0, 0.4) 60%,
           rgba(0, 0, 0, 0.7) 90%,
-          rgba(0, 0, 0, 1) 100%
-        ),
+          rgba(0, 0, 0, 1) 100%),
         url(../assets/images/about/about-banner1x.jpg);
     }
   }
@@ -38,10 +35,12 @@
       //Spacing
       width: 50%;
     }
+
     @media only screen and (max-width: 75em) {
       //Spacing
       width: 70%;
     }
+
     @media only screen and (max-width: 56.25em) {
       //Spacing
       width: 90%;
@@ -71,6 +70,7 @@
     letter-spacing: 0.4rem;
     text-transform: uppercase;
   }
+
   &__divider {
     //Spacing
     width: 10rem;
@@ -82,6 +82,7 @@
     //Border Styling
     border-top-width: 2px;
   }
+
   &__description {
     //Spacing
     padding: 8rem 0 10rem;
@@ -96,6 +97,14 @@
 
     ol {
       list-style-position: inside;
+
+      li {
+        margin-bottom: 1.5rem;
+
+        &::marker {
+          font-weight: bold;
+        }
+      }
     }
 
     @media only screen and (max-width: 56.25em) {

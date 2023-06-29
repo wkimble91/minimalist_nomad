@@ -10,4 +10,6 @@
 .about__divider { width: 10rem; margin: 0 auto 0 0; color: var(--color-secondary); border-top-width: 2px; }
 .about__description { padding: 8rem 0 10rem; font-size: 1.6rem; line-height: 3.2rem; text-indent: 1.5rem; color: var(--color-grey-dark-1); }
 .about__description ol { list-style-position: inside; }
+.about__description ol li { margin-bottom: 1.5rem; }
+.about__description ol li::marker { font-weight: bold; }
 @media only screen and (max-width: 56.25em) { .about__description { padding: 5rem 0 7rem; line-height: 2.8rem; } }
