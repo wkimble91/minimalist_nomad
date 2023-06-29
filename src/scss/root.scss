@@ -278,7 +278,7 @@ body {
   }
 
   &__blog-post {
-    grid-template-rows: max-content max-content 50rem min-content;
+    grid-template-rows: max-content min-content 50rem min-content;
   }
 }
 
