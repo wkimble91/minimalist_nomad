@@ -16,30 +16,27 @@
 
   &__heading {
     //Image Styling
-    background-image: linear-gradient(
-        to bottom,
+    background-image: linear-gradient(to bottom,
         rgba(0, 0, 0, 1) 0%,
         rgba(0, 0, 0, 0.8) 20%,
         rgba(0, 0, 0, 0.6) 40%,
         rgba(0, 0, 0, 0.6) 60%,
         rgba(0, 0, 0, 0.8) 80%,
-        rgba(0, 0, 0, 1) 100%
-      ),
+        rgba(0, 0, 0, 1) 100%),
       url(../assets/images/destinations/destinations-banner2x.jpg);
 
     @media only screen and (max-width: 56.25em) {
       //Image Styling
-      background-image: linear-gradient(
-          to bottom,
+      background-image: linear-gradient(to bottom,
           rgba(0, 0, 0, 1) 0%,
           rgba(0, 0, 0, 0.8) 20%,
           rgba(0, 0, 0, 0.6) 40%,
           rgba(0, 0, 0, 0.6) 60%,
           rgba(0, 0, 0, 0.8) 80%,
-          rgba(0, 0, 0, 1) 100%
-        ),
+          rgba(0, 0, 0, 1) 100%),
         url(../assets/images/destinations/destinations-banner1x.jpg);
     }
+
     @media only screen and (max-width: 37.5em) {
       //Spacing
       padding: 14rem 0 4rem;
@@ -69,6 +66,7 @@
       height: auto;
       padding: 11rem 5rem 5rem;
     }
+
     @media only screen and (max-width: 56.25em) {
       //Display
       grid-template-rows: repeat(6, minmax(2rem, 45rem));
@@ -78,6 +76,7 @@
       //Spacing
       padding: 11rem 5rem 5rem;
     }
+
     @media only screen and (max-width: 37.5em) {
       //Display
       grid-template-rows: repeat(12, 30rem);
@@ -94,7 +93,7 @@
       transition: all 0.4s;
 
       &:hover {
-        scale: 1.05;
+        transform: scale(1.05);
         box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.7);
         transform: rotate(2deg);
         z-index: 5;
@@ -109,7 +108,7 @@
         margin-bottom: -5.5rem;
 
         &:hover {
-          scale: 1.01;
+          transform: scale(1.01);
           box-shadow: none;
         }
       }
@@ -147,6 +146,7 @@
           height: auto;
         }
       }
+
       &__name {
         //Spacing
         width: 100%;
@@ -169,6 +169,7 @@
           font-size: 3rem;
         }
       }
+
       &__location {
         //Spacing
         top: 136%;
@@ -189,6 +190,7 @@
           top: 139%;
         }
       }
+
       &__price {
         //Spacing
         top: 118%;
@@ -209,6 +211,7 @@
           top: 115%;
         }
       }
+
       &__length {
         //Spacing
         top: 122%;
@@ -229,6 +232,7 @@
           top: 120%;
         }
       }
+
       &__name,
       &__location,
       &__price,
@@ -247,11 +251,9 @@
         @extend %img-cover;
 
         //Image Styling
-        background-image: linear-gradient(
-            to bottom,
+        background-image: linear-gradient(to bottom,
             rgba(#30362f, 0) 0%,
-            rgba(#30362f, 0.7) 100%
-          ),
+            rgba(#30362f, 0.7) 100%),
           url(../assets/images/destinations/scotland.jpg);
 
         //Animations
@@ -259,395 +261,384 @@
 
         &:hover {
           //Image Styling
-          background-image: linear-gradient(
-              to bottom,
+          background-image: linear-gradient(to bottom,
               rgba(#30362f, 0) 0%,
-              rgba(#30362f, 0.5) 100%
-            ),
+              rgba(#30362f, 0.5) 100%),
             url(../assets/images/destinations/scotland.jpg);
 
           //Animations
           transform: scale(1.05);
         }
+
         &:hover p,
         &:hover h6 {
           //Display
           display: none;
         }
+
         &:hover h5 {
           //Font Styling
           font-size: 3rem;
         }
       }
+
       &-2 {
         //Mixin
         @extend %img-cover;
 
         //Image Styling
-        background-image: linear-gradient(
-            to bottom,
+        background-image: linear-gradient(to bottom,
             rgba(#30362f, 0) 0%,
-            rgba(#30362f, 0.7) 100%
-          ),
+            rgba(#30362f, 0.7) 100%),
           url(../assets/images/destinations/italy.jpg);
 
         &:hover {
           //Image Styling
-          background-image: linear-gradient(
-              to bottom,
+          background-image: linear-gradient(to bottom,
               rgba(#30362f, 0) 0%,
-              rgba(#30362f, 0.5) 100%
-            ),
+              rgba(#30362f, 0.5) 100%),
             url(../assets/images/destinations/italy.jpg);
 
           //Animations
           transform: scale(1.05);
         }
+
         &:hover p,
         &:hover h6 {
           //Display
           display: none;
         }
+
         &:hover h5 {
           //Font Styling
           font-size: 3rem;
         }
       }
+
       &-3 {
         //Mixin
         @extend %img-cover;
 
         //Image Styling
-        background-image: linear-gradient(
-            to bottom,
+        background-image: linear-gradient(to bottom,
             rgba(#30362f, 0) 0%,
-            rgba(#30362f, 0.7) 100%
-          ),
+            rgba(#30362f, 0.7) 100%),
           url(../assets/images/destinations/osaka.jpg);
 
         &:hover {
           //Image Styling
-          background-image: linear-gradient(
-              to bottom,
+          background-image: linear-gradient(to bottom,
               rgba(#30362f, 0) 0%,
-              rgba(#30362f, 0.5) 100%
-            ),
+              rgba(#30362f, 0.5) 100%),
             url(../assets/images/destinations/osaka.jpg);
 
           //Animations
           transform: scale(1.05);
         }
+
         &:hover p,
         &:hover h6 {
           //Display
           display: none;
         }
+
         &:hover h5 {
           //Font Styling
           font-size: 3rem;
         }
       }
+
       &-4 {
         //Mixin
         @extend %img-cover;
 
         //Image Styling
-        background-image: linear-gradient(
-            to bottom,
+        background-image: linear-gradient(to bottom,
             rgba(#30362f, 0) 0%,
-            rgba(#30362f, 0.7) 100%
-          ),
+            rgba(#30362f, 0.7) 100%),
           url(../assets/images/destinations/queenstown.jpg);
 
         &:hover {
           //Image Styling
-          background-image: linear-gradient(
-              to bottom,
+          background-image: linear-gradient(to bottom,
               rgba(#30362f, 0) 0%,
-              rgba(#30362f, 0.5) 100%
-            ),
+              rgba(#30362f, 0.5) 100%),
             url(../assets/images/destinations/queenstown.jpg);
 
           //Animations
           transform: scale(1.05);
         }
+
         &:hover p,
         &:hover h6 {
           //Display
           display: none;
         }
+
         &:hover h5 {
           //Font Styling
           font-size: 3rem;
         }
       }
+
       &-5 {
         //Mixin
         @extend %img-cover;
 
         //Image Styling
-        background-image: linear-gradient(
-            to bottom,
+        background-image: linear-gradient(to bottom,
             rgba(#30362f, 0) 0%,
-            rgba(#30362f, 0.7) 100%
-          ),
+            rgba(#30362f, 0.7) 100%),
           url(../assets/images/destinations/jeju.jpg);
 
         &:hover {
           //Image Styling
-          background-image: linear-gradient(
-              to bottom,
+          background-image: linear-gradient(to bottom,
               rgba(#30362f, 0) 0%,
-              rgba(#30362f, 0.5) 100%
-            ),
+              rgba(#30362f, 0.5) 100%),
             url(../assets/images/destinations/jeju.jpg);
 
           //Animations
           transform: scale(1.05);
         }
+
         &:hover p,
         &:hover h6 {
           //Display
           display: none;
         }
+
         &:hover h5 {
           //Font Styling
           font-size: 3rem;
         }
       }
+
       &-6 {
         //Mixin
         @extend %img-cover;
 
         //Image Styling
-        background-image: linear-gradient(
-            to bottom,
+        background-image: linear-gradient(to bottom,
             rgba(#30362f, 0) 0%,
-            rgba(#30362f, 0.7) 100%
-          ),
+            rgba(#30362f, 0.7) 100%),
           url(../assets/images/destinations/copenhagen.jpg);
 
         &:hover {
           //Image Styling
-          background-image: linear-gradient(
-              to bottom,
+          background-image: linear-gradient(to bottom,
               rgba(#30362f, 0) 0%,
-              rgba(#30362f, 0.5) 100%
-            ),
+              rgba(#30362f, 0.5) 100%),
             url(../assets/images/destinations/copenhagen.jpg);
 
           //Animations
           transform: scale(1.05);
         }
+
         &:hover p,
         &:hover h6 {
           //Display
           display: none;
         }
+
         &:hover h5 {
           //Font Styling
           font-size: 3rem;
         }
       }
+
       &-7 {
         //Mixin
         @extend %img-cover;
 
         //Image Styling
-        background-image: linear-gradient(
-            to bottom,
+        background-image: linear-gradient(to bottom,
             rgba(#30362f, 0) 0%,
-            rgba(#30362f, 0.7) 100%
-          ),
+            rgba(#30362f, 0.7) 100%),
           url(../assets/images/destinations/costarica.jpg);
 
         &:hover {
           //Image Styling
-          background-image: linear-gradient(
-              to bottom,
+          background-image: linear-gradient(to bottom,
               rgba(#30362f, 0) 0%,
-              rgba(#30362f, 0.5) 100%
-            ),
+              rgba(#30362f, 0.5) 100%),
             url(../assets/images/destinations/costarica.jpg);
 
           //Animations
           transform: scale(1.05);
         }
+
         &:hover p,
         &:hover h6 {
           //Display
           display: none;
         }
+
         &:hover h5 {
           //Font Styling
           font-size: 3rem;
         }
       }
+
       &-8 {
         //Mixin
         @extend %img-cover;
 
         //Image Styling
-        background-image: linear-gradient(
-            to bottom,
+        background-image: linear-gradient(to bottom,
             rgba(#30362f, 0) 0%,
-            rgba(#30362f, 0.7) 100%
-          ),
+            rgba(#30362f, 0.7) 100%),
           url(../assets/images/destinations/valencia.jpg);
 
         &:hover {
           //Image Styling
-          background-image: linear-gradient(
-              to bottom,
+          background-image: linear-gradient(to bottom,
               rgba(#30362f, 0) 0%,
-              rgba(#30362f, 0.5) 100%
-            ),
+              rgba(#30362f, 0.5) 100%),
             url(../assets/images/destinations/valencia.jpg);
 
           //Animations
           transform: scale(1.05);
         }
+
         &:hover p,
         &:hover h6 {
           //Display
           display: none;
         }
+
         &:hover h5 {
           //Font Styling
           font-size: 3rem;
         }
       }
+
       &-9 {
         //Mixin
         @extend %img-cover;
 
         //Image Styling
-        background-image: linear-gradient(
-            to bottom,
+        background-image: linear-gradient(to bottom,
             rgba(#30362f, 0) 0%,
-            rgba(#30362f, 0.7) 100%
-          ),
+            rgba(#30362f, 0.7) 100%),
           url(../assets/images/destinations/skopje.jpg);
 
         &:hover {
           //Image Styling
-          background-image: linear-gradient(
-              to bottom,
+          background-image: linear-gradient(to bottom,
               rgba(#30362f, 0) 0%,
-              rgba(#30362f, 0.5) 100%
-            ),
+              rgba(#30362f, 0.5) 100%),
             url(../assets/images/destinations/skopje.jpg);
 
           //Animations
           transform: scale(1.05);
         }
+
         &:hover p,
         &:hover h6 {
           //Display
           display: none;
         }
+
         &:hover h5 {
           //Font Styling
           font-size: 3rem;
         }
       }
+
       &-10 {
         //Mixin
         @extend %img-cover;
 
         //Image Styling
-        background-image: linear-gradient(
-            to bottom,
+        background-image: linear-gradient(to bottom,
             rgba(#30362f, 0) 0%,
-            rgba(#30362f, 0.7) 100%
-          ),
+            rgba(#30362f, 0.7) 100%),
           url(../assets/images/destinations/hoian.jpg);
 
         &:hover {
           //Image Styling
-          background-image: linear-gradient(
-              to bottom,
+          background-image: linear-gradient(to bottom,
               rgba(#30362f, 0) 0%,
-              rgba(#30362f, 0.5) 100%
-            ),
+              rgba(#30362f, 0.5) 100%),
             url(../assets/images/destinations/hoian.jpg);
 
           //Animations
           transform: scale(1.05);
         }
+
         &:hover p,
         &:hover h6 {
           //Display
           display: none;
         }
+
         &:hover h5 {
           //Font Styling
           font-size: 3rem;
         }
       }
+
       &-11 {
         //Mixin
         @extend %img-cover;
 
         //Image Styling
-        background-image: linear-gradient(
-            to bottom,
+        background-image: linear-gradient(to bottom,
             rgba(#30362f, 0) 0%,
-            rgba(#30362f, 0.7) 100%
-          ),
+            rgba(#30362f, 0.7) 100%),
           url(../assets/images/destinations/quito.jpg);
 
         &:hover {
           //Image Styling
-          background-image: linear-gradient(
-              to bottom,
+          background-image: linear-gradient(to bottom,
               rgba(#30362f, 0) 0%,
-              rgba(#30362f, 0.5) 100%
-            ),
+              rgba(#30362f, 0.5) 100%),
             url(../assets/images/destinations/quito.jpg);
 
           //Animations
           transform: scale(1.05);
         }
+
         &:hover p,
         &:hover h6 {
           //Display
           display: none;
         }
+
         &:hover h5 {
           //Font Styling
           font-size: 3rem;
         }
       }
+
       &-12 {
         //Mixin
         @extend %img-cover;
 
         //Image Styling
-        background-image: linear-gradient(
-            to bottom,
+        background-image: linear-gradient(to bottom,
             rgba(#30362f, 0) 0%,
-            rgba(#30362f, 0.7) 100%
-          ),
+            rgba(#30362f, 0.7) 100%),
           url(../assets/images/destinations/washington.jpg);
 
         &:hover {
           //Image Styling
-          background-image: linear-gradient(
-              to bottom,
+          background-image: linear-gradient(to bottom,
               rgba(#30362f, 0) 0%,
-              rgba(#30362f, 0.5) 100%
-            ),
+              rgba(#30362f, 0.5) 100%),
             url(../assets/images/destinations/washington.jpg);
 
           //Animations
           transform: scale(1.05);
         }
+
         &:hover p,
         &:hover h6 {
           //Display
           display: none;
         }
+
         &:hover h5 {
           //Font Styling
           font-size: 3rem;
