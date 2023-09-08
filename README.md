@@ -1,4 +1,5 @@
 # Minimalist Nomad
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7a47b2db-772c-4ec7-b5f5-28cabb3852b5/deploy-status)](https://app.netlify.com/sites/minimalistnomad/deploys)
 ==================================================
 
  A Travel Blog mockup, built on [SCSS], [JQuery], [JS], and [Eleventy] for dynamic blog posts.
